@@ -7,17 +7,32 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///charging_stations.db'
 db = SQLAlchemy(app)
 
-class ChargingStation(db.Model):
+class CorporateChargingStation(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    location = db.Column(db.String(120))
+    company_name = db.Column(db.String(50))
+    longitude = db.Column(db.String(120))
+    latitude = db.Column(db.String(120))
     charging_points = db.Column(db.Integer)
     charger_type = db.Column(db.String(50))
-    availability = db.Column(db.String(50))
+
+class HouseholdChargingStation(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    longitude = db.Column(db.String(120))
+    latitude = db.Column(db.String(120))
+    charging_points = db.Column(db.Integer)
+    charger_type = db.Column(db.String(50))
+    phone_number = db.Column(db.String(10))
+
+class ChargingPoint(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
     reservation_status = db.Column(db.String(50))
+
+
 
 # Create the database
 with app.app_context():
     db.create_all()
+
 
 
 #####################
@@ -25,7 +40,7 @@ with app.app_context():
 #####################
 @app.route('/')
 def index():
-    return 'Index'
+    return CorporateChargingStation.query.all() + HouseholdChargingStation.query.all()
 
 @app.route('/getChargingStations')
 def get_charging_stations():
