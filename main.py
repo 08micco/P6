@@ -1,11 +1,20 @@
-from flask import Flask
+from flask import Flask, render_template, redirect, url_for
+from flask_login import LoginManager, UserMixin
 from flask_sqlalchemy import SQLAlchemy
 
 import json
 
 app = Flask(__name__)
+app.secret_key = 'Uq-hv8ZJP7[F9+C'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///charging_stations.db'
 db = SQLAlchemy(app)
+
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = 'login'
+
+def load_user(user_id):
+    return User.query.get(int(user_id))
 
 class ChargingStation(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -40,6 +49,9 @@ def get_available_charging_stations():
 def get_reserved_charging_stations():
     return json.loads(SAMPLEJSON)
     
+
+if __name__ == "__main__":
+    app.run(debug=True)
 
 
 
