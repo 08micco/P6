@@ -1,23 +1,22 @@
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-from flask import LoginManager
-from CSR.models import User
 from flask import Blueprint, render_template
 from flask_login import login_required, current_user
 
-import json
-
 main_bp = Blueprint('main', __name__)
-
 
 @main_bp.route('/')
 def home():
     return render_template('home.html', title='Home')
 
+@main_bp.route('/about')
+def about():
+    return render_template('about.html', title='About')
+
 @main_bp.route('/dashboard')
 @login_required
 def dashboard():
+    # Depending on your application's structure, you might pass additional data to the dashboard
     return render_template('dashboard.html', title='Dashboard', username=current_user.username)
+
 
 #app = Flask(__name__)
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///charging_stations.db'
