@@ -2,6 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from config import Config
+from .main import main_bp
 
 db = SQLAlchemy()
 login_manager = LoginManager()
@@ -22,7 +23,7 @@ def create_app():
     from CSR.auth import auth_bp
     from CSR.main import main_bp
     app.register_blueprint(auth_bp)
-    app.register_blueprint(main_bp)
+    app.register_blueprint(main_bp, url_prefix='/')
 
     with app.app_context():
         db.create_all()

@@ -14,8 +14,8 @@ def about():
 @main_bp.route('/dashboard')
 @login_required
 def dashboard():
-    # Depending on your application's structure, you might pass additional data to the dashboard
-    return render_template('dashboard.html', title='Dashboard', username=current_user.username)
+    return render_template('dashboard.html', title='Dashboard')
+
 
 
 #app = Flask(__name__)

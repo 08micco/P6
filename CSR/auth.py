@@ -5,6 +5,7 @@ from urllib.parse import urlparse, urljoin
 from .forms import LoginForm, RegistrationForm
 from .models import User, db
 
+
 auth_bp = Blueprint('auth', __name__)
 
 def is_safe_url(target):
@@ -19,11 +20,11 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
-        if user and check_password_hash(user.password_hash, form.password.data):
+        if user and user.check_password(form.password.data):
             login_user(user, remember=form.remember_me.data)
             next_page = request.args.get('next')
-            if not is_safe_url(next_page):
-                return redirect(url_for('main.dashboard'))
+            if not next_page or not is_safe_url(next_page):
+                next_page = url_for('main.dashboard')
             return redirect(next_page)
         else:
             flash('Wrong email or password.', 'danger')
@@ -40,8 +41,8 @@ def register():
         return redirect(url_for('main.home'))
     form = RegistrationForm()
     if form.validate_on_submit():
-        hashed_password = generate_password_hash(form.password.data)
-        user = User(username=form.username.data, email=form.email.data, password_hash=hashed_password)
+        user = User(username=form.username.data, email=form.email.data)
+        user.set_password(form.password.data)
         db.session.add(user)
         db.session.commit()
         flash('Your account has been created!', 'success')
