@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<h2>Login</h2>
+<form method="post">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.email.label }}<br>
+        {{ form.email() }}
+    </p>
+    <p>
+        {{ form.password.label }}<br>
+        {{ form.password() }}
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="flash-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </p>
+    <p>
+        {{ form.remember_me.label }} Remember Me
+        {{ form.remember_me() }}
+    </p>
+    <p>{{ form.submit() }}</p>
+</form>
+{% endblock %}
