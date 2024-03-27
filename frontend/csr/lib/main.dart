@@ -41,6 +41,13 @@ class _MyHomePageState extends State<MyHomePage> {
           'Charging Station Reservation',
           style: TextStyle(fontSize: 22),
         )),
+        bottomNavigationBar: BottomNavigationBar(
+          items: const <BottomNavigationBarItem>[
+            BottomNavigationBarItem(icon: Icon(Icons.charging_station), label: 'MyCharger'),
+            BottomNavigationBarItem(icon: Icon(Icons.map), label: 'Map'),
+            BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
+          ],
+        ),
         body: OSMFlutter(
             onMapIsReady: (isReady) async {
               if (isReady) {
