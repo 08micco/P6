@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_osm_plugin/flutter_osm_plugin.dart';
+import 'screens/my_charger_screen.dart';
+import 'screens/map_screen.dart';
+import 'screens/profile_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,119 +24,44 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final controller = MapController.withUserPosition(
-      trackUserLocation: const UserTrackingOption(
-    enableTracking: true,
-    unFollowUser: false,
-  ));
+  int _selectedIndex = 0;
+  final List<Widget> _pages = <Widget>[
+    MyChargerScreenWidget(),
+    MapScreenWidget(),
+    const ProfileScreenWidget()
+  ];
+
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-            title: const Text(
-          'Charging Station Reservation',
-          style: TextStyle(fontSize: 22),
-        )),
-        bottomNavigationBar: BottomNavigationBar(
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(icon: Icon(Icons.charging_station), label: 'MyCharger'),
-            BottomNavigationBarItem(icon: Icon(Icons.map), label: 'Map'),
-            BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
-          ],
-        ),
-        body: OSMFlutter(
-            onMapIsReady: (isReady) async {
-              if (isReady) {
-                await controller.addMarker(
-                  GeoPoint(
-                      latitude: 57.00409300743616,
-                      longitude: 9.871225612595508),
-                  markerIcon: const MarkerIcon(
-                    icon: Icon(Icons.location_pin),
-                  ),
-                );
-              }
-            },
-            controller: controller,
-            mapIsLoading: const CircularProgressIndicator(),
-            onGeoPointClicked: (geoPoint) {
-              showModalBottomSheet(
-                backgroundColor: Colors.blue,
-                context: context,
-                builder: (context) {
-                  return Card(
-                    color: Colors.blue,
-                    child: Padding(
-                      padding: const EdgeInsets.all(8),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Expanded(
-                            child: Container(
-                              color: Colors.blue,
-                              child: const Text(
-                                'Charging Station Tesla Skalborg',
-                                style: TextStyle(
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
-                                ),
-                              ),
-                            ),
-                          ),
-                          IconButton(
-                            icon: const Icon(Icons.clear),
-                            onPressed: () => Navigator.pop(context),
-                          )
-                        ],
-                      ),
-                    ),
-                  );
-                },
-              );
-            },
-            osmOption: OSMOption(
-                userTrackingOption: const UserTrackingOption(
-                  enableTracking: true,
-                  unFollowUser: false,
-                ),
-                zoomOption: const ZoomOption(
-                  initZoom: 14,
-                  minZoomLevel: 3,
-                  maxZoomLevel: 19,
-                  stepZoom: 1.0,
-                ),
-                userLocationMarker: UserLocationMaker(
-                  personMarker: const MarkerIcon(
-                    icon: Icon(
-                      Icons.personal_injury,
-                      color: Colors.red,
-                      size: 68,
-                    ),
-                  ),
-                  directionArrowMarker: const MarkerIcon(
-                    icon: Icon(
-                      Icons.location_on,
-                      color: Colors.red,
-                      size: 48,
-                    ),
-                  ),
-                ),
-                markerOption: MarkerOption(
-                    defaultMarker: const MarkerIcon(
-                  icon: Icon(
-                    Icons.person_pin_circle,
-                    color: Colors.black,
-                    size: 48,
-                  ),
-                )))));
+      body: Center(
+        child: _pages.elementAt(_selectedIndex), // This will switch the content
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+              icon: Icon(Icons.charging_station_rounded), label: 'MyCharger'),
+          BottomNavigationBarItem(icon: Icon(Icons.map_rounded), label: 'Map'),
+          BottomNavigationBarItem(icon: Icon(Icons.person_rounded), label: 'Profile'),
+        ],
+        currentIndex: _selectedIndex,
+        selectedItemColor: Colors.blue,
+        onTap: _onItemTapped,
+      ),
+    );
   }
 }
