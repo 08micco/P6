@@ -1,4 +1,4 @@
-from CSR import create_app
+from CSR.app import create_app
 
 app = create_app()
 
