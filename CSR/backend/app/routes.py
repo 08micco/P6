@@ -1,6 +1,6 @@
 from flask import request, jsonify
 from datetime import datetime
-from CSR.app.models import User, ChargingStation, ChargingPoint, Reservation
+from CSR.backend.app.models import User, ChargingStation, ChargingPoint, Reservation
 from .extensions import db
 
 
