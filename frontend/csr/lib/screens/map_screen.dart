@@ -36,6 +36,7 @@ class MapScreenWidget extends StatelessWidget {
                   CircularProgressIndicator(), // Your CircularProgressIndicator
             ),
           ),
+
           onGeoPointClicked: (geoPoint) {
             showModalBottomSheet(
               backgroundColor: Colors.blue,
