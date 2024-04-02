@@ -2,6 +2,7 @@ from flask import request, jsonify
 from datetime import datetime
 from CSR.app.models import User, ChargingStation, ChargingPoint, Reservation
 from .extensions import db
+from .utils import ErrorMessage
 
 
 def configure_routes(app):
@@ -20,7 +21,7 @@ def configure_routes(app):
             charging_stations = ChargingStation.query.filter_by(available=True).all()
             return jsonify([charging_station.to_json() for charging_station in charging_stations]), 200
         except Exception as e:
-            return jsonify({"error": "Internal server error", "message": str(e)}), 500
+            return j
 
     @app.route('/getReservedChargingStations', methods=['GET'])
     def get_reserved_charging_stations():
