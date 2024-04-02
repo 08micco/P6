@@ -3,6 +3,10 @@ __pycache__/
 __pycache__
 *.py[cod]
 *$py.class
+.idea
+config.py
+instance/
+charging_stations.db
 
 # C extensions
 *.so
