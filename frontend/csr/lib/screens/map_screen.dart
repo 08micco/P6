@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_osm_plugin/flutter_osm_plugin.dart';
 
-
 class MapScreenWidget extends StatelessWidget {
   final controller = MapController.withUserPosition(
       trackUserLocation: const UserTrackingOption(
@@ -10,7 +9,6 @@ class MapScreenWidget extends StatelessWidget {
   ));
 
   MapScreenWidget({super.key});
-
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +26,17 @@ class MapScreenWidget extends StatelessWidget {
             }
           },
           controller: controller,
-          mapIsLoading: const CircularProgressIndicator(),
+          mapIsLoading: const Center(
+            child: SizedBox(
+              width:
+                  50, // Set your desired width for the CircularProgressIndicator
+              height:
+                  50, // Set your desired height for the CircularProgressIndicator
+              child:
+                  CircularProgressIndicator(), // Your CircularProgressIndicator
+            ),
+          ),
+
           onGeoPointClicked: (geoPoint) {
             showModalBottomSheet(
               backgroundColor: Colors.blue,
