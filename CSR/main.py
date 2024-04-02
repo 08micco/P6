@@ -35,30 +35,3 @@ def dashboard():
 # Create the database
 #with app.app_context():
  #   db.create_all()
-
-
-
-#####################
-######## API ########
-#####################
-    
-
-
-
-
-
-SAMPLEJSON = """
-[
-   {
-      "_id":"23",
-      "location":"hejsavej 123",
-      "charger_type":"type c",
-      "reservation_status":"available"
-   },
-   {
-      "_id":"24",
-      "location":"hejsavej 456",
-      "charger_type":"DisplayPort",
-      "reservation_status":"reserved"
-   }
-]"""

@@ -25,6 +25,16 @@ class CorporateChargingStation(db.Model):
     charging_points = db.Column(db.Integer, nullable=False)
     charger_type = db.Column(db.String(50), nullable=False)
 
+    def to_json(self):
+        return {
+            'id': self.id,
+            'company_name': self.company_name,
+            'longitude': self.longitude,
+            'latitude': self.latitude,
+            'charging_points': self.charging_points,
+            'charger_type': self.charger_type,
+        }
+
 
 class HouseholdChargingStation(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -35,6 +45,17 @@ class HouseholdChargingStation(db.Model):
     charger_type = db.Column(db.String(50), nullable=False)
     phone_number = db.Column(db.String(20), nullable=False)
 
+    def to_json(self):
+        return {
+            'id': self.id,
+            'owner_id': self.owner_id,
+            'longitude': self.longitude,
+            'latitude': self.latitude,
+            'charging_points': self.charging_points,
+            'charger_type': self.charger_type,
+            'phone_number': self.phone_number,
+        }
+
 
 class ChargingPoint(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -42,9 +63,25 @@ class ChargingPoint(db.Model):
     household_station_id = db.Column(db.Integer, db.ForeignKey('household_charging_station.id'), nullable=True)
     reservation_status = db.Column(db.String(50), nullable=False)
 
+    def to_json(self):
+        return {
+            'id': self.id,
+            'corporate_station_id': self.corporate_station_id,
+            'household_station_id': self.household_station_id,
+            'reservation_status': self.reservation_status,
+        }
+
 
 class Reservation(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     charging_point_id = db.Column(db.Integer, db.ForeignKey('charging_point.id'), nullable=False)
     reservation_time = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+
+    def to_json(self):
+        return {
+            'id': self.id,
+            'user_id': self.user_id,
+            'charging_point_id': self.charging_point_id,
+            'reservation_time': self.reservation_time,
+        }
