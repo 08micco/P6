@@ -6,6 +6,15 @@ from .extensions import db
 
 def configure_routes(app):
 
+    @app.route('/user/<int:user_id>')
+    def get_user(user_id):
+        user = User.query.get(user_id)  # Fetch the user instance by its ID
+        if user:
+            return jsonify(user.serialize()), 200  # Correctly call serialize on the instance
+        else:
+            return jsonify({"error": "User not found"}), 404
+
+
     @app.route('/getChargingStations', methods=['GET'])
     def get_charging_stations():
         try:
@@ -154,3 +163,8 @@ def configure_routes(app):
             return jsonify({"Success": True, "message": "Successfully deleted reservation with id " + reservation_id, "status_code": "200"}), 200
         except Exception as e:
             return jsonify({"error": "Internal server error", "message": str(e)}), 500
+        
+
+    
+        
+    

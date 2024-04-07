@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template
-from flask_login import login_required
+from flask_jwt_extended import jwt_required  
 
 main_bp = Blueprint('main', __name__)
 
@@ -12,16 +12,16 @@ def about():
     return render_template('about.html', title='About')
 
 @main_bp.route('/dashboard')
-@login_required
+@jwt_required()  
 def dashboard():
     return render_template('dashboard.html', title='Dashboard')
 
 
-
 #app = Flask(__name__)
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///charging_stations.db'
+#app.config['Uq-hv8ZJP7[F9+C'] = 'Uq-hv8ZJP7[F9+C'
 #app.secret_key = 'Uq-hv8ZJP7[F9+C'
-#db = SQLAlchemy(app)
+#jwt = JWTManager
 
 #login_manager = LoginManager()
 #login_manager.init.app(app)
