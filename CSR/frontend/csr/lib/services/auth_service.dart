@@ -60,11 +60,9 @@ class AuthService {
     );
 
     if (response.statusCode == 200 || response.statusCode == 201) {
-      // Check for both 200 and 201
       return true;
     } else {
-      print(
-          "Registration failed: ${response.body}"); // Log error message for debugging
+      print("Registration failed: ${response.body}");
       return false;
     }
   }

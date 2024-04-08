@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:csr/services/auth_service.dart'; // Adjust the path as per your project structure
+import 'package:csr/services/auth_service.dart';
 
 class RegisterScreen extends StatefulWidget {
   @override
@@ -17,7 +17,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   Future<void> _register() async {
     if (!_formKey.currentState!.validate()) {
-      return; // If the form is not valid, do not proceed.
+      return;
     }
     if (_passwordController.text != _confirmPasswordController.text) {
       setState(() {
@@ -38,7 +38,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
     setState(() => _isLoading = false);
 
     if (success) {
-      Navigator.pop(context); // Assuming user goes back to the login screen
+      Navigator.pop(context);
     } else {
       setState(() => _errorMessage = 'Registration failed. Please try again.');
     }

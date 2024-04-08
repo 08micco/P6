@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import 'package:csr/main.dart';
-import 'package:csr/screens/register_screen.dart'; // Make sure to import your RegisterScreen
+import 'package:csr/screens/register_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -9,7 +9,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final _formKey = GlobalKey<FormState>(); // Add a key for the form
+  final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   final _authService = AuthService();
@@ -18,7 +18,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Future<void> _login() async {
     if (!_formKey.currentState!.validate()) {
-      // If the form is not valid, do not proceed.
       return;
     }
 
@@ -53,10 +52,8 @@ class _LoginScreenState extends State<LoginScreen> {
         child: _isLoading
             ? CircularProgressIndicator()
             : SingleChildScrollView(
-                // Use SingleChildScrollView to prevent overflow when keyboard is visible
                 padding: EdgeInsets.all(20),
                 child: Form(
-                  // Wrap your Column in a Form widget
                   key: _formKey,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -72,15 +69,14 @@ class _LoginScreenState extends State<LoginScreen> {
                         controller: _emailController,
                         decoration: InputDecoration(
                           labelText: 'Email',
-                          border:
-                              OutlineInputBorder(), // Add rounded borders to text field
-                          prefixIcon: Icon(Icons.email), // Add an email icon
+                          border: OutlineInputBorder(),
+                          prefixIcon: Icon(Icons.email),
                         ),
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return 'Please enter your email';
                           }
-                          // Add more sophisticated email validation if needed
+
                           return null;
                         },
                       ),
@@ -90,9 +86,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         obscureText: true,
                         decoration: InputDecoration(
                           labelText: 'Password',
-                          border:
-                              OutlineInputBorder(), // Add rounded borders to text field
-                          prefixIcon: Icon(Icons.lock), // Add a lock icon
+                          border: OutlineInputBorder(),
+                          prefixIcon: Icon(Icons.lock),
                         ),
                         validator: (value) {
                           if (value == null || value.isEmpty) {
@@ -106,8 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         onPressed: _login,
                         child: Text('Login'),
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors
-                              .blue, // Use backgroundColor instead of primary
+                          backgroundColor: Colors.blue,
                           padding: EdgeInsets.symmetric(
                               horizontal: 50, vertical: 15),
                           textStyle: TextStyle(fontSize: 18),
