@@ -1,4 +1,5 @@
-from flask import request, jsonify
+from flask import request
+from sqlalchemy import and_
 from datetime import datetime
 from CSR.backend.app.models import User, ChargingStation, ChargingPoint, Reservation
 from .extensions import db
@@ -35,6 +36,15 @@ def configure_routes(app):
     def get_charging_station_from_charging_station_id(charging_station_id):
         try:
             charging_stations = ChargingStation.query.filter_by(id=charging_station_id).all()
+            return ApiResponse.success([charging_station.to_json() for charging_station in charging_stations])
+        except Exception as e:
+            return ApiResponse.internal_server_error(str(e))
+        
+    @app.route('/chargingStation/getFromCoordinates/<string:coordinates>')
+    def get_charging_station_from_coordinates(coordinates):
+        try:
+            lat, long  = coordinates.split(';')
+            charging_stations = ChargingStation.query.filter_by(latitude=lat, longitude=long).all()
             return ApiResponse.success([charging_station.to_json() for charging_station in charging_stations])
         except Exception as e:
             return ApiResponse.internal_server_error(str(e))

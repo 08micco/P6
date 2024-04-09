@@ -1,5 +1,49 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_osm_plugin/flutter_osm_plugin.dart';
+import 'package:http/http.dart' as http;
+
+class ChargingStation {
+  final int id;
+  final int? ownerId;
+  final String? companyName;
+  final String chargingStationType;
+  final String longitude;
+  final String latitude;
+  final int chargingPoints;
+  final String chargerType;
+  final bool available;
+  final String? phoneNumber;
+
+  const ChargingStation({
+    required this.id,
+    required this.ownerId,
+    required this.companyName,
+    required this.chargingStationType,
+    required this.longitude,
+    required this.latitude,
+    required this.chargingPoints,
+    required this.chargerType,
+    required this.available,
+    required this.phoneNumber,
+  });
+
+  factory ChargingStation.fromJson(Map<String, dynamic> json) {
+    return ChargingStation(
+      id: json['id'],
+      ownerId: json['owner_id'],
+      companyName: json['company_name'],
+      chargingStationType: json['charging_station_type'],
+      longitude: json['longitude'],
+      latitude: json['latitude'],
+      chargingPoints: json['charging_points'],
+      chargerType: json['charger_type'],
+      available: json['available'],
+      phoneNumber: json['phone_number'],
+    );
+  }
+}
 
 class MapScreenWidget extends StatelessWidget {
   final controller = MapController.withUserPosition(
@@ -10,67 +54,108 @@ class MapScreenWidget extends StatelessWidget {
 
   MapScreenWidget({super.key});
 
+  Future<List<ChargingStation>> fetchAllChargingStations() async {
+    final response =
+        await http.get(Uri.parse("http://127.0.0.1:5000/getChargingStations"));
+    if (response.statusCode == 200) {
+      final Map<String, dynamic> decodedResponse = jsonDecode(response.body);
+      final List<dynamic> stationsJson =
+          decodedResponse['data'] as List<dynamic>;
+      return stationsJson
+          .map((json) => ChargingStation.fromJson(json))
+          .toList();
+    } else {
+      throw Exception("Failed to load ChargingStations");
+    }
+  }
+
+  Future<List<ChargingStation>> fetchChargingStationFromCoordinates(
+      GeoPoint geoPoint) async {
+    String long = geoPoint.longitude.toString();
+    String lat = geoPoint.latitude.toString();
+    String coordinates = "$lat;$long";
+
+    final response = await http.get(Uri.parse(
+        "http://127.0.0.1:5000/chargingStation/getFromCoordinates/$coordinates"));
+    if (response.statusCode == 200) {
+      final Map<String, dynamic> decodedResponse = jsonDecode(response.body);
+      final List<dynamic> stationsJson = decodedResponse['data'];
+
+      return stationsJson
+          .map((json) => ChargingStation.fromJson(json))
+          .toList();
+    } else {
+      throw Exception("Failed to load ChargingStations");
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: OSMFlutter(
           onMapIsReady: (isReady) async {
             if (isReady) {
-              await controller.addMarker(
-                GeoPoint(
-                    latitude: 57.00409300743616, longitude: 9.871225612595508),
-                markerIcon: const MarkerIcon(
-                  icon: Icon(Icons.location_pin),
-                ),
-              );
+              fetchAllChargingStations().then((stations) {
+                for (var station in stations) {
+                  controller.addMarker(
+                      GeoPoint(
+                          latitude: double.parse(station.latitude),
+                          longitude: double.parse(station.longitude)),
+                      markerIcon:
+                          const MarkerIcon(icon: Icon(Icons.location_pin)));
+                }
+              }).catchError((error) {
+                throw Exception("Failed to fetch stations: $error");
+              });
             }
           },
           controller: controller,
           mapIsLoading: const Center(
             child: SizedBox(
-              width:
-                  50,
-              height:
-                  50,
-              child:
-                  CircularProgressIndicator(),
+              width: 50,
+              height: 50,
+              child: CircularProgressIndicator(),
             ),
           ),
-
           onGeoPointClicked: (geoPoint) {
             showModalBottomSheet(
               backgroundColor: Colors.blue,
               context: context,
               builder: (context) {
-                return Card(
-                  color: Colors.blue,
-                  child: Padding(
-                    padding: const EdgeInsets.all(8),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Expanded(
-                          child: Container(
-                            color: Colors.blue,
-                            child: const Text(
-                              'Charging Station Tesla Skalborg',
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
+                return FutureBuilder<List<ChargingStation>>(
+                  future: fetchChargingStationFromCoordinates(geoPoint),
+                  builder: (context, snapshot) {
+                    if (snapshot.connectionState == ConnectionState.waiting) {
+                      return const Center(child: CircularProgressIndicator());
+                    } else if (snapshot.hasError) {
+                      return Text("Error: ${snapshot.error}");
+                    } else if (snapshot.hasData) {
+                      // Assuming you want to display the first station's information
+                      final stations = snapshot.data!;
+                      final firstStation =
+                          stations.isNotEmpty ? stations.first : null;
+                      return Column(
+                        mainAxisSize:
+                            MainAxisSize.min, // Use min size for the content
+                        children: [
+                          Expanded(
+                            child: ListTile(
+                              title: Text(firstStation?.companyName ??
+                                  'Unknown Charging Station'),
+                              subtitle: Text(firstStation?.companyName ??
+                                  'Unknown Charging Station'),
                             ),
                           ),
-                        ),
-                        IconButton(
-                          icon: const Icon(Icons.clear),
-                          onPressed: () => Navigator.pop(context),
-                        )
-                      ],
-                    ),
-                  ),
+                          IconButton(
+                            icon: const Icon(Icons.clear, color: Colors.white),
+                            onPressed: () => Navigator.pop(context),
+                          ),
+                        ],
+                      );
+                    } else {
+                      return const Text("No data");
+                    }
+                  },
                 );
               },
             );
