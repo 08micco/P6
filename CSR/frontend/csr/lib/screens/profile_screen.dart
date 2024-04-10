@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:csr/screens/reservation_screen.dart'; // Make sure the path matches your file structure
 
 class ProfileScreenWidget extends StatelessWidget {
   final String username;
@@ -13,6 +14,19 @@ class ProfileScreenWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        flexibleSpace: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+                begin: Alignment.centerLeft,
+                end: Alignment.centerRight,
+                colors: [Colors.blue, Color.fromARGB(255, 142, 200, 247)]),
+          ),
+        ),
+        foregroundColor: Colors.white,
+        centerTitle: true,
+        title: const Text('Profile'),
+      ),
       body: ListView(
         children: <Widget>[
           Container(
@@ -42,9 +56,7 @@ class ProfileScreenWidget extends StatelessWidget {
                     ),
                   ],
                 ),
-                const SizedBox(
-                  height: 10,
-                ),
+                const SizedBox(height: 10),
                 Text(
                   username,
                   style: const TextStyle(
@@ -63,6 +75,18 @@ class ProfileScreenWidget extends StatelessWidget {
               ],
             ),
           ),
+          ListTile(
+            leading: Icon(Icons.list, color: Colors.blue),
+            title: Text('View Reservations',
+                style: TextStyle(color: Colors.blue.shade900)),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ReservationsScreen()),
+              );
+            },
+          ),
+          // Add more sections or options as needed
         ],
       ),
     );

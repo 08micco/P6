@@ -1,16 +1,26 @@
 from flask import request, jsonify
 from datetime import datetime
 from CSR.backend.app.models import User, ChargingStation, ChargingPoint, Reservation
+from flask_jwt_extended import jwt_required, get_jwt_identity
+from .models import Reservation, User
 from .extensions import db
 
 
 def configure_routes(app):
 
+    @app.route('/user/reservations', methods=['GET'])
+    @jwt_required()
+    def get_user_reservations():
+        current_user_id = get_jwt_identity() 
+        reservations = Reservation.query.filter_by(user_id=current_user_id).all()
+        return jsonify([reservation.to_json() for reservation in reservations]), 200
+
+
     @app.route('/user/<int:user_id>')
     def get_user(user_id):
-        user = User.query.get(user_id)  # Fetch the user instance by its ID
+        user = User.query.get(user_id)  
         if user:
-            return jsonify(user.serialize()), 200  # Correctly call serialize on the instance
+            return jsonify(user.serialize()), 200 
         else:
             return jsonify({"error": "User not found"}), 404
 
