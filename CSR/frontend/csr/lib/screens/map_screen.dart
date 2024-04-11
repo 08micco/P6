@@ -89,112 +89,120 @@ class MapScreenWidget extends StatelessWidget {
     }
   }
 
+  final TextEditingController _searchController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: OSMFlutter(
-          onMapIsReady: (isReady) async {
-            if (isReady) {
-              fetchAllChargingStations().then((stations) {
-                for (var station in stations) {
-                  controller.addMarker(
-                      GeoPoint(
-                          latitude: double.parse(station.latitude),
-                          longitude: double.parse(station.longitude)),
-                      markerIcon:
-                          const MarkerIcon(icon: Icon(Icons.location_pin)));
-                }
-              }).catchError((error) {
-                throw Exception("Failed to fetch stations: $error");
-              });
-            }
-          },
-          controller: controller,
-          mapIsLoading: const Center(
-            child: SizedBox(
-              width: 50,
-              height: 50,
-              child: CircularProgressIndicator(),
-            ),
-          ),
-          onGeoPointClicked: (geoPoint) {
-            showModalBottomSheet(
-              backgroundColor: Colors.blue,
-              context: context,
-              builder: (context) {
-                return FutureBuilder<List<ChargingStation>>(
-                  future: fetchChargingStationFromCoordinates(geoPoint),
-                  builder: (context, snapshot) {
-                    if (snapshot.connectionState == ConnectionState.waiting) {
-                      return const Center(child: CircularProgressIndicator());
-                    } else if (snapshot.hasError) {
-                      return Text("Error: ${snapshot.error}");
-                    } else if (snapshot.hasData) {
-                      // Assuming you want to display the first station's information
-                      final stations = snapshot.data!;
-                      final firstStation =
-                          stations.isNotEmpty ? stations.first : null;
-                      return Column(
-                        mainAxisSize:
-                            MainAxisSize.min, // Use min size for the content
-                        children: [
-                          Expanded(
-                            child: ListTile(
-                              title: Text(firstStation?.companyName ??
-                                  'Unknown Charging Station'),
-                              subtitle: Text(firstStation?.companyName ??
-                                  'Unknown Charging Station'),
-                            ),
-                          ),
-                          IconButton(
-                            icon: const Icon(Icons.clear, color: Colors.white),
-                            onPressed: () => Navigator.pop(context),
-                          ),
-                        ],
-                      );
-                    } else {
-                      return const Text("No data");
-                    }
-                  },
-                );
-              },
-            );
-          },
-          osmOption: OSMOption(
-              userTrackingOption: const UserTrackingOption(
-                enableTracking: true,
-                unFollowUser: false,
+        body: Stack(
+      children: [
+        OSMFlutter(
+            onMapIsReady: (isReady) async {
+              if (isReady) {
+                fetchAllChargingStations().then((stations) {
+                  for (var station in stations) {
+                    controller.addMarker(
+                        GeoPoint(
+                            latitude: double.parse(station.latitude),
+                            longitude: double.parse(station.longitude)),
+                        markerIcon:
+                            const MarkerIcon(icon: Icon(Icons.location_pin)));
+                  }
+                }).catchError((error) {
+                  throw Exception("Failed to fetch stations: $error");
+                });
+              }
+            },
+            controller: controller,
+            mapIsLoading: const Center(
+              child: SizedBox(
+                width: 50,
+                height: 50,
+                child: CircularProgressIndicator(),
               ),
-              zoomOption: const ZoomOption(
+            ),
+            onGeoPointClicked: (geoPoint) {
+              showModalBottomSheet(
+                backgroundColor: Colors.blue,
+                context: context,
+                builder: (context) {
+                  return FutureBuilder<List<ChargingStation>>(
+                    future: fetchChargingStationFromCoordinates(geoPoint),
+                    builder: (context, snapshot) {
+                      if (snapshot.connectionState == ConnectionState.waiting) {
+                        return const Center(child: CircularProgressIndicator());
+                      } else if (snapshot.hasError) {
+                        return Text("Error: ${snapshot.error}");
+                      } else if (snapshot.hasData) {
+                        final stations = snapshot.data!;
+                        final firstStation =
+                            stations.isNotEmpty ? stations.first : null;
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Expanded(
+                              child: ListTile(
+                                title: Text(firstStation?.companyName ??
+                                    'Unknown Charging Station'),
+                                subtitle: Text(firstStation?.companyName ??
+                                    'Unknown Charging Station'),
+                              ),
+                            ),
+                            IconButton(
+                              icon:
+                                  const Icon(Icons.clear, color: Colors.white),
+                              onPressed: () => Navigator.pop(context),
+                            ),
+                          ],
+                        );
+                      } else {
+                        return const Text("No data");
+                      }
+                    },
+                  );
+                },
+              );
+            },
+            osmOption: const OSMOption(
+              zoomOption: ZoomOption(
                 initZoom: 14,
                 minZoomLevel: 3,
                 maxZoomLevel: 19,
                 stepZoom: 1.0,
               ),
-              userLocationMarker: UserLocationMaker(
-                personMarker: const MarkerIcon(
-                  icon: Icon(
-                    Icons.personal_injury,
-                    color: Colors.red,
-                    size: 68,
-                  ),
+            )),
+        Positioned(
+          top: MediaQuery.of(context).size.height * 0.05, // Height from top
+          left: 0,
+          right: 0,
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            margin: const EdgeInsets.symmetric(horizontal: 40),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(30),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.2),
+                  blurRadius: 4,
+                  offset: const Offset(0, 4),
                 ),
-                directionArrowMarker: const MarkerIcon(
-                  icon: Icon(
-                    Icons.location_on,
-                    color: Colors.red,
-                    size: 48,
-                  ),
-                ),
+              ],
+            ),
+            child: TextField(
+              controller: _searchController,
+              decoration: const InputDecoration(
+                hintText: "Search for charging stations",
+                border: InputBorder.none,
+                prefixIcon: Icon(Icons.search, color: Colors.blue),
               ),
-              markerOption: MarkerOption(
-                  defaultMarker: const MarkerIcon(
-                icon: Icon(
-                  Icons.person_pin_circle,
-                  color: Colors.black,
-                  size: 48,
-                ),
-              )))),
-    );
+              onSubmitted: (value) {
+                // handle search
+              },
+            ),
+          ),
+        ),
+      ],
+    ));
   }
 }
