@@ -2,11 +2,30 @@ from flask import request
 from sqlalchemy import and_
 from datetime import datetime
 from CSR.backend.app.models import User, ChargingStation, ChargingPoint, Reservation
+from flask_jwt_extended import jwt_required, get_jwt_identity
+from .models import Reservation, User
 from .extensions import db
 from .utils import ApiResponse
 
 
 def configure_routes(app):
+
+    @app.route('/user/reservations', methods=['GET'])
+    @jwt_required()
+    def get_user_reservations():
+        current_user_id = get_jwt_identity() 
+        reservations = Reservation.query.filter_by(user_id=current_user_id).all()
+        return jsonify([reservation.to_json() for reservation in reservations]), 200
+
+
+    @app.route('/user/<int:user_id>')
+    def get_user(user_id):
+        user = User.query.get(user_id)  
+        if user:
+            return jsonify(user.serialize()), 200 
+        else:
+            return jsonify({"error": "User not found"}), 404
+
 
     @app.route('/getChargingStations', methods=['GET'])
     def get_charging_stations():

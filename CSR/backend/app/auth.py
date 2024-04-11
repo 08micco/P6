@@ -1,50 +1,31 @@
-from flask import Blueprint, render_template, redirect, url_for, flash, request
-from flask_login import login_user, logout_user, current_user
-from urllib.parse import urlparse, urljoin
-from .forms import LoginForm, RegistrationForm
-from CSR.backend.app.models import User
+from flask import Blueprint, request, jsonify
+from werkzeug.security import check_password_hash
+from .models import User
+from flask_jwt_extended import create_access_token
+from datetime import timedelta
 from .extensions import db
-
 
 auth_bp = Blueprint('auth', __name__)
 
-def is_safe_url(target):
-    ref_url = urlparse(request.host_url)
-    test_url = urlparse(urljoin(request.host_url, target))
-    return test_url.scheme in ('http', 'https') and ref_url.netloc == test_url.netloc
-
-@auth_bp.route('/login', methods=['GET', 'POST'])
+@auth_bp.route('/login', methods=['POST'])
 def login():
-    if current_user.is_authenticated:
-        return redirect(url_for('main.home'))
-    form = LoginForm()
-    if form.validate_on_submit():
-        user = User.query.filter_by(email=form.email.data).first()
-        if user and user.check_password(form.password.data):
-            login_user(user, remember=form.remember_me.data)
-            next_page = request.args.get('next')
-            if not next_page or not is_safe_url(next_page):
-                next_page = url_for('main.dashboard')
-            return redirect(next_page)
-        else:
-            flash('Wrong email or password.', 'danger')
-    return render_template('login.html', title='Login', form=form)
+    data = request.get_json()
+    user = User.query.filter_by(email=data['email']).first()
+    if user and check_password_hash(user.password_hash, data['password']):
+        access_token = create_access_token(identity=user, expires_delta=timedelta(days=1))
+        return jsonify({"access_token": access_token, "message": "Login successful", "user_id": user.id}), 200
+    else:
+        return jsonify({"message": "Invalid email or password"}), 401
 
-@auth_bp.route('/logout')
-def logout():
-    logout_user()
-    return redirect(url_for('main.home'))
-
-@auth_bp.route('/register', methods=['GET', 'POST'])
+@auth_bp.route('/register', methods=['POST'])
 def register():
-    if current_user.is_authenticated:
-        return redirect(url_for('main.home'))
-    form = RegistrationForm()
-    if form.validate_on_submit():
-        user = User(username=form.username.data, email=form.email.data)
-        user.set_password(form.password.data)
-        db.session.add(user)
-        db.session.commit()
-        flash('Your account has been created!', 'success')
-        return redirect(url_for('auth.login'))
-    return render_template('register.html', title='Register', form=form)
+    data = request.get_json()
+    if User.query.filter_by(email=data['email']).first():
+        return jsonify({"message": "Email already in use"}), 400
+
+    user = User(username=data['username'], email=data['email'])
+    user.set_password(data['password'])
+    db.session.add(user)
+    db.session.commit()
+
+    return jsonify({"message": "Registration successful", "user_id": user.id}), 201

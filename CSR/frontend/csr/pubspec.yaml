@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter_osm_plugin: ^0.70.4
   http: ^1.2.1
+  shared_preferences: ^2.0.13
+  flutter_secure_storage: ^5.0.0  
 
 dev_dependencies:
   flutter_test:
