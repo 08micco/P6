@@ -9,6 +9,8 @@ def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
     app.config['JWT_SECRET_KEY'] = 'Uq-hv8ZJP7[F9+C'  
+    CORS(app, resources={r"/*": {"origins": "*"}})
+
 
     db.init_app(app)
     login_manager.init_app(app)
