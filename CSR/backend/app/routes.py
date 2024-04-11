@@ -15,6 +15,15 @@ def configure_routes(app):
             return ApiResponse.success([charging_station.to_json() for charging_station in charging_stations])
         except Exception as e:
             return ApiResponse.internal_server_error(str(e))
+        
+    @app.route('/getHouseholdChargingStations/<string:user_id>', methods=['GET'])
+    def get_household_charging_stations(user_id):
+        try:
+            charging_stations = ChargingStation.query.filter_by(owner_id=user_id, charging_station_type="Household").all()
+            return ApiResponse.success([charging_station.to_json() for charging_station in charging_stations])
+        except Exception as e:
+            return ApiResponse.internal_server_error(str(e))
+
 
     @app.route('/getAvailableChargingStations', methods=['GET'])
     def get_available_charging_stations():

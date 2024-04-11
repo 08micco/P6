@@ -1,49 +1,9 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_osm_plugin/flutter_osm_plugin.dart';
 import 'package:http/http.dart' as http;
+import 'package:csr/models/charging_station.dart';
 
-class ChargingStation {
-  final int id;
-  final int? ownerId;
-  final String? companyName;
-  final String chargingStationType;
-  final String longitude;
-  final String latitude;
-  final int chargingPoints;
-  final String chargerType;
-  final bool available;
-  final String? phoneNumber;
-
-  const ChargingStation({
-    required this.id,
-    required this.ownerId,
-    required this.companyName,
-    required this.chargingStationType,
-    required this.longitude,
-    required this.latitude,
-    required this.chargingPoints,
-    required this.chargerType,
-    required this.available,
-    required this.phoneNumber,
-  });
-
-  factory ChargingStation.fromJson(Map<String, dynamic> json) {
-    return ChargingStation(
-      id: json['id'],
-      ownerId: json['owner_id'],
-      companyName: json['company_name'],
-      chargingStationType: json['charging_station_type'],
-      longitude: json['longitude'],
-      latitude: json['latitude'],
-      chargingPoints: json['charging_points'],
-      chargerType: json['charger_type'],
-      available: json['available'],
-      phoneNumber: json['phone_number'],
-    );
-  }
-}
 
 class MapScreenWidget extends StatelessWidget {
   final controller = MapController.withUserPosition(

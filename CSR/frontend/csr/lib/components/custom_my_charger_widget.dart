@@ -1,17 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:csr/models/charging_station.dart';
 
-class Charger {
-  final String location;
-  final String status;
-  final double costThisMonth;
-
-  Charger({required this.location, required this.status, required this.costThisMonth});
-}
 
 class MyChargerWidget extends StatelessWidget {
-  final Charger charger;
+  final ChargingStation chargingStation;
 
-  const MyChargerWidget({super.key, required this.charger});
+  const MyChargerWidget({super.key, required this.chargingStation});
 
   @override
   Widget build(BuildContext context) {
@@ -34,17 +28,17 @@ class MyChargerWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            charger.location,
+            'Location: ${chargingStation.latitude} : ${chargingStation.longitude}',
             style: const TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 8.0),
           Text(
-            'Status: ${charger.status}',
+            'Status: ${chargingStation.available}',
             style: const TextStyle(fontSize: 16.0, color: Colors.black54),
           ),
           const SizedBox(height: 8.0),
           Text(
-            'Cost this month: ${charger.costThisMonth.toStringAsFixed(2)} dkk',
+            'Phone: ${chargingStation.phoneNumber}',
             style: const TextStyle(fontSize: 16.0, color: Colors.black54),
           ),
         ],
