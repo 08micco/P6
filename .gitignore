@@ -6,6 +6,7 @@ __pycache__
 .idea
 config.py
 charging_stations.db
+instance/
 
 # C extensions
 *.so
