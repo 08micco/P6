@@ -2,19 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: AddMyChargerPage(),
-    );
-  }
-}
 
 class AddMyChargerPage extends StatefulWidget {
+  const AddMyChargerPage({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _AddMyChargerPageState createState() => _AddMyChargerPageState();
 }
 
@@ -33,8 +27,8 @@ Future<void> addHouseholdChargingStation({
         'Content-Type': 'application/json; charset=UTF-8',
       },
       body: jsonEncode(<String, dynamic>{
-        'company_name': Null,
-        'owner_id': "123",
+        'company_name': "",
+        'owner_id': "1",
         'charging_station_type': "Household",
         'longitude': longitude,
         'latitude': latitude,
@@ -45,7 +39,7 @@ Future<void> addHouseholdChargingStation({
       }),
     );
 
-    if (response.statusCode == 200) {
+    if (response.statusCode == 201) {
       print('Charging Station added successfully.');
     } else {
       print(
@@ -64,23 +58,25 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
   String? phoneNumber;
 
   void _submitForm() {
-    if (_formKey.currentState!.validate()) {
-      _formKey.currentState!.save();
+  if (_formKey.currentState!.validate()) {
+    _formKey.currentState!.save();
 
-      if (longitude != null &&
-          latitude != null &&
-          chargerType != null &&
-          phoneNumber != null) {
-        addHouseholdChargingStation(
-            longitude: longitude!,
-            latitude: latitude!,
-            chargerType: chargerType!,
-            phoneNumber: phoneNumber!);
-      } else {
-        print('One or more fields are empty. Please check your input.');
-      }
+    if (longitude != null && latitude != null && chargerType != null && phoneNumber != null) {
+      addHouseholdChargingStation(
+        longitude: longitude!,
+        latitude: latitude!,
+        chargerType: chargerType!,
+        phoneNumber: phoneNumber!,
+      ).then((_) {
+        Navigator.of(context).pop(true);  // Pop with `true` if added successfully
+      }).catchError((error) {
+        print('Error adding charger: $error');
+      });
+    } else {
+      print('One or more fields are empty. Please check your input.');
     }
   }
+}
 
   @override
   Widget build(BuildContext context) {
@@ -100,10 +96,10 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
       body: Form(
         key: _formKey,
         child: ListView(
-          padding: EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(16.0),
           children: <Widget>[
             TextFormField(
-              decoration: InputDecoration(labelText: 'Longitude'),
+              decoration: const InputDecoration(labelText: 'Longitude'),
               keyboardType: TextInputType.number,
               onSaved: (value) {
                 longitude = value;
@@ -116,7 +112,7 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
               },
             ),
             TextFormField(
-              decoration: InputDecoration(labelText: 'Latitude'),
+              decoration: const InputDecoration(labelText: 'Latitude'),
               keyboardType: TextInputType.number,
               onSaved: (value) {
                 latitude = value;
@@ -129,7 +125,7 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
               },
             ),
             TextFormField(
-              decoration: InputDecoration(labelText: 'Charger Type'),
+              decoration: const InputDecoration(labelText: 'Charger Type'),
               onSaved: (value) {
                 chargerType = value;
               },
@@ -141,7 +137,7 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
               },
             ),
             TextFormField(
-              decoration: InputDecoration(labelText: 'Phone Number'),
+              decoration: const InputDecoration(labelText: 'Phone Number'),
               keyboardType: TextInputType.phone,
               onSaved: (value) {
                 phoneNumber = value;
@@ -157,7 +153,7 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
               padding: const EdgeInsets.symmetric(vertical: 16.0),
               child: ElevatedButton(
                 onPressed: _submitForm,
-                child: Text('Submit'),
+                child: const Text('Submit'),
               ),
             ),
           ],
