@@ -37,10 +37,4 @@ class ChargingStation {
       phoneNumber: json['phone_number'],
     );
   }
-
-  int getChargingPointCount()
-  {
-    return chargingPoints;
-  }
-
 }
