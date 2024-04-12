@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class AuthService {
   final String baseUrl = 'http://127.0.0.1:5000';
-  final _storage = FlutterSecureStorage();
+  final _storage = const FlutterSecureStorage();
 
   Future<bool> login(String email, String password) async {
     try {
@@ -22,9 +22,9 @@ class AuthService {
       if (response.statusCode == 200) {
         final responseData = json.decode(response.body);
         final String? token = responseData['access_token'];
-        final String? userId = responseData['user_id'].toString();
+        final String userId = responseData['user_id'].toString();
 
-        if (token != null && userId != null) {
+        if (token != null) {
           await _storage.write(key: 'jwtToken', value: token);
           await _storage.write(key: 'userId', value: userId);
           return true;

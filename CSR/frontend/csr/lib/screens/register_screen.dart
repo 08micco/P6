@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:csr/services/auth_service.dart';
 
 class RegisterScreen extends StatefulWidget {
+  const RegisterScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _RegisterScreenState createState() => _RegisterScreenState();
 }
 
@@ -47,12 +50,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Register')),
+      appBar: AppBar(title: const Text('Register')),
       body: Center(
         child: _isLoading
-            ? CircularProgressIndicator()
+            ? const CircularProgressIndicator()
             : Padding(
-                padding: EdgeInsets.all(20),
+                padding: const EdgeInsets.all(20),
                 child: Form(
                   key: _formKey,
                   child: Column(
@@ -62,11 +65,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         Padding(
                           padding: const EdgeInsets.only(bottom: 10),
                           child: Text(_errorMessage,
-                              style: TextStyle(color: Colors.red)),
+                              style: const TextStyle(color: Colors.red)),
                         ),
                       TextFormField(
                         controller: _usernameController,
-                        decoration: InputDecoration(labelText: 'Username'),
+                        decoration: const InputDecoration(labelText: 'Username'),
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return 'Please enter a username';
@@ -76,7 +79,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                       TextFormField(
                         controller: _emailController,
-                        decoration: InputDecoration(labelText: 'Email'),
+                        decoration: const InputDecoration(labelText: 'Email'),
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return 'Please enter an email';
@@ -87,7 +90,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       TextFormField(
                         controller: _passwordController,
                         obscureText: true,
-                        decoration: InputDecoration(labelText: 'Password'),
+                        decoration: const InputDecoration(labelText: 'Password'),
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return 'Please enter a password';
@@ -99,7 +102,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         controller: _confirmPasswordController,
                         obscureText: true,
                         decoration:
-                            InputDecoration(labelText: 'Confirm Password'),
+                            const InputDecoration(labelText: 'Confirm Password'),
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return 'Please confirm your password';
@@ -110,16 +113,16 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           return null;
                         },
                       ),
-                      SizedBox(height: 20),
+                      const SizedBox(height: 20),
                       ElevatedButton(
                         onPressed: _register,
-                        child: Text('Register'),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.blue,
-                          padding: EdgeInsets.symmetric(
+                          padding: const EdgeInsets.symmetric(
                               horizontal: 50, vertical: 15),
-                          textStyle: TextStyle(fontSize: 18),
+                          textStyle: const TextStyle(fontSize: 18),
                         ),
+                        child: const Text('Register'),
                       ),
                     ],
                   ),

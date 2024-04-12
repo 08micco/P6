@@ -10,14 +10,12 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 class MyChargerScreenWidget extends StatefulWidget {
   const MyChargerScreenWidget({super.key});
 
-
-
   @override
   // ignore: library_private_types_in_public_api
   _MyChargerScreenWidgetState createState() => _MyChargerScreenWidgetState();
 }
 class _MyChargerScreenWidgetState extends State<MyChargerScreenWidget> {
-  final _storage = FlutterSecureStorage();
+  final _storage = const FlutterSecureStorage();
   Future<List<ChargingStation>> fetchHouseholdChargingStations() async {
     String? userId = await _storage.read(key: "userId");
     final response = await http.get(Uri.parse("http://127.0.0.1:5000/getHouseholdChargingStations/$userId"));

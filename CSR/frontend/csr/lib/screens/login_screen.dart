@@ -4,7 +4,10 @@ import 'package:csr/main.dart';
 import 'package:csr/screens/register_screen.dart';
 
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _LoginScreenState createState() => _LoginScreenState();
 }
 
@@ -35,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
     if (loginSuccess) {
       Navigator.of(context)
-          .pushReplacement(MaterialPageRoute(builder: (_) => MyHomePage()));
+          .pushReplacement(MaterialPageRoute(builder: (_) => const MyHomePage()));
     } else {
       setState(() {
         _errorMessage = 'Login Failed. Please check your credentials.';
@@ -47,12 +50,12 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Login')),
+      appBar: AppBar(title: const Text('Login')),
       body: Center(
         child: _isLoading
-            ? CircularProgressIndicator()
+            ? const CircularProgressIndicator()
             : SingleChildScrollView(
-                padding: EdgeInsets.all(20),
+                padding: const EdgeInsets.all(20),
                 child: Form(
                   key: _formKey,
                   child: Column(
@@ -63,11 +66,11 @@ class _LoginScreenState extends State<LoginScreen> {
                           padding: const EdgeInsets.only(bottom: 20),
                           child: Text(_errorMessage,
                               style:
-                                  TextStyle(color: Colors.red, fontSize: 16)),
+                                  const TextStyle(color: Colors.red, fontSize: 16)),
                         ),
                       TextFormField(
                         controller: _emailController,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           labelText: 'Email',
                           border: OutlineInputBorder(),
                           prefixIcon: Icon(Icons.email),
@@ -80,11 +83,11 @@ class _LoginScreenState extends State<LoginScreen> {
                           return null;
                         },
                       ),
-                      SizedBox(height: 20),
+                      const SizedBox(height: 20),
                       TextFormField(
                         controller: _passwordController,
                         obscureText: true,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           labelText: 'Password',
                           border: OutlineInputBorder(),
                           prefixIcon: Icon(Icons.lock),
@@ -96,24 +99,24 @@ class _LoginScreenState extends State<LoginScreen> {
                           return null;
                         },
                       ),
-                      SizedBox(height: 30),
+                      const SizedBox(height: 30),
                       ElevatedButton(
                         onPressed: _login,
-                        child: Text('Login'),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.blue,
-                          padding: EdgeInsets.symmetric(
+                          padding: const EdgeInsets.symmetric(
                               horizontal: 50, vertical: 15),
-                          textStyle: TextStyle(fontSize: 18),
+                          textStyle: const TextStyle(fontSize: 18),
                         ),
+                        child: const Text('Login'),
                       ),
-                      SizedBox(height: 20),
+                      const SizedBox(height: 20),
                       TextButton(
                         onPressed: () {
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => RegisterScreen()));
+                              builder: (context) => const RegisterScreen()));
                         },
-                        child: Text('No account? Register here',
+                        child: const Text('No account? Register here',
                             style: TextStyle(color: Colors.blue)),
                       ),
                     ],

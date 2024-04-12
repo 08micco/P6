@@ -104,8 +104,8 @@ class MapScreenWidget extends StatelessWidget {
                               child: ListTile(
                                 title: Text(firstStation?.companyName ??
                                     'Unknown Charging Station'),
-                                subtitle: Text(firstStation?.companyName ??
-                                    'Unknown Charging Station'),
+                                subtitle: Text(firstStation?.chargingStationType ??
+                                    'Unknown Charging Station Type'),
                               ),
                             ),
                             IconButton(

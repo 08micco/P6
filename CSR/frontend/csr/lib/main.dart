@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           if (snapshot.hasData && snapshot.data == true) {
             return const MyHomePage();
           } else {
-            return LoginScreen();
+            return const LoginScreen();
           }
         },
       ),
@@ -54,13 +54,14 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    String username = widget.userData?['username'] ?? 'Default Username';
-    String email = widget.userData?['email'] ?? 'default@email.com';
+    //String username = widget.userData?['username'] ?? 'Default Username';
+    //String email = widget.userData?['email'] ?? 'default@email.com';
 
     _pages = [
-      MyChargerScreenWidget(),
+      const MyChargerScreenWidget(),
       MapScreenWidget(),
-      ProfileScreenWidget(username: username, email: email),
+      //ProfileScreenWidget(username: username, email: email),
+      const ProfileScreenWidget(),
     ];
   }
 

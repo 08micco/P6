@@ -15,16 +15,16 @@ def configure_routes(app):
     def get_user_reservations():
         current_user_id = get_jwt_identity() 
         reservations = Reservation.query.filter_by(user_id=current_user_id).all()
-        return jsonify([reservation.to_json() for reservation in reservations]), 200
+        return ApiResponse.success([reservation.to_json() for reservation in reservations])
 
 
     @app.route('/user/<int:user_id>')
     def get_user(user_id):
         user = User.query.get(user_id)  
         if user:
-            return jsonify(user.serialize()), 200 
+            return ApiResponse.success(user.serialize())
         else:
-            return jsonify({"error": "User not found"}), 404
+            return ApiResponse.not_found("User not found")
 
 
     @app.route('/getChargingStations', methods=['GET'])
@@ -156,6 +156,14 @@ def configure_routes(app):
             ChargingPoint.query.filter_by(id=charging_point_id).delete()
             db.session.commit()
             return ApiResponse.success(f"Successfully deleted charging point with id {charging_point_id}")
+        except Exception as e:
+            return ApiResponse.internal_server_error(str(e))
+
+    @app.route('/reservation/get/<string:user_id>', methods=['GET'])
+    def get_reservations_from_user_id(user_id):
+        try:
+            reservations = Reservation.query.filter_by(user_id=user_id).all()
+            return ApiResponse.success([reservation.to_json() for reservation in reservations])
         except Exception as e:
             return ApiResponse.internal_server_error(str(e))
 
