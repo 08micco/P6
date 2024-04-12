@@ -45,6 +45,7 @@ class _MyChargerScreenWidgetState extends State<MyChargerScreenWidget> {
               begin: Alignment.centerLeft,
               end: Alignment.centerRight,
               colors: [Colors.blue, Color.fromARGB(255, 142, 200, 247)],
+              stops: [0.5, 0.9],
             ),
           ),
         ),

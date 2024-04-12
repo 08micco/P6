@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_osm_plugin/flutter_osm_plugin.dart';
 import 'package:http/http.dart' as http;
 import 'package:csr/models/charging_station.dart';
-
+import 'package:csr/components/custom_charging_point_widget.dart';
 
 class MapScreenWidget extends StatelessWidget {
   final controller = MapController.withUserPosition(
@@ -85,42 +85,8 @@ class MapScreenWidget extends StatelessWidget {
               showModalBottomSheet(
                 backgroundColor: Colors.blue,
                 context: context,
-                builder: (context) {
-                  return FutureBuilder<List<ChargingStation>>(
-                    future: fetchChargingStationFromCoordinates(geoPoint),
-                    builder: (context, snapshot) {
-                      if (snapshot.connectionState == ConnectionState.waiting) {
-                        return const Center(child: CircularProgressIndicator());
-                      } else if (snapshot.hasError) {
-                        return Text("Error: ${snapshot.error}");
-                      } else if (snapshot.hasData) {
-                        final stations = snapshot.data!;
-                        final firstStation =
-                            stations.isNotEmpty ? stations.first : null;
-                        return Column(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            Expanded(
-                              child: ListTile(
-                                title: Text(firstStation?.companyName ??
-                                    'Unknown Charging Station'),
-                                subtitle: Text(firstStation?.chargingStationType ??
-                                    'Unknown Charging Station Type'),
-                              ),
-                            ),
-                            IconButton(
-                              icon:
-                                  const Icon(Icons.clear, color: Colors.white),
-                              onPressed: () => Navigator.pop(context),
-                            ),
-                          ],
-                        );
-                      } else {
-                        return const Text("No data");
-                      }
-                    },
-                  );
-                },
+                builder: (context) =>
+                    CustomChargingPointWidget(geoPoint: geoPoint),
               );
             },
             osmOption: const OSMOption(

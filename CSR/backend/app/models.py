@@ -54,7 +54,7 @@ class ChargingStation(db.Model):
 
 class ChargingPoint(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    charging_station_id = db.Column(db.Integer, db.ForeignKey('charging_station.id'), nullable=True)
+    charging_station_id = db.Column(db.Integer, db.ForeignKey('charging_station.id'))
     reservation_status = db.Column(db.String(50), nullable=False)
 
     def to_json(self):

@@ -130,7 +130,7 @@ def configure_routes(app):
             charging_point = ChargingPoint(
                 id=data["id"],
                 charging_station_id=charging_station_id,
-                reservation_status="available",
+                reservation_status="Available",
             )
 
             db.session.add(charging_point)
