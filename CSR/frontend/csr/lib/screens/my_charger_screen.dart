@@ -4,18 +4,23 @@ import 'package:csr/models/charging_station.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:csr/screens/add_my_charger_screen.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 
 class MyChargerScreenWidget extends StatefulWidget {
   const MyChargerScreenWidget({super.key});
+
+
 
   @override
   // ignore: library_private_types_in_public_api
   _MyChargerScreenWidgetState createState() => _MyChargerScreenWidgetState();
 }
 class _MyChargerScreenWidgetState extends State<MyChargerScreenWidget> {
+  final _storage = FlutterSecureStorage();
   Future<List<ChargingStation>> fetchHouseholdChargingStations() async {
-    final response = await http.get(Uri.parse("http://127.0.0.1:5000/getHouseholdChargingStations/1"));
+    String? userId = await _storage.read(key: "userId");
+    final response = await http.get(Uri.parse("http://127.0.0.1:5000/getHouseholdChargingStations/$userId"));
     if (response.statusCode == 200) {
       final Map<String, dynamic> decodedResponse = jsonDecode(response.body);
       final List<dynamic> stationsJson = decodedResponse['data'] as List<dynamic>;
