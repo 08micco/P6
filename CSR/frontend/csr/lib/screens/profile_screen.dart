@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:csr/screens/reservation_screen.dart'; // Make sure the path matches your file structure
+import 'package:csr/screens/reservation_screen.dart';
 
 class ProfileScreenWidget extends StatelessWidget {
   final String username;
@@ -86,7 +86,6 @@ class ProfileScreenWidget extends StatelessWidget {
               );
             },
           ),
-          // Add more sections or options as needed
         ],
       ),
     );

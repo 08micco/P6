@@ -19,13 +19,14 @@ class AuthService {
         }),
       );
 
-      print("Login response: ${response.body}");
-
       if (response.statusCode == 200) {
         final responseData = json.decode(response.body);
         final String? token = responseData['access_token'];
-        if (token != null) {
-          await _storage.write(key: 'jwt_token', value: token);
+        final String? userId = responseData['user_id'].toString();
+
+        if (token != null && userId != null) {
+          await _storage.write(key: 'jwtToken', value: token);
+          await _storage.write(key: 'userId', value: userId);
           return true;
         }
       }
@@ -45,7 +46,6 @@ class AuthService {
     await _storage.delete(key: 'jwt_token');
   }
 
-  // Moved inside AuthService class
   Future<bool> register(String username, String email, String password) async {
     final response = await http.post(
       Uri.parse('$baseUrl/register'),
