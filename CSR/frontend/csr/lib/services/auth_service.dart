@@ -26,7 +26,7 @@ class AuthService {
 
         if (token != null && userId != null) {
           await _storage.write(key: 'jwtToken', value: token);
-          await _storage.write(key: 'userId', value: userId);
+          await _storage.write(key: 'userId', value: userId)
           return true;
         }
       }
