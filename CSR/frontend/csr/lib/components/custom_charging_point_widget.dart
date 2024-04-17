@@ -54,12 +54,13 @@ class _CustomChargingPointWidgetState extends State<CustomChargingPointWidget> {
 
   Future<void> bookChargingPoint(int id) async {
     final response = await http.post(
-      Uri.parse("http://127.0.0.1:5000/chargingPoint/reserve/$id"),
-      body: jsonEncode(
-          {'duration': '30 minutes'}), // Assuming API takes JSON body
-    );
+        Uri.parse("http://127.0.0.1:5000/reservation/new/$id"),
+        body: jsonEncode(
+            {"id": "541", "user_id": "1"} // Assuming API takes JSON body
+            ),
+        headers: {'Content-Type': 'application/json'});
 
-    if (response.statusCode == 200) {
+    if (response.statusCode == 201) {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Text("Successfully booked for 30 minutes"),
         backgroundColor: Colors.green,
@@ -106,18 +107,16 @@ class _CustomChargingPointWidgetState extends State<CustomChargingPointWidget> {
                                 station?.chargingStationType ?? 'Unknown Type'),
                             textColor: Colors.white,
                           ),
-                          ...cpSnapshot.data!
-                              .map((cp) => ListTile(
-                                    title: Text("Charging Point ${cp.id}"),
-                                    subtitle: Text(
-                                        "Reservation Status: ${cp.reservationStatus}"),
-                                        textColor: Colors.white,
-                                    trailing: ElevatedButton(
-                                      onPressed: () => bookChargingPoint(cp.id),
-                                      child: const Text("Book for 30 min"),
-                                    ),
-                                  ))
-                              ,
+                          ...cpSnapshot.data!.map((cp) => ListTile(
+                                title: Text("Charging Point ${cp.id}"),
+                                subtitle: Text(
+                                    "Reservation Status: ${cp.reservationStatus}"),
+                                textColor: Colors.white,
+                                trailing: ElevatedButton(
+                                  onPressed: () => bookChargingPoint(cp.id),
+                                  child: const Text("Book for 30 min"),
+                                ),
+                              )),
                         ],
                       ),
                     ),

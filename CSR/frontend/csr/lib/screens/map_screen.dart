@@ -85,6 +85,7 @@ class MapScreenWidget extends StatelessWidget {
               showModalBottomSheet(
                 backgroundColor: Colors.blue,
                 context: context,
+                //isScrollControlled: true,
                 builder: (context) =>
                     CustomChargingPointWidget(geoPoint: geoPoint),
               );
