@@ -65,7 +65,7 @@ class ChargingPoint(db.Model):
         }
 
 class Reservation(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     charging_point_id = db.Column(db.Integer, db.ForeignKey('charging_point.id'), nullable=False)
     reservation_time = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)

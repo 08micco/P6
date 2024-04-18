@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_osm_plugin/flutter_osm_plugin.dart';
 import 'package:http/http.dart' as http;
 import 'package:csr/models/charging_station.dart';
-import 'package:csr/components/custom_charging_point_widget.dart';
+//import 'package:csr/components/custom_charging_point_widget.dart';
+import 'package:csr/screens/temp_reservation_screen.dart';
 
 class MapScreenWidget extends StatelessWidget {
   final controller = MapController.withUserPosition(
@@ -81,7 +82,14 @@ class MapScreenWidget extends StatelessWidget {
                 child: CircularProgressIndicator(),
               ),
             ),
-            onGeoPointClicked: (geoPoint) {
+            onGeoPointClicked: (geoPoint) async {
+              var station = await fetchChargingStationFromCoordinates(geoPoint);
+              Navigator.push(
+                // ignore: use_build_context_synchronously
+                context,
+                MaterialPageRoute(builder: (context) => TempReservationScreen(chargingStation: station[0])),
+              );
+                        /*
               showModalBottomSheet(
                 backgroundColor: Colors.blue,
                 context: context,
@@ -89,6 +97,7 @@ class MapScreenWidget extends StatelessWidget {
                 builder: (context) =>
                     CustomChargingPointWidget(geoPoint: geoPoint),
               );
+              */
             },
             osmOption: const OSMOption(
               zoomOption: ZoomOption(
