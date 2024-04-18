@@ -175,7 +175,6 @@ def configure_routes(app):
                 return ApiResponse.bad_request("No data provided")
             
             reservation = Reservation(
-                id=data["id"],
                 user_id=data["user_id"],
                 charging_point_id=charging_point_id,
                 reservation_time=datetime.now(),
