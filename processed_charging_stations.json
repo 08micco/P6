@@ -1,0 +1,5553 @@
+[
+    {
+        "name": "Energieversorgung Sylt",
+        "address": "Bahnweg 4, Sylt/Westerland 25980",
+        "latitude": 54.914003,
+        "longitude": 8.312035,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Energieversorgung Sylt",
+        "address": "Bahnweg 4, Sylt/Westerland 25980",
+        "latitude": 54.914003,
+        "longitude": 8.312035,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK SuperBrugsen Læsø",
+        "address": "Byrum Hovedgade 77, 9940 Byrum, Denmark",
+        "latitude": 57.253947327322344,
+        "longitude": 11.00338901037519,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Læsø",
+        "address": "Byrum Hovedgade 77, 9940 Byrum, Denmark",
+        "latitude": 57.253947327322344,
+        "longitude": 11.00338901037519,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Shell Recharge Løgstør (Coming Soon)",
+        "address": "Bredgade 104, 9670 Løgstør",
+        "latitude": 56.96890084005853,
+        "longitude": 9.274725192202105,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Shell Recharge Løgstør (Coming Soon)",
+        "address": "Bredgade 104, 9670 Løgstør",
+        "latitude": 56.96890084005853,
+        "longitude": 9.274725192202105,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Tranebjerg",
+        "address": "Møllebakkevej 1, 8305 Samsø",
+        "latitude": 55.83129279701452,
+        "longitude": 10.594026879510483,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Tranebjerg",
+        "address": "Møllebakkevej 1, 8305 Samsø",
+        "latitude": 55.83129279701452,
+        "longitude": 10.594026879510483,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Føtex Kalundborg",
+        "address": "42 Bredgade, Kalundborg, 4400, DNK",
+        "latitude": 55.678928,
+        "longitude": 11.091205,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Føtex Kalundborg",
+        "address": "42 Bredgade, Kalundborg, 4400, DNK",
+        "latitude": 55.678928,
+        "longitude": 11.091205,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Føtex Kalundborg",
+        "address": "42 Bredgade, Kalundborg, 4400, DNK",
+        "latitude": 55.678928,
+        "longitude": 11.091205,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Føtex Kalundborg",
+        "address": "42 Bredgade, Kalundborg, 4400, DNK",
+        "latitude": 55.678928,
+        "longitude": 11.091205,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Føtex Kalundborg",
+        "address": "42 Bredgade, Kalundborg, 4400, DNK",
+        "latitude": 55.678928,
+        "longitude": 11.091205,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Føtex Kalundborg",
+        "address": "42 Bredgade, Kalundborg, 4400, DNK",
+        "latitude": 55.678928,
+        "longitude": 11.091205,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Føtex Kalundborg",
+        "address": "42 Bredgade, Kalundborg, 4400, DNK",
+        "latitude": 55.678928,
+        "longitude": 11.091205,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Føtex Kalundborg",
+        "address": "42 Bredgade, Kalundborg, 4400, DNK",
+        "latitude": 55.678928,
+        "longitude": 11.091205,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Føtex Kalundborg",
+        "address": "42 Bredgade, Kalundborg, 4400, DNK",
+        "latitude": 55.678928,
+        "longitude": 11.091205,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Clever Odden Ferry Harbor",
+        "address": "388 Oddenvej, Sjællands Odde, 4583, DNK",
+        "latitude": 55.976147,
+        "longitude": 11.301328,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Clever Odden Ferry Harbor",
+        "address": "388 Oddenvej, Sjællands Odde, 4583, DNK",
+        "latitude": 55.976147,
+        "longitude": 11.301328,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Clever Odden Ferry Harbor",
+        "address": "388 Oddenvej, Sjællands Odde, 4583, DNK",
+        "latitude": 55.976147,
+        "longitude": 11.301328,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Clever Odden Ferry Harbor",
+        "address": "388 Oddenvej, Sjællands Odde, 4583, DNK",
+        "latitude": 55.976147,
+        "longitude": 11.301328,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Clever Odden Ferry Harbor",
+        "address": "388 Oddenvej, Sjællands Odde, 4583, DNK",
+        "latitude": 55.976147,
+        "longitude": 11.301328,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Clever Odden Ferry Harbor",
+        "address": "388 Oddenvej, Sjællands Odde, 4583, DNK",
+        "latitude": 55.976147,
+        "longitude": 11.301328,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Clever Odden Ferry Harbor",
+        "address": "388 Oddenvej, Sjællands Odde, 4583, DNK",
+        "latitude": 55.976147,
+        "longitude": 11.301328,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Clever Odden Ferry Harbor",
+        "address": "388 Oddenvej, Sjællands Odde, 4583, DNK",
+        "latitude": 55.976147,
+        "longitude": 11.301328,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Clever Odden Ferry Harbor",
+        "address": "388 Oddenvej, Sjællands Odde, 4583, DNK",
+        "latitude": 55.976147,
+        "longitude": 11.301328,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Stjerne Camping",
+        "address": "Vejers Havvej 7, 6853 Vejers Strand, Denmark",
+        "latitude": 55.618205,
+        "longitude": 8.142816,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "38 Østergade, Grenaa, 8500, DNK",
+        "latitude": 56.413461,
+        "longitude": 10.881891,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "38 Østergade, Grenaa, 8500, DNK",
+        "latitude": 56.413461,
+        "longitude": 10.881891,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "38 Østergade, Grenaa, 8500, DNK",
+        "latitude": 56.413461,
+        "longitude": 10.881891,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "38 Østergade, Grenaa, 8500, DNK",
+        "latitude": 56.413461,
+        "longitude": 10.881891,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "38 Østergade, Grenaa, 8500, DNK",
+        "latitude": 56.413461,
+        "longitude": 10.881891,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "38 Østergade, Grenaa, 8500, DNK",
+        "latitude": 56.413461,
+        "longitude": 10.881891,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "38 Østergade, Grenaa, 8500, DNK",
+        "latitude": 56.413461,
+        "longitude": 10.881891,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "38 Østergade, Grenaa, 8500, DNK",
+        "latitude": 56.413461,
+        "longitude": 10.881891,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "38 Østergade, Grenaa, 8500, DNK",
+        "latitude": 56.413461,
+        "longitude": 10.881891,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Volkswagen Faaborg",
+        "address": "L. Frandsensvej 8, 5600 Faaborg, Danmark",
+        "latitude": 55.110978,
+        "longitude": 10.236465,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Volkswagen Faaborg",
+        "address": "L. Frandsensvej 8, 5600 Faaborg, Danmark",
+        "latitude": 55.110978,
+        "longitude": 10.236465,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "SuperBrugsen",
+        "address": "Vasen 3, 4780 Stege, Denmark",
+        "latitude": 54.981264,
+        "longitude": 12.281481,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Plastvænget 13 Arbejdsplads",
+        "address": "Plastvænget 13, 9560 Hadsund, Denmark",
+        "latitude": 56.730765,
+        "longitude": 10.096608,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Plastvænget 13 Arbejdsplads",
+        "address": "Plastvænget 13, 9560 Hadsund, Denmark",
+        "latitude": 56.730765,
+        "longitude": 10.096608,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Holsted",
+        "address": "Energivej 2, 6670 Holsted",
+        "latitude": 55.523095,
+        "longitude": 8.902724,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "OK Holsted",
+        "address": "Energivej 2, 6670 Holsted",
+        "latitude": 55.523095,
+        "longitude": 8.902724,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Holsted",
+        "address": "Energivej 2, 6670 Holsted",
+        "latitude": 55.523095,
+        "longitude": 8.902724,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "OK Holsted",
+        "address": "Energivej 2, 6670 Holsted",
+        "latitude": 55.523095,
+        "longitude": 8.902724,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Ørhagevej",
+        "address": "Ørhagevej 150, 7700 Thisted, Denmark",
+        "latitude": 57.04328558845328,
+        "longitude": 8.481341822345557,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "SPERTO 150 kW - Strandingsmuseum",
+        "address": "Vesterhavsgade 1E, Thorsminde, 6990 Ulfborg",
+        "latitude": 56.373638,
+        "longitude": 8.118633,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "SPERTO 150 kW - Strandingsmuseum",
+        "address": "Vesterhavsgade 1E, Thorsminde, 6990 Ulfborg",
+        "latitude": 56.373638,
+        "longitude": 8.118633,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "SPERTO 150 kW - Strandingsmuseum",
+        "address": "Vesterhavsgade 1E, Thorsminde, 6990 Ulfborg",
+        "latitude": 56.373638,
+        "longitude": 8.118633,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "SPERTO 150 kW - Strandingsmuseum",
+        "address": "Vesterhavsgade 1E, Thorsminde, 6990 Ulfborg",
+        "latitude": 56.373638,
+        "longitude": 8.118633,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Odsherred Motor Co",
+        "address": "Vinkelvej 1",
+        "latitude": 55.922845,
+        "longitude": 11.662944,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Netto",
+        "address": "1 Sydhavnsvej, Thisted, 7700, DNK",
+        "latitude": 56.951918,
+        "longitude": 8.692123,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Netto",
+        "address": "1 Sydhavnsvej, Thisted, 7700, DNK",
+        "latitude": 56.951918,
+        "longitude": 8.692123,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Netto",
+        "address": "1 Sydhavnsvej, Thisted, 7700, DNK",
+        "latitude": 56.951918,
+        "longitude": 8.692123,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Netto",
+        "address": "1 Sydhavnsvej, Thisted, 7700, DNK",
+        "latitude": 56.951918,
+        "longitude": 8.692123,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Netto",
+        "address": "1 Sydhavnsvej, Thisted, 7700, DNK",
+        "latitude": 56.951918,
+        "longitude": 8.692123,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Netto",
+        "address": "1 Sydhavnsvej, Thisted, 7700, DNK",
+        "latitude": 56.951918,
+        "longitude": 8.692123,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "107 Elsøvej, Nykøbing M, 7900, DNK",
+        "latitude": 56.79956,
+        "longitude": 8.839924,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK SuperBrugsen Oksbøl",
+        "address": "Oksbøl Vestergade 5, 6840 Oksbøl",
+        "latitude": 55.624912845803415,
+        "longitude": 8.278345148081169,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Pilebækken",
+        "address": "Pilebækken, Ærøskøbing, 5970, Denmark",
+        "latitude": 54.886798,
+        "longitude": 10.410805,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Pilebækken",
+        "address": "Pilebækken, Ærøskøbing, 5970, Denmark",
+        "latitude": 54.886798,
+        "longitude": 10.410805,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Pilebækken",
+        "address": "Pilebækken, Ærøskøbing, 5970, Denmark",
+        "latitude": 54.886798,
+        "longitude": 10.410805,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Pilebækken",
+        "address": "Pilebækken, Ærøskøbing, 5970, Denmark",
+        "latitude": 54.886798,
+        "longitude": 10.410805,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "molslinien",
+        "address": "Samsø Bælt",
+        "latitude": 55.985524,
+        "longitude": 11.092736,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "molslinien",
+        "address": "Samsø Bælt",
+        "latitude": 55.985524,
+        "longitude": 11.092736,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sperto - Min Købmand, Voerså",
+        "address": "Østkystvejen 312, Vorså, 9300, DNK",
+        "latitude": 57.211972,
+        "longitude": 10.490463,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto - Min Købmand, Voerså",
+        "address": "Østkystvejen 312, Vorså, 9300, DNK",
+        "latitude": 57.211972,
+        "longitude": 10.490463,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto - Min Købmand, Voerså",
+        "address": "Østkystvejen 312, Vorså, 9300, DNK",
+        "latitude": 57.211972,
+        "longitude": 10.490463,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto - Min Købmand, Voerså",
+        "address": "Østkystvejen 312, Vorså, 9300, DNK",
+        "latitude": 57.211972,
+        "longitude": 10.490463,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Endelave Havn",
+        "address": "Endelave Havn 1, 8700 Horsens, Danmark",
+        "latitude": 55.761658,
+        "longitude": 10.272567,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Base2Charge - Rousthøj Allé",
+        "address": "Rousthøj Allé 2, 7130 Juelsminde",
+        "latitude": 55.71296313660231,
+        "longitude": 10.014719508967826,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Base2Charge - Rousthøj Allé",
+        "address": "Rousthøj Allé 2, 7130 Juelsminde",
+        "latitude": 55.71296313660231,
+        "longitude": 10.014719508967826,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Base2Charge - Rousthøj Allé",
+        "address": "Rousthøj Allé 2, 7130 Juelsminde",
+        "latitude": 55.71296313660231,
+        "longitude": 10.014719508967826,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Base2Charge - Rousthøj Allé",
+        "address": "Rousthøj Allé 2, 7130 Juelsminde",
+        "latitude": 55.71296313660231,
+        "longitude": 10.014719508967826,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Base2Charge - Rousthøj Allé",
+        "address": "Rousthøj Allé 2, 7130 Juelsminde",
+        "latitude": 55.71296313660231,
+        "longitude": 10.014719508967826,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Base2Charge - Rousthøj Allé",
+        "address": "Rousthøj Allé 2, 7130 Juelsminde",
+        "latitude": 55.71296313660231,
+        "longitude": 10.014719508967826,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Base2Charge - Rousthøj Allé",
+        "address": "Rousthøj Allé 2, 7130 Juelsminde",
+        "latitude": 55.71296313660231,
+        "longitude": 10.014719508967826,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Base2Charge - Rousthøj Allé",
+        "address": "Rousthøj Allé 2, 7130 Juelsminde",
+        "latitude": 55.71296313660231,
+        "longitude": 10.014719508967826,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sommerland Sjælland",
+        "address": "Gl. Nykøbingvej 169, 4572 Nr. Asmindrup",
+        "latitude": 55.897087,
+        "longitude": 11.611109,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Sommerland Sjælland",
+        "address": "Gl. Nykøbingvej 169, 4572 Nr. Asmindrup",
+        "latitude": 55.897087,
+        "longitude": 11.611109,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Sommerland Sjælland",
+        "address": "Gl. Nykøbingvej 169, 4572 Nr. Asmindrup",
+        "latitude": 55.897087,
+        "longitude": 11.611109,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Sommerland Sjælland",
+        "address": "Gl. Nykøbingvej 169, 4572 Nr. Asmindrup",
+        "latitude": 55.897087,
+        "longitude": 11.611109,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Sommerland Sjælland",
+        "address": "Gl. Nykøbingvej 169, 4572 Nr. Asmindrup",
+        "latitude": 55.897087,
+        "longitude": 11.611109,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Sommerland Sjælland",
+        "address": "Gl. Nykøbingvej 169, 4572 Nr. Asmindrup",
+        "latitude": 55.897087,
+        "longitude": 11.611109,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "hjem",
+        "address": "Skyttegade 1, 5300 Kerteminde, Denmark",
+        "latitude": 55.446731,
+        "longitude": 10.662467,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Kim Lind",
+        "address": "Diget 12 6862 Tistrup ",
+        "latitude": 55.721536,
+        "longitude": 8.607616,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Købmanden Thorsminde",
+        "address": "8 Vesterhavsgade, Ulfsborg, 6990, DNK",
+        "latitude": 56.374206,
+        "longitude": 8.121303,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Købmanden Thorsminde",
+        "address": "8 Vesterhavsgade, Ulfsborg, 6990, DNK",
+        "latitude": 56.374206,
+        "longitude": 8.121303,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Købmanden Thorsminde",
+        "address": "8 Vesterhavsgade, Ulfsborg, 6990, DNK",
+        "latitude": 56.374206,
+        "longitude": 8.121303,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Bjerregaard Hypercharge",
+        "address": "Bjerregård/Kirksvej (Ringkøbing-Skjern Kom), 6960 Hvide Sande, Danmark",
+        "latitude": 55.863728312434176,
+        "longitude": 8.181297071278095,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Bjerregaard Hypercharge",
+        "address": "Bjerregård/Kirksvej (Ringkøbing-Skjern Kom), 6960 Hvide Sande, Danmark",
+        "latitude": 55.863728312434176,
+        "longitude": 8.181297071278095,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EON Gram Slotskro",
+        "address": "Slotsvej 52, 6510 Gram, Denmark",
+        "latitude": 55.29497952479451,
+        "longitude": 9.054669112248858,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EON Gram Slotskro",
+        "address": "Slotsvej 52, 6510 Gram, Denmark",
+        "latitude": 55.29497952479451,
+        "longitude": 9.054669112248858,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EON Gram Slotskro",
+        "address": "Slotsvej 52, 6510 Gram, Denmark",
+        "latitude": 55.29497952479451,
+        "longitude": 9.054669112248858,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "EON Gram Slotskro",
+        "address": "Slotsvej 52, 6510 Gram, Denmark",
+        "latitude": 55.29497952479451,
+        "longitude": 9.054669112248858,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "EON Gram Slotskro",
+        "address": "Slotsvej 52, 6510 Gram, Denmark",
+        "latitude": 55.29497952479451,
+        "longitude": 9.054669112248858,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "EON Gram Slotskro",
+        "address": "Slotsvej 52, 6510 Gram, Denmark",
+        "latitude": 55.29497952479451,
+        "longitude": 9.054669112248858,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK",
+        "address": "Mejerivej 3, 7760 Hurup Thy, Denmark",
+        "latitude": 56.749865599610615,
+        "longitude": 8.42173554920663,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK",
+        "address": "Mejerivej 3, 7760 Hurup Thy, Denmark",
+        "latitude": 56.749865599610615,
+        "longitude": 8.42173554920663,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Netto Hundested",
+        "address": "Nørregade 48, 3390 Hundested",
+        "latitude": 55.96206988381222,
+        "longitude": 11.850637635974834,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Nordjysk Autocenter",
+        "address": "Ellebæksmindevej 1, 9280 Storvorde, Danmark",
+        "latitude": 56.973513973129016,
+        "longitude": 10.224143229424953,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Clever ANDEL Svinninge",
+        "address": "36 Hovedgaden, Svinninge, 4520, DNK",
+        "latitude": 55.722717,
+        "longitude": 11.464688,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Clever ANDEL Svinninge",
+        "address": "36 Hovedgaden, Svinninge, 4520, DNK",
+        "latitude": 55.722717,
+        "longitude": 11.464688,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Clever ANDEL Svinninge",
+        "address": "36 Hovedgaden, Svinninge, 4520, DNK",
+        "latitude": 55.722717,
+        "longitude": 11.464688,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Clever ANDEL Svinninge",
+        "address": "36 Hovedgaden, Svinninge, 4520, DNK",
+        "latitude": 55.722717,
+        "longitude": 11.464688,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Hanstholm havn (Coming Soon)",
+        "address": "Nordre Strandvej 54, 7730 Hanstholm, Danmark",
+        "latitude": 57.124351,
+        "longitude": 8.622426,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Hanstholm havn (Coming Soon)",
+        "address": "Nordre Strandvej 54, 7730 Hanstholm, Danmark",
+        "latitude": 57.124351,
+        "longitude": 8.622426,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Danland Bønnerup",
+        "address": "Havet 24B, 8585 Glesborg, Danmark",
+        "latitude": 56.529647,
+        "longitude": 10.708325,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Zapp Hurtiglader",
+        "address": "Centervej 2, 7730 Hanstholm, Denmark",
+        "latitude": 57.11532393277825,
+        "longitude": 8.608279008598343,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Zapp Hurtiglader",
+        "address": "Centervej 2, 7730 Hanstholm, Denmark",
+        "latitude": 57.11532393277825,
+        "longitude": 8.608279008598343,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Zapp Hurtiglader",
+        "address": "Centervej 2, 7730 Hanstholm, Denmark",
+        "latitude": 57.11532393277825,
+        "longitude": 8.608279008598343,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Zapp Hurtiglader",
+        "address": "Centervej 2, 7730 Hanstholm, Denmark",
+        "latitude": 57.11532393277825,
+        "longitude": 8.608279008598343,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Mandø Event",
+        "address": "Midtvej 7, Mandø 6760 Ribe",
+        "latitude": 55.273493,
+        "longitude": 8.538982,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Blokhus Feriecenter (Coming Soon)",
+        "address": "Høkervej 5, 9492 Blokhus",
+        "latitude": 57.252302,
+        "longitude": 9.581192,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Blokhus Feriecenter (Coming Soon)",
+        "address": "Høkervej 5, 9492 Blokhus",
+        "latitude": 57.252302,
+        "longitude": 9.581192,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Human Factories ",
+        "address": "La Cours Vej 12 7430 Ikast, Denmark",
+        "latitude": 56.120533,
+        "longitude": 9.172638,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Vejle (Coming Soon)",
+        "address": "Godthåbsvej 55, 7100 Vejle, Denmark",
+        "latitude": 55.66372449185367,
+        "longitude": 9.548386624467481,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Ingo",
+        "address": "Vestergade 36, 7620 Lemvig, Danmark",
+        "latitude": 56.54962,
+        "longitude": 8.30297,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ingo",
+        "address": "Vestergade 36, 7620 Lemvig, Danmark",
+        "latitude": 56.54962,
+        "longitude": 8.30297,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ingo",
+        "address": "Vestergade 36, 7620 Lemvig, Danmark",
+        "latitude": 56.54962,
+        "longitude": 8.30297,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ingo",
+        "address": "Vestergade 36, 7620 Lemvig, Danmark",
+        "latitude": 56.54962,
+        "longitude": 8.30297,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ingo",
+        "address": "Vestergade 36, 7620 Lemvig, Danmark",
+        "latitude": 56.54962,
+        "longitude": 8.30297,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ingo",
+        "address": "Vestergade 36, 7620 Lemvig, Danmark",
+        "latitude": 56.54962,
+        "longitude": 8.30297,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Ingo",
+        "address": "Vestergade 36, 7620 Lemvig, Danmark",
+        "latitude": 56.54962,
+        "longitude": 8.30297,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Ingo",
+        "address": "Vestergade 36, 7620 Lemvig, Danmark",
+        "latitude": 56.54962,
+        "longitude": 8.30297,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Det Nationale Testcenter for Store Vindmøller",
+        "address": "5 Gl. Aalborgvej, Thisted, 7700, DNK",
+        "latitude": 57.048265,
+        "longitude": 8.887592,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Det Nationale Testcenter for Store Vindmøller",
+        "address": "5 Gl. Aalborgvej, Thisted, 7700, DNK",
+        "latitude": 57.048265,
+        "longitude": 8.887592,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Det Nationale Testcenter for Store Vindmøller",
+        "address": "5 Gl. Aalborgvej, Thisted, 7700, DNK",
+        "latitude": 57.048265,
+        "longitude": 8.887592,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Det Nationale Testcenter for Store Vindmøller",
+        "address": "5 Gl. Aalborgvej, Thisted, 7700, DNK",
+        "latitude": 57.048265,
+        "longitude": 8.887592,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Det Nationale Testcenter for Store Vindmøller",
+        "address": "5 Gl. Aalborgvej, Thisted, 7700, DNK",
+        "latitude": 57.048265,
+        "longitude": 8.887592,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Det Nationale Testcenter for Store Vindmøller",
+        "address": "5 Gl. Aalborgvej, Thisted, 7700, DNK",
+        "latitude": 57.048265,
+        "longitude": 8.887592,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Shell Skave Holstebro",
+        "address": "Viborgvej 240 Skave, Viborgvej, 7500 Holstebro, Denmark",
+        "latitude": 56.39030537448486,
+        "longitude": 8.80481188783497,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Shell Skave Holstebro",
+        "address": "Viborgvej 240 Skave, Viborgvej, 7500 Holstebro, Denmark",
+        "latitude": 56.39030537448486,
+        "longitude": 8.80481188783497,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Hotel Klitrosen",
+        "address": "Slettestrandvej 130, 9690 Fjerritslev, Danmark",
+        "latitude": 57.149568,
+        "longitude": 9.36141,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Skærbæk fritidscenter (in each cabin)",
+        "address": "Nørre Skærbækvej 9K, 6780‎ Skærbæk, Danmark",
+        "latitude": 55.160622,
+        "longitude": 8.756011,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Røsnæs Havn",
+        "address": "Nybyvej 61, 4400‎ Kalundborg, Denmark",
+        "latitude": 55.7514,
+        "longitude": 10.944338,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Røsnæs Havn",
+        "address": "Nybyvej 61, 4400‎ Kalundborg, Denmark",
+        "latitude": 55.7514,
+        "longitude": 10.944338,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Krik Vig Camping ",
+        "address": " Krik Strandvej 112",
+        "latitude": 56.778951,
+        "longitude": 8.262196,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Blåvandvej 33E, 6857 Blåvand, Danmark",
+        "latitude": 55.55578947672016,
+        "longitude": 8.137298989453624,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Blåvandvej 33E, 6857 Blåvand, Danmark",
+        "latitude": 55.55578947672016,
+        "longitude": 8.137298989453624,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Blåvandvej 33E, 6857 Blåvand, Danmark",
+        "latitude": 55.55578947672016,
+        "longitude": 8.137298989453624,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Blåvandvej 33E, 6857 Blåvand, Danmark",
+        "latitude": 55.55578947672016,
+        "longitude": 8.137298989453624,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "42 Plantagevej, Tønder, 6270, DNK",
+        "latitude": 54.939814,
+        "longitude": 8.854401,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "42 Plantagevej, Tønder, 6270, DNK",
+        "latitude": 54.939814,
+        "longitude": 8.854401,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "42 Plantagevej, Tønder, 6270, DNK",
+        "latitude": 54.939814,
+        "longitude": 8.854401,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "42 Plantagevej, Tønder, 6270, DNK",
+        "latitude": 54.939814,
+        "longitude": 8.854401,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "42 Plantagevej, Tønder, 6270, DNK",
+        "latitude": 54.939814,
+        "longitude": 8.854401,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "42 Plantagevej, Tønder, 6270, DNK",
+        "latitude": 54.939814,
+        "longitude": 8.854401,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "42 Plantagevej, Tønder, 6270, DNK",
+        "latitude": 54.939814,
+        "longitude": 8.854401,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "42 Plantagevej, Tønder, 6270, DNK",
+        "latitude": 54.939814,
+        "longitude": 8.854401,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "42 Plantagevej, Tønder, 6270, DNK",
+        "latitude": 54.939814,
+        "longitude": 8.854401,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Strøget 1 Parkering",
+        "address": "Strøget 1, 8766 Nørre Snede, Denmark",
+        "latitude": 55.96455524099414,
+        "longitude": 9.393431291663001,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Tved (Coming Soon)",
+        "address": "Tved Bygade 48",
+        "latitude": 56.196909130615666,
+        "longitude": 10.433652680881863,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Tved (Coming Soon)",
+        "address": "Tved Bygade 48",
+        "latitude": 56.196909130615666,
+        "longitude": 10.433652680881863,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Starup",
+        "address": "Gl Grindstedvej 1, 7200 Grindsted, Denmark",
+        "latitude": 55.65267397323839,
+        "longitude": 8.81584890000001,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Starup",
+        "address": "Gl Grindstedvej 1, 7200 Grindsted, Denmark",
+        "latitude": 55.65267397323839,
+        "longitude": 8.81584890000001,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Q8 Viborg Hovedvej",
+        "address": "Viborg Hovedvej 80, Tørring, 7160, DNK",
+        "latitude": 55.845247,
+        "longitude": 9.487809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Godthåbsvej 1 Parkering",
+        "address": "Godthåbsvej 1, 8450 Hammel, Denmark",
+        "latitude": 56.255777,
+        "longitude": 9.868618,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Godthåbsvej 1 Parkering",
+        "address": "Godthåbsvej 1, 8450 Hammel, Denmark",
+        "latitude": 56.255777,
+        "longitude": 9.868618,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Godthåbsvej 1 Parkering",
+        "address": "Godthåbsvej 1, 8450 Hammel, Denmark",
+        "latitude": 56.255777,
+        "longitude": 9.868618,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Godthåbsvej 1 Parkering",
+        "address": "Godthåbsvej 1, 8450 Hammel, Denmark",
+        "latitude": 56.255777,
+        "longitude": 9.868618,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Godthåbsvej 1 Parkering",
+        "address": "Godthåbsvej 1, 8450 Hammel, Denmark",
+        "latitude": 56.255777,
+        "longitude": 9.868618,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Godthåbsvej 1 Parkering",
+        "address": "Godthåbsvej 1, 8450 Hammel, Denmark",
+        "latitude": 56.255777,
+        "longitude": 9.868618,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Clever Netto Gråsten (Coming Soon)",
+        "address": "Sundsnæs 7, 6300 Gråsten",
+        "latitude": 54.910587,
+        "longitude": 9.588266,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Fur Havn",
+        "address": "Stenøre 2, 7884 Fur, Denmark",
+        "latitude": 56.803733,
+        "longitude": 9.020154,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Fur Havn",
+        "address": "Stenøre 2, 7884 Fur, Denmark",
+        "latitude": 56.803733,
+        "longitude": 9.020154,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Fur Havn",
+        "address": "Stenøre 2, 7884 Fur, Denmark",
+        "latitude": 56.803733,
+        "longitude": 9.020154,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Fur Havn",
+        "address": "Stenøre 2, 7884 Fur, Denmark",
+        "latitude": 56.803733,
+        "longitude": 9.020154,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Fur Havn",
+        "address": "Stenøre 2, 7884 Fur, Denmark",
+        "latitude": 56.803733,
+        "longitude": 9.020154,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "OK Karup SuperBrugsen",
+        "address": "Bredgade",
+        "latitude": 56.306856499699634,
+        "longitude": 9.164272560316679,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Karup SuperBrugsen",
+        "address": "Bredgade",
+        "latitude": 56.306856499699634,
+        "longitude": 9.164272560316679,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Hobro",
+        "address": "Adelgade 14, 9500 Hobro, Denmark",
+        "latitude": 56.63954358711054,
+        "longitude": 9.79161209950354,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Hobro",
+        "address": "Adelgade 14, 9500 Hobro, Denmark",
+        "latitude": 56.63954358711054,
+        "longitude": 9.79161209950354,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "HOTEL Tambohus Inn",
+        "address": "Tambogade 37, 7790 Thyholm, Denmark",
+        "latitude": 56.635897,
+        "longitude": 8.593596,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Meny",
+        "address": "Vesterhavsgade 44, 7700 Thisted, Dänemark",
+        "latitude": 56.95020347413542,
+        "longitude": 8.374356105923653,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Bjerringbro",
+        "address": "Markedsgade 1, 8850 Bjerringbro, Denmark",
+        "latitude": 56.37534539209203,
+        "longitude": 9.653954231371227,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Bjerringbro",
+        "address": "Markedsgade 1, 8850 Bjerringbro, Denmark",
+        "latitude": 56.37534539209203,
+        "longitude": 9.653954231371227,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto - GrillStedet",
+        "address": "Ringkøbingvej 72, Spjeld, 6971 Spjald",
+        "latitude": 56.086262,
+        "longitude": 8.508692,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto - GrillStedet",
+        "address": "Ringkøbingvej 72, Spjeld, 6971 Spjald",
+        "latitude": 56.086262,
+        "longitude": 8.508692,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Balling",
+        "address": "Søndergade/Skivevej",
+        "latitude": 56.61305417053354,
+        "longitude": 8.880968260305595,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Balling",
+        "address": "Søndergade/Skivevej",
+        "latitude": 56.61305417053354,
+        "longitude": 8.880968260305595,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Roslev SuperBrugsen",
+        "address": "Klokkevej",
+        "latitude": 56.701594647419995,
+        "longitude": 8.989643613669655,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Roslev SuperBrugsen",
+        "address": "Klokkevej",
+        "latitude": 56.701594647419995,
+        "longitude": 8.989643613669655,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Shell Kibæk",
+        "address": "Østergade 38, 6933 Kibæk, Denmark",
+        "latitude": 56.03137585774882,
+        "longitude": 8.859262828396016,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Shell Kibæk",
+        "address": "Østergade 38, 6933 Kibæk, Denmark",
+        "latitude": 56.03137585774882,
+        "longitude": 8.859262828396016,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K (Coming Soon)",
+        "address": "Aalborgvej 29, 8620 Kjellerup, Danmark",
+        "latitude": 56.26554193262241,
+        "longitude": 9.313815815530191,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K (Coming Soon)",
+        "address": "Aalborgvej 29, 8620 Kjellerup, Danmark",
+        "latitude": 56.26554193262241,
+        "longitude": 9.313815815530191,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K (Coming Soon)",
+        "address": "Aalborgvej 29, 8620 Kjellerup, Danmark",
+        "latitude": 56.26554193262241,
+        "longitude": 9.313815815530191,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K (Coming Soon)",
+        "address": "Aalborgvej 29, 8620 Kjellerup, Danmark",
+        "latitude": 56.26554193262241,
+        "longitude": 9.313815815530191,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Dagli'Brugsen",
+        "address": "Skolebakken 40, 8586 Ørum, Danmark",
+        "latitude": 56.4394201440834,
+        "longitude": 10.686586238443851,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Dagli'Brugsen",
+        "address": "Skolebakken 40, 8586 Ørum, Danmark",
+        "latitude": 56.4394201440834,
+        "longitude": 10.686586238443851,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Brædstrup",
+        "address": "Søndergården 50, 8740 Brædstrup, Denmark",
+        "latitude": 55.96858234980829,
+        "longitude": 9.61036059745357,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Brædstrup",
+        "address": "Søndergården 50, 8740 Brædstrup, Denmark",
+        "latitude": 55.96858234980829,
+        "longitude": 9.61036059745357,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Søndergaard",
+        "address": "Amtoftvej 14B",
+        "latitude": 57.019779,
+        "longitude": 8.98541,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "OK SuperBrugsen Give",
+        "address": "Fredensgade 1, 7323 Give",
+        "latitude": 55.844268974133996,
+        "longitude": 9.233768041830272,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Give",
+        "address": "Fredensgade 1, 7323 Give",
+        "latitude": 55.844268974133996,
+        "longitude": 9.233768041830272,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Give",
+        "address": "Fredensgade 1, 7323 Give",
+        "latitude": 55.844268974133996,
+        "longitude": 9.233768041830272,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Give",
+        "address": "Fredensgade 1, 7323 Give",
+        "latitude": 55.844268974133996,
+        "longitude": 9.233768041830272,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Coop365 Arden",
+        "address": "Vestergade 15, 9510 Arden, Denmark",
+        "latitude": 56.7687907,
+        "longitude": 9.857678199999999,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Coop365 Arden",
+        "address": "Vestergade 15, 9510 Arden, Denmark",
+        "latitude": 56.7687907,
+        "longitude": 9.857678199999999,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Galleri TEX",
+        "address": "Strandkærvej 3, Lild Strand, 7741 Frøstrup ",
+        "latitude": 57.152275,
+        "longitude": 8.962033,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "OK Dagli’Brugsen Hou",
+        "address": "Brogade 23, 9370 Hals",
+        "latitude": 57.05659780237575,
+        "longitude": 10.370506864223708,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Dagli’Brugsen Hou",
+        "address": "Brogade 23, 9370 Hals",
+        "latitude": 57.05659780237575,
+        "longitude": 10.370506864223708,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nagbølvej 22 Bygning",
+        "address": "Nagbølvej 22, 6640 Lunderskov, Denmark",
+        "latitude": 55.457682,
+        "longitude": 9.276217,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Edeka",
+        "address": "Hafenstraße 2a, 25992 List, Germany",
+        "latitude": 55.0155952,
+        "longitude": 8.431418,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Edeka",
+        "address": "Hafenstraße 2a, 25992 List, Germany",
+        "latitude": 55.0155952,
+        "longitude": 8.431418,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Klitgård Camping",
+        "address": "Klitgårdsvej 3, 8305 Samsø, Dänemark",
+        "latitude": 55.974192,
+        "longitude": 10.561817,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK SuperBrugsen Løgumkloster",
+        "address": "Østergade 25, 6240 Løgumkloster, Denmark",
+        "latitude": 55.058785456531616,
+        "longitude": 8.956052952137377,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Løgumkloster",
+        "address": "Østergade 25, 6240 Løgumkloster, Denmark",
+        "latitude": 55.058785456531616,
+        "longitude": 8.956052952137377,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen",
+        "address": "Slotsgade 25, 9330 Dronninglund",
+        "latitude": 57.15951479191241,
+        "longitude": 10.286678160157635,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen",
+        "address": "Slotsgade 25, 9330 Dronninglund",
+        "latitude": 57.15951479191241,
+        "longitude": 10.286678160157635,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Agerbæk Hotel",
+        "address": "Storegade 7, 6753 Agerbæk, Denmark",
+        "latitude": 55.600119,
+        "longitude": 8.802662,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Circle K Frederikssundsvej",
+        "address": "Frederikssundsvej 225, 3650 Ølstykke",
+        "latitude": 55.779019,
+        "longitude": 12.17425,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Frederikssundsvej",
+        "address": "Frederikssundsvej 225, 3650 Ølstykke",
+        "latitude": 55.779019,
+        "longitude": 12.17425,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Circle K Frederikssundsvej",
+        "address": "Frederikssundsvej 225, 3650 Ølstykke",
+        "latitude": 55.779019,
+        "longitude": 12.17425,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Frederikssundsvej",
+        "address": "Frederikssundsvej 225, 3650 Ølstykke",
+        "latitude": 55.779019,
+        "longitude": 12.17425,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Frederikssundsvej",
+        "address": "Frederikssundsvej 225, 3650 Ølstykke",
+        "latitude": 55.779019,
+        "longitude": 12.17425,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Frederikssundsvej",
+        "address": "Frederikssundsvej 225, 3650 Ølstykke",
+        "latitude": 55.779019,
+        "longitude": 12.17425,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Sperto - Meny Søndervig",
+        "address": "Sletten 4, Søndervig, 6980, DNK",
+        "latitude": 56.11825311925643,
+        "longitude": 8.115556552624215,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sperto - Meny Søndervig",
+        "address": "Sletten 4, Søndervig, 6980, DNK",
+        "latitude": 56.11825311925643,
+        "longitude": 8.115556552624215,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sperto - Meny Søndervig",
+        "address": "Sletten 4, Søndervig, 6980, DNK",
+        "latitude": 56.11825311925643,
+        "longitude": 8.115556552624215,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sperto - Meny Søndervig",
+        "address": "Sletten 4, Søndervig, 6980, DNK",
+        "latitude": 56.11825311925643,
+        "longitude": 8.115556552624215,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sperto - Meny Søndervig",
+        "address": "Sletten 4, Søndervig, 6980, DNK",
+        "latitude": 56.11825311925643,
+        "longitude": 8.115556552624215,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sperto - Meny Søndervig",
+        "address": "Sletten 4, Søndervig, 6980, DNK",
+        "latitude": 56.11825311925643,
+        "longitude": 8.115556552624215,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sperto - Meny Søndervig",
+        "address": "Sletten 4, Søndervig, 6980, DNK",
+        "latitude": 56.11825311925643,
+        "longitude": 8.115556552624215,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto - Meny Søndervig",
+        "address": "Sletten 4, Søndervig, 6980, DNK",
+        "latitude": 56.11825311925643,
+        "longitude": 8.115556552624215,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Clever - Netto Skærbæk",
+        "address": "Jernbanegade 1, 6780 Skærbæk",
+        "latitude": 55.158762,
+        "longitude": 8.769459,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Hou",
+        "address": "Østergade 80, 5953 Tranekær, Denmark",
+        "latitude": 55.1333856221521,
+        "longitude": 10.920046407718369,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Hou",
+        "address": "Østergade 80, 5953 Tranekær, Denmark",
+        "latitude": 55.1333856221521,
+        "longitude": 10.920046407718369,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "NBE Production A/S",
+        "address": "Brinken 10, Øster Vrå, Denmark",
+        "latitude": 57.340694,
+        "longitude": 10.224752,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "NBE Production A/S",
+        "address": "Brinken 10, Øster Vrå, Denmark",
+        "latitude": 57.340694,
+        "longitude": 10.224752,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Borgergade, Skjern, 6900, DNK",
+        "latitude": 55.958635,
+        "longitude": 8.644923,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Borgergade, Skjern, 6900, DNK",
+        "latitude": 55.958635,
+        "longitude": 8.644923,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Borgergade, Skjern, 6900, DNK",
+        "latitude": 55.958635,
+        "longitude": 8.644923,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Borgergade, Skjern, 6900, DNK",
+        "latitude": 55.958635,
+        "longitude": 8.644923,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Mormorladestik",
+        "address": "Strandvej 42, 8970 Havndal, Danmark",
+        "latitude": 56.620849,
+        "longitude": 10.324632,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Mormorladestik",
+        "address": "Strandvej 42, 8970 Havndal, Danmark",
+        "latitude": 56.620849,
+        "longitude": 10.324632,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "K Aggerholm",
+        "address": "Amtsvejen 20, 7860 Spøttrup, Denmark",
+        "latitude": 56.60000821447694,
+        "longitude": 8.756133860118878,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Brugsen Hou Odder",
+        "address": "Søndergade 3, 8300 Odder, Denmark",
+        "latitude": 55.91259211917961,
+        "longitude": 10.25398341476593,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Brugsen Hou Odder",
+        "address": "Søndergade 3, 8300 Odder, Denmark",
+        "latitude": 55.91259211917961,
+        "longitude": 10.25398341476593,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader",
+        "address": "Østergade 2, 8860 Ulstrup",
+        "latitude": 56.391605224879804,
+        "longitude": 9.794804624606316,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader",
+        "address": "Østergade 2, 8860 Ulstrup",
+        "latitude": 56.391605224879804,
+        "longitude": 9.794804624606316,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "EWII Lynlader",
+        "address": "Østergade 2, 8860 Ulstrup",
+        "latitude": 56.391605224879804,
+        "longitude": 9.794804624606316,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader",
+        "address": "Østergade 2, 8860 Ulstrup",
+        "latitude": 56.391605224879804,
+        "longitude": 9.794804624606316,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader",
+        "address": "Østergade 2, 8860 Ulstrup",
+        "latitude": 56.391605224879804,
+        "longitude": 9.794804624606316,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "EWII Lynlader",
+        "address": "Østergade 2, 8860 Ulstrup",
+        "latitude": 56.391605224879804,
+        "longitude": 9.794804624606316,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader",
+        "address": "Østergade 2, 8860 Ulstrup",
+        "latitude": 56.391605224879804,
+        "longitude": 9.794804624606316,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader",
+        "address": "Østergade 2, 8860 Ulstrup",
+        "latitude": 56.391605224879804,
+        "longitude": 9.794804624606316,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Spirii",
+        "address": "15 Lejrevej, Lejre, 4320, DNK",
+        "latitude": 55.599956,
+        "longitude": 11.967766,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Spirii",
+        "address": "15 Lejrevej, Lejre, 4320, DNK",
+        "latitude": 55.599956,
+        "longitude": 11.967766,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Fjerritslev",
+        "address": "Østergade 23, 9690 Fjerritslev",
+        "latitude": 57.08902267084744,
+        "longitude": 9.269171735141793,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK SuperBrugsen Fjerritslev",
+        "address": "Østergade 23, 9690 Fjerritslev",
+        "latitude": 57.08902267084744,
+        "longitude": 9.269171735141793,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK SuperBrugsen Fjerritslev",
+        "address": "Østergade 23, 9690 Fjerritslev",
+        "latitude": 57.08902267084744,
+        "longitude": 9.269171735141793,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Fjerritslev",
+        "address": "Østergade 23, 9690 Fjerritslev",
+        "latitude": 57.08902267084744,
+        "longitude": 9.269171735141793,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Auning SuperBrugsen",
+        "address": "Centervej",
+        "latitude": 56.431777625592645,
+        "longitude": 10.373406024985922,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Auning SuperBrugsen",
+        "address": "Centervej",
+        "latitude": 56.431777625592645,
+        "longitude": 10.373406024985922,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Askø Mejeri",
+        "address": "Østerhovedvej 3, 4942 Askø og Lilleø",
+        "latitude": 54.897825,
+        "longitude": 11.494416,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Askø Mejeri",
+        "address": "Østerhovedvej 3, 4942 Askø og Lilleø",
+        "latitude": 54.897825,
+        "longitude": 11.494416,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK DagliBrugsen Fjellerup",
+        "address": "Strandvejen 8 Fjellerup, 8585 Glesborg, Denmark",
+        "latitude": 56.506431733824655,
+        "longitude": 10.588732415034169,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Fjellerup",
+        "address": "Strandvejen 8 Fjellerup, 8585 Glesborg, Denmark",
+        "latitude": 56.506431733824655,
+        "longitude": 10.588732415034169,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "DSI Feldborg Hallen",
+        "address": "Tusbækvej 9, 7540 Haderup, Denmark",
+        "latitude": 56.32976,
+        "longitude": 8.926765,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "DSI Feldborg Hallen",
+        "address": "Tusbækvej 9, 7540 Haderup, Denmark",
+        "latitude": 56.32976,
+        "longitude": 8.926765,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "DSI Feldborg Hallen",
+        "address": "Tusbækvej 9, 7540 Haderup, Denmark",
+        "latitude": 56.32976,
+        "longitude": 8.926765,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "DSI Feldborg Hallen",
+        "address": "Tusbækvej 9, 7540 Haderup, Denmark",
+        "latitude": 56.32976,
+        "longitude": 8.926765,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "DSI Feldborg Hallen",
+        "address": "Tusbækvej 9, 7540 Haderup, Denmark",
+        "latitude": 56.32976,
+        "longitude": 8.926765,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "DSI Feldborg Hallen",
+        "address": "Tusbækvej 9, 7540 Haderup, Denmark",
+        "latitude": 56.32976,
+        "longitude": 8.926765,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "DSI Feldborg Hallen",
+        "address": "Tusbækvej 9, 7540 Haderup, Denmark",
+        "latitude": 56.32976,
+        "longitude": 8.926765,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "DSI Feldborg Hallen",
+        "address": "Tusbækvej 9, 7540 Haderup, Denmark",
+        "latitude": 56.32976,
+        "longitude": 8.926765,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Havvej 6, 6990 Ulfborg, Danmark",
+        "latitude": 56.2572685,
+        "longitude": 8.1384313,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Havvej 6, 6990 Ulfborg, Danmark",
+        "latitude": 56.2572685,
+        "longitude": 8.1384313,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "has.to.be gmbh",
+        "address": "Lohals Havn, Tranekær, 5953, DNK",
+        "latitude": 55.135039,
+        "longitude": 10.902367,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "has.to.be gmbh",
+        "address": "Lohals Havn, Tranekær, 5953, DNK",
+        "latitude": 55.135039,
+        "longitude": 10.902367,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Bilka Holstebro",
+        "address": "20 Nyholmvej, Holstebro, 7500, DNK",
+        "latitude": 56.376917,
+        "longitude": 8.621136,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Bilka Holstebro",
+        "address": "20 Nyholmvej, Holstebro, 7500, DNK",
+        "latitude": 56.376917,
+        "longitude": 8.621136,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Bilka Holstebro",
+        "address": "20 Nyholmvej, Holstebro, 7500, DNK",
+        "latitude": 56.376917,
+        "longitude": 8.621136,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Bilka Holstebro",
+        "address": "20 Nyholmvej, Holstebro, 7500, DNK",
+        "latitude": 56.376917,
+        "longitude": 8.621136,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Bilka Holstebro",
+        "address": "20 Nyholmvej, Holstebro, 7500, DNK",
+        "latitude": 56.376917,
+        "longitude": 8.621136,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Daglig'Brugsen, Hammershøj",
+        "address": "Gartnerbakken 4, 8830 Tjele, Danmark",
+        "latitude": 56.49931716918945,
+        "longitude": 9.74905776977539,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Daglig'Brugsen, Hammershøj",
+        "address": "Gartnerbakken 4, 8830 Tjele, Danmark",
+        "latitude": 56.49931716918945,
+        "longitude": 9.74905776977539,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sjögärde Golfklubb",
+        "address": "Sjögärdevägen, 439 63 Kungsbacka, Sweden",
+        "latitude": 57.354014,
+        "longitude": 12.251024,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Gørdinglund Herregård",
+        "address": "Hessellundvej 5, 6690 Gørding, Danmark",
+        "latitude": 55.482651,
+        "longitude": 8.790442,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Gørdinglund Herregård",
+        "address": "Hessellundvej 5, 6690 Gørding, Danmark",
+        "latitude": 55.482651,
+        "longitude": 8.790442,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Fyrgården ",
+        "address": "Tangvejen 1, 4540 Fårevejle, Denmark",
+        "latitude": 55.831336,
+        "longitude": 11.411195,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Fyrgården ",
+        "address": "Tangvejen 1, 4540 Fårevejle, Denmark",
+        "latitude": 55.831336,
+        "longitude": 11.411195,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Fyrgården ",
+        "address": "Tangvejen 1, 4540 Fårevejle, Denmark",
+        "latitude": 55.831336,
+        "longitude": 11.411195,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Fyrgården ",
+        "address": "Tangvejen 1, 4540 Fårevejle, Denmark",
+        "latitude": 55.831336,
+        "longitude": 11.411195,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Hotel Skarrildhus",
+        "address": "4 Sdr. Ommevej, Kibæk, 6933, DNK",
+        "latitude": 55.950271,
+        "longitude": 8.880205,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Hotel Skarrildhus",
+        "address": "4 Sdr. Ommevej, Kibæk, 6933, DNK",
+        "latitude": 55.950271,
+        "longitude": 8.880205,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hotel Skarrildhus",
+        "address": "4 Sdr. Ommevej, Kibæk, 6933, DNK",
+        "latitude": 55.950271,
+        "longitude": 8.880205,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hotel Skarrildhus",
+        "address": "4 Sdr. Ommevej, Kibæk, 6933, DNK",
+        "latitude": 55.950271,
+        "longitude": 8.880205,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hotel Skarrildhus",
+        "address": "4 Sdr. Ommevej, Kibæk, 6933, DNK",
+        "latitude": 55.950271,
+        "longitude": 8.880205,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Shell",
+        "address": "Vesteralle 3 Laurbjerg, 8870 Langå, Denmark",
+        "latitude": 56.359270229365364,
+        "longitude": 9.911525063140212,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Shell",
+        "address": "Vesteralle 3 Laurbjerg, 8870 Langå, Denmark",
+        "latitude": 56.359270229365364,
+        "longitude": 9.911525063140212,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Toosbuys Torv",
+        "address": "Storegade 5, 6261 Bredebro, Denmark",
+        "latitude": 55.058999,
+        "longitude": 8.824501,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Toosbuys Torv",
+        "address": "Storegade 5, 6261 Bredebro, Denmark",
+        "latitude": 55.058999,
+        "longitude": 8.824501,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Toosbuys Torv",
+        "address": "Storegade 5, 6261 Bredebro, Denmark",
+        "latitude": 55.058999,
+        "longitude": 8.824501,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Toosbuys Torv",
+        "address": "Storegade 5, 6261 Bredebro, Denmark",
+        "latitude": 55.058999,
+        "longitude": 8.824501,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Føtex Haderslev",
+        "address": "12 Bredgade, Haderslev, 6100, DNK",
+        "latitude": 55.255624,
+        "longitude": 9.48195,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Føtex Haderslev",
+        "address": "12 Bredgade, Haderslev, 6100, DNK",
+        "latitude": 55.255624,
+        "longitude": 9.48195,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Føtex Haderslev",
+        "address": "12 Bredgade, Haderslev, 6100, DNK",
+        "latitude": 55.255624,
+        "longitude": 9.48195,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Føtex Haderslev",
+        "address": "12 Bredgade, Haderslev, 6100, DNK",
+        "latitude": 55.255624,
+        "longitude": 9.48195,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Føtex Haderslev",
+        "address": "12 Bredgade, Haderslev, 6100, DNK",
+        "latitude": 55.255624,
+        "longitude": 9.48195,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Føtex Haderslev",
+        "address": "12 Bredgade, Haderslev, 6100, DNK",
+        "latitude": 55.255624,
+        "longitude": 9.48195,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Føtex Haderslev",
+        "address": "12 Bredgade, Haderslev, 6100, DNK",
+        "latitude": 55.255624,
+        "longitude": 9.48195,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Føtex Haderslev",
+        "address": "12 Bredgade, Haderslev, 6100, DNK",
+        "latitude": 55.255624,
+        "longitude": 9.48195,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Føtex Haderslev",
+        "address": "12 Bredgade, Haderslev, 6100, DNK",
+        "latitude": 55.255624,
+        "longitude": 9.48195,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "SP gæstelader",
+        "address": "Pilevænget 18, 4720 Præstø, Danmark",
+        "latitude": 55.094559,
+        "longitude": 12.16346,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Bredebro",
+        "address": "Hovedvejen 8, 6261 Bredebro, Denmark",
+        "latitude": 55.049942376868415,
+        "longitude": 8.829940362298435,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Bredebro",
+        "address": "Hovedvejen 8, 6261 Bredebro, Denmark",
+        "latitude": 55.049942376868415,
+        "longitude": 8.829940362298435,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Lille Restrup Hovedgård",
+        "address": "Ll Restrupvej 71, 9620 Aalestrup, Denmark",
+        "latitude": 56.689559,
+        "longitude": 9.512165,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Lille Restrup Hovedgård",
+        "address": "Ll Restrupvej 71, 9620 Aalestrup, Denmark",
+        "latitude": 56.689559,
+        "longitude": 9.512165,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Lille Restrup Hovedgård",
+        "address": "Ll Restrupvej 71, 9620 Aalestrup, Denmark",
+        "latitude": 56.689559,
+        "longitude": 9.512165,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK SuperBrugsen Nørre Nebel",
+        "address": "Bredgade 45, 6830 Nørre Nebel",
+        "latitude": 55.77976009120832,
+        "longitude": 8.290127236626613,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Nørre Nebel",
+        "address": "Bredgade 45, 6830 Nørre Nebel",
+        "latitude": 55.77976009120832,
+        "longitude": 8.290127236626613,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Hotel & Restaurant Fru Larsen",
+        "address": "Østergade 1, 8870 Langaa, Denmark",
+        "latitude": 56.358673,
+        "longitude": 9.913738,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "OK SuperBrugsen Hornslet",
+        "address": "Toftevej 11, 8543 Hornslet, Denmark",
+        "latitude": 56.314424008771226,
+        "longitude": 10.319998753800427,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Hornslet",
+        "address": "Toftevej 11, 8543 Hornslet, Denmark",
+        "latitude": 56.314424008771226,
+        "longitude": 10.319998753800427,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Danland Ho",
+        "address": "Hovej 4A, 6857‎ Blåvand, Danmark",
+        "latitude": 55.549915,
+        "longitude": 8.228713,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Karup Lufthavn",
+        "address": "N. O. Hansens Vej 4, 7470 Karup,Denmark",
+        "latitude": 56.310555,
+        "longitude": 9.121793,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Karup Lufthavn",
+        "address": "N. O. Hansens Vej 4, 7470 Karup,Denmark",
+        "latitude": 56.310555,
+        "longitude": 9.121793,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Karup Lufthavn",
+        "address": "N. O. Hansens Vej 4, 7470 Karup,Denmark",
+        "latitude": 56.310555,
+        "longitude": 9.121793,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Karup Lufthavn",
+        "address": "N. O. Hansens Vej 4, 7470 Karup,Denmark",
+        "latitude": 56.310555,
+        "longitude": 9.121793,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Karup Lufthavn",
+        "address": "N. O. Hansens Vej 4, 7470 Karup,Denmark",
+        "latitude": 56.310555,
+        "longitude": 9.121793,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Karup Lufthavn",
+        "address": "N. O. Hansens Vej 4, 7470 Karup,Denmark",
+        "latitude": 56.310555,
+        "longitude": 9.121793,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Netto Smidstrup (Coming Soon)",
+        "address": "Smidstrup Strandvej 49, 3250 Gilleleje",
+        "latitude": 56.11671,
+        "longitude": 12.240021,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Netto Smidstrup (Coming Soon)",
+        "address": "Smidstrup Strandvej 49, 3250 Gilleleje",
+        "latitude": 56.11671,
+        "longitude": 12.240021,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "UFC Aarhus Airport (Coming Soon)",
+        "address": "Ny Lufthavnsvej 24, 8560 Kolind",
+        "latitude": 56.309555,
+        "longitude": 10.626905,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "UFC Aarhus Airport (Coming Soon)",
+        "address": "Ny Lufthavnsvej 24, 8560 Kolind",
+        "latitude": 56.309555,
+        "longitude": 10.626905,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Kragerup Gods",
+        "address": "Kragerupgårdsvej 33, 4291 Ruds-Vedby, Denmark",
+        "latitude": 55.510477,
+        "longitude": 11.380444,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Kragerup Gods",
+        "address": "Kragerupgårdsvej 33, 4291 Ruds-Vedby, Denmark",
+        "latitude": 55.510477,
+        "longitude": 11.380444,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Kragerup Gods",
+        "address": "Kragerupgårdsvej 33, 4291 Ruds-Vedby, Denmark",
+        "latitude": 55.510477,
+        "longitude": 11.380444,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Kragerup Gods",
+        "address": "Kragerupgårdsvej 33, 4291 Ruds-Vedby, Denmark",
+        "latitude": 55.510477,
+        "longitude": 11.380444,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "hjem",
+        "address": "Amtsvejen 9A, 7200 Grindsted, Denmark",
+        "latitude": 55.812694,
+        "longitude": 9.029625,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Marskhallen",
+        "address": "Halvej 1, 6280 Højer, Denmark",
+        "latitude": 54.967216,
+        "longitude": 8.691189,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Marskhallen",
+        "address": "Halvej 1, 6280 Højer, Denmark",
+        "latitude": 54.967216,
+        "longitude": 8.691189,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Brugsen Rømø",
+        "address": "Nordre Havnevej 2, 6792 Rømø, Denmark",
+        "latitude": 55.087516322508456,
+        "longitude": 8.560711111438557,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Brugsen Rømø",
+        "address": "Nordre Havnevej 2, 6792 Rømø, Denmark",
+        "latitude": 55.087516322508456,
+        "longitude": 8.560711111438557,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "hotel ballumhus",
+        "address": "Byvej 68, 6261 Bredebro, Danmark",
+        "latitude": 55.075785,
+        "longitude": 8.673392,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "hotel ballumhus",
+        "address": "Byvej 68, 6261 Bredebro, Danmark",
+        "latitude": 55.075785,
+        "longitude": 8.673392,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "hotel ballumhus",
+        "address": "Byvej 68, 6261 Bredebro, Danmark",
+        "latitude": 55.075785,
+        "longitude": 8.673392,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "OK SuperBrugsen Galten",
+        "address": "Søndergade 47, 8464 Galten",
+        "latitude": 56.15024227133679,
+        "longitude": 9.902340858898649,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Galten",
+        "address": "Søndergade 47, 8464 Galten",
+        "latitude": 56.15024227133679,
+        "longitude": 9.902340858898649,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Ribevej Varde",
+        "address": "Ribevej 27B, 6800 Varde, Denmark",
+        "latitude": 55.61057,
+        "longitude": 8.493984,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Ribevej Varde",
+        "address": "Ribevej 27B, 6800 Varde, Denmark",
+        "latitude": 55.61057,
+        "longitude": 8.493984,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Ribevej Varde",
+        "address": "Ribevej 27B, 6800 Varde, Denmark",
+        "latitude": 55.61057,
+        "longitude": 8.493984,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Circle K Ribevej Varde",
+        "address": "Ribevej 27B, 6800 Varde, Denmark",
+        "latitude": 55.61057,
+        "longitude": 8.493984,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Circle K Ribevej Varde",
+        "address": "Ribevej 27B, 6800 Varde, Denmark",
+        "latitude": 55.61057,
+        "longitude": 8.493984,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Ribevej Varde",
+        "address": "Ribevej 27B, 6800 Varde, Denmark",
+        "latitude": 55.61057,
+        "longitude": 8.493984,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "27 Tønder Landevej, Løgumkloster, 6240, DNK",
+        "latitude": 55.051662,
+        "longitude": 8.945445,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Bromølle Kro",
+        "address": "Slagelsevej 78, 4450 Jyderup",
+        "latitude": 55.612888,
+        "longitude": 11.386432,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Bromølle Kro",
+        "address": "Slagelsevej 78, 4450 Jyderup",
+        "latitude": 55.612888,
+        "longitude": 11.386432,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "59 Ribe-Vejle Landevej, Bække, 6622, DNK",
+        "latitude": 55.595334,
+        "longitude": 9.168868,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "SPERTO 150 kW - Rudkøbing",
+        "address": "Spodsbjergvej 234, Rudkøbing, 5900, DNK",
+        "latitude": 54.933292,
+        "longitude": 10.830918,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "SPERTO 150 kW - Rudkøbing",
+        "address": "Spodsbjergvej 234, Rudkøbing, 5900, DNK",
+        "latitude": 54.933292,
+        "longitude": 10.830918,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "SPERTO 150 kW - Rudkøbing",
+        "address": "Spodsbjergvej 234, Rudkøbing, 5900, DNK",
+        "latitude": 54.933292,
+        "longitude": 10.830918,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto - Emmerbølle Strand Camping",
+        "address": "Emmerbøllevej 24, 5953 Tranekær, Denmark",
+        "latitude": 55.033066,
+        "longitude": 10.849287,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto - Emmerbølle Strand Camping",
+        "address": "Emmerbøllevej 24, 5953 Tranekær, Denmark",
+        "latitude": 55.033066,
+        "longitude": 10.849287,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Ørbæk",
+        "address": "Hovedgaden 21, 5852 Ørbæk",
+        "latitude": 55.25549861637105,
+        "longitude": 10.671678955061099,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Gudbjerg",
+        "address": "Teglværksvej 3, 5892 Gudbjerg Sydfyn, Denmark",
+        "latitude": 55.15465680452591,
+        "longitude": 10.67337850778504,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Gudbjerg",
+        "address": "Teglværksvej 3, 5892 Gudbjerg Sydfyn, Denmark",
+        "latitude": 55.15465680452591,
+        "longitude": 10.67337850778504,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "SGRE",
+        "address": "Borupvej 16",
+        "latitude": 55.955983,
+        "longitude": 9.121408,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "SGRE",
+        "address": "Borupvej 16",
+        "latitude": 55.955983,
+        "longitude": 9.121408,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "SGRE",
+        "address": "Borupvej 16",
+        "latitude": 55.955983,
+        "longitude": 9.121408,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "SGRE",
+        "address": "Borupvej 16",
+        "latitude": 55.955983,
+        "longitude": 9.121408,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "326 Præstbrovej, Erslev, 7950, DNK",
+        "latitude": 56.836996,
+        "longitude": 8.716373,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Circle K",
+        "address": "Hillerødvej 103, 3300 Frederiksværk, Danmark",
+        "latitude": 55.94670949950871,
+        "longitude": 12.047841511666775,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K",
+        "address": "Hillerødvej 103, 3300 Frederiksværk, Danmark",
+        "latitude": 55.94670949950871,
+        "longitude": 12.047841511666775,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K",
+        "address": "Hillerødvej 103, 3300 Frederiksværk, Danmark",
+        "latitude": 55.94670949950871,
+        "longitude": 12.047841511666775,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Circle K",
+        "address": "Hillerødvej 103, 3300 Frederiksværk, Danmark",
+        "latitude": 55.94670949950871,
+        "longitude": 12.047841511666775,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K",
+        "address": "Hillerødvej 103, 3300 Frederiksværk, Danmark",
+        "latitude": 55.94670949950871,
+        "longitude": 12.047841511666775,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K",
+        "address": "Hillerødvej 103, 3300 Frederiksværk, Danmark",
+        "latitude": 55.94670949950871,
+        "longitude": 12.047841511666775,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Monta (Coming Soon)",
+        "address": "Sønderho Kro",
+        "latitude": 55.347888,
+        "longitude": 8.472167,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Reno Djurs I/S",
+        "address": "Nymandsvej 11, 8444 Balle, Denmark",
+        "latitude": 56.30141341677355,
+        "longitude": 10.83447020263991,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Reno Djurs I/S",
+        "address": "Nymandsvej 11, 8444 Balle, Denmark",
+        "latitude": 56.30141341677355,
+        "longitude": 10.83447020263991,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ved Asaa Skilte",
+        "address": "Havnegade 30, 9340 Asaa",
+        "latitude": 57.14683370063121,
+        "longitude": 10.410147219408005,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sperto - Dagli'Brugsen, Gl. Rye",
+        "address": "Ryesgade 28, Ry, 8680, DNK",
+        "latitude": 56.075366,
+        "longitude": 9.69809,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Sjørup",
+        "address": "Skovvænget 2A, Sjørup, 8800 Viborg",
+        "latitude": 56.426579158632364,
+        "longitude": 9.08413802146078,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Sjørup",
+        "address": "Skovvænget 2A, Sjørup, 8800 Viborg",
+        "latitude": 56.426579158632364,
+        "longitude": 9.08413802146078,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "PowerGo",
+        "address": "Tjørnevej 7, 7540 Haderup, Denmark",
+        "latitude": 56.38745679930448,
+        "longitude": 8.994268599951726,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "PowerGo",
+        "address": "Tjørnevej 7, 7540 Haderup, Denmark",
+        "latitude": 56.38745679930448,
+        "longitude": 8.994268599951726,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "PowerGo",
+        "address": "Tjørnevej 7, 7540 Haderup, Denmark",
+        "latitude": 56.38745679930448,
+        "longitude": 8.994268599951726,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "PowerGo",
+        "address": "Tjørnevej 7, 7540 Haderup, Denmark",
+        "latitude": 56.38745679930448,
+        "longitude": 8.994268599951726,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "PowerGo",
+        "address": "Tjørnevej 7, 7540 Haderup, Denmark",
+        "latitude": 56.38745679930448,
+        "longitude": 8.994268599951726,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "PowerGo",
+        "address": "Tjørnevej 7, 7540 Haderup, Denmark",
+        "latitude": 56.38745679930448,
+        "longitude": 8.994268599951726,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "PowerGo",
+        "address": "Tjørnevej 7, 7540 Haderup, Denmark",
+        "latitude": 56.38745679930448,
+        "longitude": 8.994268599951726,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "PowerGo",
+        "address": "Tjørnevej 7, 7540 Haderup, Denmark",
+        "latitude": 56.38745679930448,
+        "longitude": 8.994268599951726,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Sandersvig Camping",
+        "address": "Espagervej 15, 6100 Haderslev",
+        "latitude": 55.33432,
+        "longitude": 9.631158,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Sandersvig Camping",
+        "address": "Espagervej 15, 6100 Haderslev",
+        "latitude": 55.33432,
+        "longitude": 9.631158,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Sandersvig Camping",
+        "address": "Espagervej 15, 6100 Haderslev",
+        "latitude": 55.33432,
+        "longitude": 9.631158,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Sandersvig Camping",
+        "address": "Espagervej 15, 6100 Haderslev",
+        "latitude": 55.33432,
+        "longitude": 9.631158,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lars’ ladestander",
+        "address": "tingløkken 8, 5580 Nr. Åby",
+        "latitude": 55.458753,
+        "longitude": 9.886574,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Spirii",
+        "address": "38 Skellerupsvej, Silkeborg, 8600, DNK",
+        "latitude": 56.177679,
+        "longitude": 9.660591,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Hotel Munkebo Kro",
+        "address": "Fjordvej 56, 5330 Munkebo, Denmark",
+        "latitude": 55.456505,
+        "longitude": 10.556839,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Spirii Kirke Hyllinge",
+        "address": "45 Bygaden, Kirke Hyllinge, 4070, DNK",
+        "latitude": 55.708399,
+        "longitude": 11.900309,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Spirii Kirke Hyllinge",
+        "address": "45 Bygaden, Kirke Hyllinge, 4070, DNK",
+        "latitude": 55.708399,
+        "longitude": 11.900309,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "VBI charge (Zapp)",
+        "address": "Kongensgade 42, 6070 Christiansfeld, Denmark",
+        "latitude": 55.36058148704302,
+        "longitude": 9.48360264750339,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "VBI charge (Zapp)",
+        "address": "Kongensgade 42, 6070 Christiansfeld, Denmark",
+        "latitude": 55.36058148704302,
+        "longitude": 9.48360264750339,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "VBI charge (Zapp)",
+        "address": "Kongensgade 42, 6070 Christiansfeld, Denmark",
+        "latitude": 55.36058148704302,
+        "longitude": 9.48360264750339,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Haslev",
+        "address": "Lysholm Alle 5, 4690 Haslev, Denmark",
+        "latitude": 55.32866591192684,
+        "longitude": 11.956930116984354,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Haslev",
+        "address": "Lysholm Alle 5, 4690 Haslev, Denmark",
+        "latitude": 55.32866591192684,
+        "longitude": 11.956930116984354,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Vilsund",
+        "address": "Vilsundvej 19, 7700 Thisted, Denmark",
+        "latitude": 56.88275361546185,
+        "longitude": 8.62617888508071,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Vilsund",
+        "address": "Vilsundvej 19, 7700 Thisted, Denmark",
+        "latitude": 56.88275361546185,
+        "longitude": 8.62617888508071,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Norlys - Trafikcenter Sæby Syd",
+        "address": "Trafikcenter Sæby Syd 4, 9300 Sæby, Danmark",
+        "latitude": 57.31405135128647,
+        "longitude": 10.451683066785336,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Norlys - Trafikcenter Sæby Syd",
+        "address": "Trafikcenter Sæby Syd 4, 9300 Sæby, Danmark",
+        "latitude": 57.31405135128647,
+        "longitude": 10.451683066785336,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Norlys - Trafikcenter Sæby Syd",
+        "address": "Trafikcenter Sæby Syd 4, 9300 Sæby, Danmark",
+        "latitude": 57.31405135128647,
+        "longitude": 10.451683066785336,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Norlys - Trafikcenter Sæby Syd",
+        "address": "Trafikcenter Sæby Syd 4, 9300 Sæby, Danmark",
+        "latitude": 57.31405135128647,
+        "longitude": 10.451683066785336,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Ejerslev Havn",
+        "address": "Utkærvej 11, 7900‎ Nykøbing M, Danmark",
+        "latitude": 56.917631,
+        "longitude": 8.921629,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Dagli' Brugsen Arrild",
+        "address": "Arrild Ferieby 1, 6520 Arrild, Denmark",
+        "latitude": 55.155001,
+        "longitude": 8.960083,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Dagli' Brugsen Arrild",
+        "address": "Arrild Ferieby 1, 6520 Arrild, Denmark",
+        "latitude": 55.155001,
+        "longitude": 8.960083,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Dagli' Brugsen Arrild",
+        "address": "Arrild Ferieby 1, 6520 Arrild, Denmark",
+        "latitude": 55.155001,
+        "longitude": 8.960083,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Dagli' Brugsen Arrild",
+        "address": "Arrild Ferieby 1, 6520 Arrild, Denmark",
+        "latitude": 55.155001,
+        "longitude": 8.960083,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Dagli' Brugsen Arrild",
+        "address": "Arrild Ferieby 1, 6520 Arrild, Denmark",
+        "latitude": 55.155001,
+        "longitude": 8.960083,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Dagli' Brugsen Arrild",
+        "address": "Arrild Ferieby 1, 6520 Arrild, Denmark",
+        "latitude": 55.155001,
+        "longitude": 8.960083,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Shell Recharge Saltum (Coming Soon)",
+        "address": "Tinghøjgade 44, 9493 Saltum",
+        "latitude": 57.27595872688241,
+        "longitude": 9.699191340620601,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Shell Recharge Saltum (Coming Soon)",
+        "address": "Tinghøjgade 44, 9493 Saltum",
+        "latitude": 57.27595872688241,
+        "longitude": 9.699191340620601,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Clever Mogenstrup",
+        "address": "Lovvej 1A. Mogenstrup ",
+        "latitude": 55.18365104720932,
+        "longitude": 11.86436878098031,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Clever Mogenstrup",
+        "address": "Lovvej 1A. Mogenstrup ",
+        "latitude": 55.18365104720932,
+        "longitude": 11.86436878098031,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Clever Mogenstrup",
+        "address": "Lovvej 1A. Mogenstrup ",
+        "latitude": 55.18365104720932,
+        "longitude": 11.86436878098031,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Clever Mogenstrup",
+        "address": "Lovvej 1A. Mogenstrup ",
+        "latitude": 55.18365104720932,
+        "longitude": 11.86436878098031,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Dagli Brugsen Hemmet",
+        "address": "Tarmvej 87A, 6893 Hemmet",
+        "latitude": 55.85177389408802,
+        "longitude": 8.374108852862935,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Dagli Brugsen Hemmet",
+        "address": "Tarmvej 87A, 6893 Hemmet",
+        "latitude": 55.85177389408802,
+        "longitude": 8.374108852862935,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Karise",
+        "address": "Syrenvænget 20, 4653 Karise",
+        "latitude": 55.30335213052563,
+        "longitude": 12.199208356261082,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Karise",
+        "address": "Syrenvænget 20, 4653 Karise",
+        "latitude": 55.30335213052563,
+        "longitude": 12.199208356261082,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Spar Gandrup EV-Box",
+        "address": "Borgergade 84",
+        "latitude": 57.06174475092855,
+        "longitude": 10.182117894310032,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Spar Gandrup EV-Box",
+        "address": "Borgergade 84",
+        "latitude": 57.06174475092855,
+        "longitude": 10.182117894310032,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "1 Grynderupvejen, Nørager, 9610, DNK",
+        "latitude": 56.702247,
+        "longitude": 9.645619,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "1 Grynderupvejen, Nørager, 9610, DNK",
+        "latitude": 56.702247,
+        "longitude": 9.645619,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "6 Okholmvej, Ribe, 6760, DNK",
+        "latitude": 55.295904,
+        "longitude": 8.669141,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "6 Okholmvej, Ribe, 6760, DNK",
+        "latitude": 55.295904,
+        "longitude": 8.669141,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "6 Okholmvej, Ribe, 6760, DNK",
+        "latitude": 55.295904,
+        "longitude": 8.669141,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "6 Okholmvej, Ribe, 6760, DNK",
+        "latitude": 55.295904,
+        "longitude": 8.669141,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "6 Okholmvej, Ribe, 6760, DNK",
+        "latitude": 55.295904,
+        "longitude": 8.669141,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Spirii",
+        "address": "6 Okholmvej, Ribe, 6760, DNK",
+        "latitude": 55.295904,
+        "longitude": 8.669141,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Haderup Skole",
+        "address": "Skolevænget 1, 7540 Haderup, Denmark",
+        "latitude": 56.388566,
+        "longitude": 8.99786,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Haderup Skole",
+        "address": "Skolevænget 1, 7540 Haderup, Denmark",
+        "latitude": 56.388566,
+        "longitude": 8.99786,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Haderup Skole",
+        "address": "Skolevænget 1, 7540 Haderup, Denmark",
+        "latitude": 56.388566,
+        "longitude": 8.99786,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Haderup Skole",
+        "address": "Skolevænget 1, 7540 Haderup, Denmark",
+        "latitude": 56.388566,
+        "longitude": 8.99786,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Vindegårdsvej 1, 4632 Bjæverskov, Danmark",
+        "latitude": 55.46125412678491,
+        "longitude": 12.057194123803722,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "36 Bredgade, Tårs, 9830, DNK",
+        "latitude": 57.388265,
+        "longitude": 10.108395,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "36 Bredgade, Tårs, 9830, DNK",
+        "latitude": 57.388265,
+        "longitude": 10.108395,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sweet & Coffee",
+        "address": "Adelgade 48, 4720 Præstø, Denmark",
+        "latitude": 55.121387,
+        "longitude": 12.040387,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Sweet & Coffee",
+        "address": "Adelgade 48, 4720 Præstø, Denmark",
+        "latitude": 55.121387,
+        "longitude": 12.040387,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "OK DagliBrugsen Bønnerup",
+        "address": "Bønnerupvej 12B, 8585 Glesborg, Denmark",
+        "latitude": 56.528462765658915,
+        "longitude": 10.704616116371435,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Bønnerup",
+        "address": "Bønnerupvej 12B, 8585 Glesborg, Denmark",
+        "latitude": 56.528462765658915,
+        "longitude": 10.704616116371435,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Thyborøn Camping, Hotel & Hytteby",
+        "address": "Idrætsvej 3, 7680 Thyborøn, Denmark",
+        "latitude": 56.695681,
+        "longitude": 8.20567,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Thyborøn Camping, Hotel & Hytteby",
+        "address": "Idrætsvej 3, 7680 Thyborøn, Denmark",
+        "latitude": 56.695681,
+        "longitude": 8.20567,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Rosengården B&B",
+        "address": "Kirkemosevej 13, 4591‎ Føllenslev, Denmark",
+        "latitude": 55.723549,
+        "longitude": 11.373195,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "OK Brugsen Korinth",
+        "address": "Lykkevalg 3, 5600 Faaborg, Denmark",
+        "latitude": 55.14147467650623,
+        "longitude": 10.32972731437873,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Brugsen Korinth",
+        "address": "Lykkevalg 3, 5600 Faaborg, Denmark",
+        "latitude": 55.14147467650623,
+        "longitude": 10.32972731437873,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Lønborggård",
+        "address": "Lønborggårdvej 1, 6880 Tarm, Denmark",
+        "latitude": 55.903037,
+        "longitude": 8.414888,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Lønborggård",
+        "address": "Lønborggårdvej 1, 6880 Tarm, Denmark",
+        "latitude": 55.903037,
+        "longitude": 8.414888,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Lønborggård",
+        "address": "Lønborggårdvej 1, 6880 Tarm, Denmark",
+        "latitude": 55.903037,
+        "longitude": 8.414888,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Lønborggård",
+        "address": "Lønborggårdvej 1, 6880 Tarm, Denmark",
+        "latitude": 55.903037,
+        "longitude": 8.414888,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK DagliBrugsen Vesterø Havn",
+        "address": "Vesterø Havnegade 6, 9940 Vesterø Havn, Denmark",
+        "latitude": 57.293167225124115,
+        "longitude": 10.923044629471828,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Vesterø Havn",
+        "address": "Vesterø Havnegade 6, 9940 Vesterø Havn, Denmark",
+        "latitude": 57.293167225124115,
+        "longitude": 10.923044629471828,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Coop 365 Munkebo",
+        "address": "Troels Alle 1, 5330 Munkebo, Denmark",
+        "latitude": 55.45929261711698,
+        "longitude": 10.559620450227593,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Coop 365 Munkebo",
+        "address": "Troels Alle 1, 5330 Munkebo, Denmark",
+        "latitude": 55.45929261711698,
+        "longitude": 10.559620450227593,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "HJ Hansens Vej & Hellasvej",
+        "address": "H. J. Hansens Vej 1, Lemvig, 7620, Denmark",
+        "latitude": 56.54761,
+        "longitude": 8.41866,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "HJ Hansens Vej & Hellasvej",
+        "address": "H. J. Hansens Vej 1, Lemvig, 7620, Denmark",
+        "latitude": 56.54761,
+        "longitude": 8.41866,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "HJ Hansens Vej & Hellasvej",
+        "address": "H. J. Hansens Vej 1, Lemvig, 7620, Denmark",
+        "latitude": 56.54761,
+        "longitude": 8.41866,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "HJ Hansens Vej & Hellasvej",
+        "address": "H. J. Hansens Vej 1, Lemvig, 7620, Denmark",
+        "latitude": 56.54761,
+        "longitude": 8.41866,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "HJ Hansens Vej & Hellasvej",
+        "address": "H. J. Hansens Vej 1, Lemvig, 7620, Denmark",
+        "latitude": 56.54761,
+        "longitude": 8.41866,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "HJ Hansens Vej & Hellasvej",
+        "address": "H. J. Hansens Vej 1, Lemvig, 7620, Denmark",
+        "latitude": 56.54761,
+        "longitude": 8.41866,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nørre Djurs Egnsarkiv",
+        "address": "Stokkebro 85, 8500 Grenå, Denmark",
+        "latitude": 56.50563091919818,
+        "longitude": 10.822657719254494,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nørre Djurs Egnsarkiv",
+        "address": "Stokkebro 85, 8500 Grenå, Denmark",
+        "latitude": 56.50563091919818,
+        "longitude": 10.822657719254494,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "435 Hovedgaden, Hedehusene, 2640, DNK",
+        "latitude": 55.649392,
+        "longitude": 12.198119,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "435 Hovedgaden, Hedehusene, 2640, DNK",
+        "latitude": 55.649392,
+        "longitude": 12.198119,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "435 Hovedgaden, Hedehusene, 2640, DNK",
+        "latitude": 55.649392,
+        "longitude": 12.198119,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "435 Hovedgaden, Hedehusene, 2640, DNK",
+        "latitude": 55.649392,
+        "longitude": 12.198119,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "435 Hovedgaden, Hedehusene, 2640, DNK",
+        "latitude": 55.649392,
+        "longitude": 12.198119,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "435 Hovedgaden, Hedehusene, 2640, DNK",
+        "latitude": 55.649392,
+        "longitude": 12.198119,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "435 Hovedgaden, Hedehusene, 2640, DNK",
+        "latitude": 55.649392,
+        "longitude": 12.198119,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "435 Hovedgaden, Hedehusene, 2640, DNK",
+        "latitude": 55.649392,
+        "longitude": 12.198119,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Charging Station Clever A/S",
+        "address": "435 Hovedgaden, Hedehusene, 2640, DNK",
+        "latitude": 55.649392,
+        "longitude": 12.198119,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lakolk Butikscenter",
+        "address": "Lakolk Butikscenter 17, 6792 Rømø, Denmark",
+        "latitude": 55.146434,
+        "longitude": 8.495552,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Hotel Hovborg Kro",
+        "address": "2 Holmeåvej, Hovborg, Denmark, 6682",
+        "latitude": 55.605986,
+        "longitude": 8.9395,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Vilcon Hotel & Konferencegaard",
+        "address": "Lorupvej 44, 4200 Slagelse, Danmark",
+        "latitude": 55.376428,
+        "longitude": 11.476049,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Gemeinde Süderlügum",
+        "address": "Hauptstraße 7, 25923 Süderlügum, Germany",
+        "latitude": 54.87059,
+        "longitude": 8.906508,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Gemeinde Süderlügum",
+        "address": "Hauptstraße 7, 25923 Süderlügum, Germany",
+        "latitude": 54.87059,
+        "longitude": 8.906508,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Gemeinde Süderlügum",
+        "address": "Hauptstraße 7, 25923 Süderlügum, Germany",
+        "latitude": 54.87059,
+        "longitude": 8.906508,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "EL:CON A/S EV Charging",
+        "address": "Sortevej 12, 8543‎ Hornslet, Danmark",
+        "latitude": 56.304952,
+        "longitude": 10.312401,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "OK DagliBrugsen Sørbymagle",
+        "address": "Hunsballevej 2, 4200 Slagelse, Denmark",
+        "latitude": 55.3577893,
+        "longitude": 11.4431789,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Sørbymagle",
+        "address": "Hunsballevej 2, 4200 Slagelse, Denmark",
+        "latitude": 55.3577893,
+        "longitude": 11.4431789,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Nustrup Fællesskole",
+        "address": "Skolevej 5, 6500 Vojens, Denmark",
+        "latitude": 55.269137,
+        "longitude": 9.184988,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Nustrup Fællesskole",
+        "address": "Skolevej 5, 6500 Vojens, Denmark",
+        "latitude": 55.269137,
+        "longitude": 9.184988,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Stenager & Kongelysvej",
+        "address": "Stenager 41, 4583 Sjællands Odde, Denmark",
+        "latitude": 55.95393998009195,
+        "longitude": 11.43978007969284,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hvidbjerg Bank",
+        "address": "Østergade 2, 7790 Thyholm, Denmark",
+        "latitude": 56.649732,
+        "longitude": 8.528944,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hvidbjerg Bank",
+        "address": "Østergade 2, 7790 Thyholm, Denmark",
+        "latitude": 56.649732,
+        "longitude": 8.528944,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hvidbjerg Bank",
+        "address": "Østergade 2, 7790 Thyholm, Denmark",
+        "latitude": 56.649732,
+        "longitude": 8.528944,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hvidbjerg Bank",
+        "address": "Østergade 2, 7790 Thyholm, Denmark",
+        "latitude": 56.649732,
+        "longitude": 8.528944,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK - Ødum",
+        "address": "Landevejen 203, 8370 Hadsten",
+        "latitude": 56.311329,
+        "longitude": 10.134355,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK - Ødum",
+        "address": "Landevejen 203, 8370 Hadsten",
+        "latitude": 56.311329,
+        "longitude": 10.134355,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "OK - Ødum",
+        "address": "Landevejen 203, 8370 Hadsten",
+        "latitude": 56.311329,
+        "longitude": 10.134355,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK - Ødum",
+        "address": "Landevejen 203, 8370 Hadsten",
+        "latitude": 56.311329,
+        "longitude": 10.134355,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "OK - Ødum",
+        "address": "Landevejen 203, 8370 Hadsten",
+        "latitude": 56.311329,
+        "longitude": 10.134355,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK - Ødum",
+        "address": "Landevejen 203, 8370 Hadsten",
+        "latitude": 56.311329,
+        "longitude": 10.134355,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "OK - Ødum",
+        "address": "Landevejen 203, 8370 Hadsten",
+        "latitude": 56.311329,
+        "longitude": 10.134355,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK - Ødum",
+        "address": "Landevejen 203, 8370 Hadsten",
+        "latitude": 56.311329,
+        "longitude": 10.134355,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "OK SuperBrugsen Ølgod",
+        "address": "Torvet 20, 6870 Ølgod, Denmark",
+        "latitude": 55.80609132072291,
+        "longitude": 8.620221039236347,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Ølgod",
+        "address": "Torvet 20, 6870 Ølgod, Denmark",
+        "latitude": 55.80609132072291,
+        "longitude": 8.620221039236347,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Den Selvejende Institution Tangsøgården",
+        "address": "Brogade 80, 7660 Bækmarksbro, Denmark",
+        "latitude": 56.420262,
+        "longitude": 8.306649,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Den Selvejende Institution Tangsøgården",
+        "address": "Brogade 80, 7660 Bækmarksbro, Denmark",
+        "latitude": 56.420262,
+        "longitude": 8.306649,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Den Selvejende Institution Tangsøgården",
+        "address": "Brogade 80, 7660 Bækmarksbro, Denmark",
+        "latitude": 56.420262,
+        "longitude": 8.306649,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Den Selvejende Institution Tangsøgården",
+        "address": "Brogade 80, 7660 Bækmarksbro, Denmark",
+        "latitude": 56.420262,
+        "longitude": 8.306649,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hoven Landsbymuseum og Lokalarkiv",
+        "address": "Bredgade 8, 6880 Tarm, Denmark",
+        "latitude": 55.850499,
+        "longitude": 8.759168,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hoven Landsbymuseum og Lokalarkiv",
+        "address": "Bredgade 8, 6880 Tarm, Denmark",
+        "latitude": 55.850499,
+        "longitude": 8.759168,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Bødstrup Gods",
+        "address": "Bildsøvej 9G, 4200 Slagelse",
+        "latitude": 55.474898,
+        "longitude": 11.229886,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Bødstrup Gods",
+        "address": "Bildsøvej 9G, 4200 Slagelse",
+        "latitude": 55.474898,
+        "longitude": 11.229886,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "114 Byskovvej, Horslunde, 4913, DNK",
+        "latitude": 54.947011,
+        "longitude": 11.109085,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Stationsvej Vemb",
+        "address": "Stationsvej 6-8, Vemb, 7570, DNK",
+        "latitude": 56.343882,
+        "longitude": 8.344944,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Stationsvej Vemb",
+        "address": "Stationsvej 6-8, Vemb, 7570, DNK",
+        "latitude": 56.343882,
+        "longitude": 8.344944,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Stationsvej Vemb",
+        "address": "Stationsvej 6-8, Vemb, 7570, DNK",
+        "latitude": 56.343882,
+        "longitude": 8.344944,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "11 Boringvej, Rask Mølle, 8763, DNK",
+        "latitude": 55.872519,
+        "longitude": 9.608988,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "E-bike charge station. Marienholtvej shelterplads",
+        "address": "Marienholtvej, 8550 Ryomgård, Danmark",
+        "latitude": 56.353333,
+        "longitude": 10.515787,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "E-bike charge station. Marienholtvej shelterplads",
+        "address": "Marienholtvej, 8550 Ryomgård, Danmark",
+        "latitude": 56.353333,
+        "longitude": 10.515787,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "E-bike charge station. Marienholtvej shelterplads",
+        "address": "Marienholtvej, 8550 Ryomgård, Danmark",
+        "latitude": 56.353333,
+        "longitude": 10.515787,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Sdr Omme Kro",
+        "address": "Hovedgaden 1, 7260 Sønder-Omme, Denmark",
+        "latitude": 55.838019635171186,
+        "longitude": 8.894540704786777,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sdr Omme Kro",
+        "address": "Hovedgaden 1, 7260 Sønder-Omme, Denmark",
+        "latitude": 55.838019635171186,
+        "longitude": 8.894540704786777,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sdr Omme Kro",
+        "address": "Hovedgaden 1, 7260 Sønder-Omme, Denmark",
+        "latitude": 55.838019635171186,
+        "longitude": 8.894540704786777,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sdr Omme Kro",
+        "address": "Hovedgaden 1, 7260 Sønder-Omme, Denmark",
+        "latitude": 55.838019635171186,
+        "longitude": 8.894540704786777,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sdr Omme Kro",
+        "address": "Hovedgaden 1, 7260 Sønder-Omme, Denmark",
+        "latitude": 55.838019635171186,
+        "longitude": 8.894540704786777,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Sdr Omme Kro",
+        "address": "Hovedgaden 1, 7260 Sønder-Omme, Denmark",
+        "latitude": 55.838019635171186,
+        "longitude": 8.894540704786777,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sdr Omme Kro",
+        "address": "Hovedgaden 1, 7260 Sønder-Omme, Denmark",
+        "latitude": 55.838019635171186,
+        "longitude": 8.894540704786777,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Fjaltring Ferieby",
+        "address": "Løkkevej 54, 7620 Lemvig, Denmark",
+        "latitude": 56.48679702325805,
+        "longitude": 8.125692532062644,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Fjaltring Ferieby",
+        "address": "Løkkevej 54, 7620 Lemvig, Denmark",
+        "latitude": 56.48679702325805,
+        "longitude": 8.125692532062644,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Syvsten Kro",
+        "address": "Ålborgvej 247, 9300‎ Sæby, Danmark",
+        "latitude": 57.306403,
+        "longitude": 10.430333,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Bautahøj Hotel ",
+        "address": "Lille Bautahøjvej, 3630 Jægerspris, Danmark",
+        "latitude": 55.91146,
+        "longitude": 11.916702,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Bautahøj Hotel ",
+        "address": "Lille Bautahøjvej, 3630 Jægerspris, Danmark",
+        "latitude": 55.91146,
+        "longitude": 11.916702,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Bautahøj Hotel ",
+        "address": "Lille Bautahøjvej, 3630 Jægerspris, Danmark",
+        "latitude": 55.91146,
+        "longitude": 11.916702,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "OK Dagli' Brugsen",
+        "address": "Storegade 27, 6855 Outrup, Danmark",
+        "latitude": 55.720580447204966,
+        "longitude": 8.343047350645065,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Dagli' Brugsen",
+        "address": "Storegade 27, 6855 Outrup, Danmark",
+        "latitude": 55.720580447204966,
+        "longitude": 8.343047350645065,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Jægerspris",
+        "address": "Møllehegnet 2, 3630 Jægerspris, Denmark",
+        "latitude": 55.85015735131638,
+        "longitude": 11.986379029661776,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Jægerspris",
+        "address": "Møllehegnet 2, 3630 Jægerspris, Denmark",
+        "latitude": 55.85015735131638,
+        "longitude": 11.986379029661776,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Agger Feriecenter Parking",
+        "address": "Vesterhavsvej 6, 7770 Vestervig, Danmark",
+        "latitude": 56.78167747833596,
+        "longitude": 8.232602700591087,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Ertebølle Strand Camping",
+        "address": "Gammel Møllevej 22, 9640 Farsø",
+        "latitude": 56.81375620551632,
+        "longitude": 9.181966305408794,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Ertebølle Strand Camping",
+        "address": "Gammel Møllevej 22, 9640 Farsø",
+        "latitude": 56.81375620551632,
+        "longitude": 9.181966305408794,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Motorikbørnecentret Æblehuset",
+        "address": "Algade 55a, 6780 Skærbæk, Denmark",
+        "latitude": 55.217358,
+        "longitude": 8.839191,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Motorikbørnecentret Æblehuset",
+        "address": "Algade 55a, 6780 Skærbæk, Denmark",
+        "latitude": 55.217358,
+        "longitude": 8.839191,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Kvickly Nordborg",
+        "address": "Stationsvej 12, 6430 Nordborg, Denmark",
+        "latitude": 55.05617061574918,
+        "longitude": 9.741519405240762,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Kvickly Nordborg",
+        "address": "Stationsvej 12, 6430 Nordborg, Denmark",
+        "latitude": 55.05617061574918,
+        "longitude": 9.741519405240762,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Kvickly Nordborg",
+        "address": "Stationsvej 12, 6430 Nordborg, Denmark",
+        "latitude": 55.05617061574918,
+        "longitude": 9.741519405240762,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Kvickly Nordborg",
+        "address": "Stationsvej 12, 6430 Nordborg, Denmark",
+        "latitude": 55.05617061574918,
+        "longitude": 9.741519405240762,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Galleri Salshus",
+        "address": "Døjholtvej 15 7700 Thisted",
+        "latitude": 57.038843,
+        "longitude": 8.656687,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Shell",
+        "address": "Holstebrovej 148, 6980 Tim, Danmark",
+        "latitude": 56.19644340889811,
+        "longitude": 8.29856425523758,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Shell",
+        "address": "Holstebrovej 148, 6980 Tim, Danmark",
+        "latitude": 56.19644340889811,
+        "longitude": 8.29856425523758,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto Ulfborg",
+        "address": "Kirkevænget 4, 6990 Ulfborg, Danmark",
+        "latitude": 56.27126749770229,
+        "longitude": 8.319123052060604,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sperto Ulfborg",
+        "address": "Kirkevænget 4, 6990 Ulfborg, Danmark",
+        "latitude": 56.27126749770229,
+        "longitude": 8.319123052060604,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "46 Strandvejen, Gørlev, 4281, DNK",
+        "latitude": 55.525524,
+        "longitude": 11.110692,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "46 Strandvejen, Gørlev, 4281, DNK",
+        "latitude": 55.525524,
+        "longitude": 11.110692,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "10 Kirkeallé, Gram, 6510, DNK",
+        "latitude": 55.288642,
+        "longitude": 9.046223,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "E.On Borre Knob",
+        "address": "Søborgvej 20, 7130 Juelsminde ",
+        "latitude": 55.827152,
+        "longitude": 10.014721,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "E.On Borre Knob",
+        "address": "Søborgvej 20, 7130 Juelsminde ",
+        "latitude": 55.827152,
+        "longitude": 10.014721,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hejrevang 11, 4573 Højby",
+        "address": "Hejrevang 11, 4573 Højby",
+        "latitude": 55.915952,
+        "longitude": 11.532492,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "SyltExpress",
+        "address": " Kilebryggen 1, 6792 Rømø, Danmark",
+        "latitude": 55.048876,
+        "longitude": 8.509598,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Gottskär Hotell ",
+        "address": "Landstormsvägen 31, 439 93 Onsala, Sweden",
+        "latitude": 57.390453,
+        "longitude": 12.011164,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Gottskär Hotell ",
+        "address": "Landstormsvägen 31, 439 93 Onsala, Sweden",
+        "latitude": 57.390453,
+        "longitude": 12.011164,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lindknud Hallen",
+        "address": "Bækkevej 33, 6650 Brørup, Denmark",
+        "latitude": 55.568297,
+        "longitude": 9.03105,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lindknud Hallen",
+        "address": "Bækkevej 33, 6650 Brørup, Denmark",
+        "latitude": 55.568297,
+        "longitude": 9.03105,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lindknud Hallen",
+        "address": "Bækkevej 33, 6650 Brørup, Denmark",
+        "latitude": 55.568297,
+        "longitude": 9.03105,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lindknud Hallen",
+        "address": "Bækkevej 33, 6650 Brørup, Denmark",
+        "latitude": 55.568297,
+        "longitude": 9.03105,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "has.to.be gmbh",
+        "address": "Vasevej 7, Randers Nv, 8920, DNK",
+        "latitude": 56.47378,
+        "longitude": 9.84576,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "has.to.be gmbh",
+        "address": "Vasevej 7, Randers Nv, 8920, DNK",
+        "latitude": 56.47378,
+        "longitude": 9.84576,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "has.to.be gmbh",
+        "address": "Vasevej 7, Randers Nv, 8920, DNK",
+        "latitude": 56.47378,
+        "longitude": 9.84576,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "has.to.be gmbh",
+        "address": "Vasevej 7, Randers Nv, 8920, DNK",
+        "latitude": 56.47378,
+        "longitude": 9.84576,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Clever - Faxe (Coming Soon)",
+        "address": "Kirketorvej, 4640",
+        "latitude": 55.2560643,
+        "longitude": 12.1190043,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Clever - Faxe (Coming Soon)",
+        "address": "Kirketorvej, 4640",
+        "latitude": 55.2560643,
+        "longitude": 12.1190043,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Hover Forsamlingshus",
+        "address": "Hoverdalvej 4, 6971 Spjald, Denmark",
+        "latitude": 56.144227,
+        "longitude": 8.430785,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hover Forsamlingshus",
+        "address": "Hoverdalvej 4, 6971 Spjald, Denmark",
+        "latitude": 56.144227,
+        "longitude": 8.430785,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Lille Vildmosecentret",
+        "address": "100 Vildmosevej, Storvorde, 9280, DNK",
+        "latitude": 56.887935,
+        "longitude": 10.220559,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Lynge, Superbrugsen",
+        "address": "Lynge Bytorv 17, 3540 Lynge",
+        "latitude": 55.83819451891136,
+        "longitude": 12.278562325330453,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Lynge, Superbrugsen",
+        "address": "Lynge Bytorv 17, 3540 Lynge",
+        "latitude": 55.83819451891136,
+        "longitude": 12.278562325330453,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Lynge, Superbrugsen",
+        "address": "Lynge Bytorv 17, 3540 Lynge",
+        "latitude": 55.83819451891136,
+        "longitude": 12.278562325330453,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Lynge, Superbrugsen",
+        "address": "Lynge Bytorv 17, 3540 Lynge",
+        "latitude": 55.83819451891136,
+        "longitude": 12.278562325330453,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "ST1 Varberg",
+        "address": "Semaforvägen 2, 432 56 Varberg, Sverige",
+        "latitude": 57.081026,
+        "longitude": 12.279429,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Hovedgaden 3, Agerskov, 6534, DNK",
+        "latitude": 55.130795,
+        "longitude": 9.129304,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Hovedgaden 3, Agerskov, 6534, DNK",
+        "latitude": 55.130795,
+        "longitude": 9.129304,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Hovedgaden 3, Agerskov, 6534, DNK",
+        "latitude": 55.130795,
+        "longitude": 9.129304,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Hovedgaden 3, Agerskov, 6534, DNK",
+        "latitude": 55.130795,
+        "longitude": 9.129304,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Outside Netto Supermarket in Vejby",
+        "address": "Rågelejevej 2, 3210 Vejby, Denmark",
+        "latitude": 56.0669406,
+        "longitude": 12.1417916,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Outside Netto Supermarket in Vejby",
+        "address": "Rågelejevej 2, 3210 Vejby, Denmark",
+        "latitude": 56.0669406,
+        "longitude": 12.1417916,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Benzin",
+        "address": "Juelstrupparken 30, 9530 Støvring, Denmark",
+        "latitude": 56.87914536576201,
+        "longitude": 9.807588458061218,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Benzin",
+        "address": "Juelstrupparken 30, 9530 Støvring, Denmark",
+        "latitude": 56.87914536576201,
+        "longitude": 9.807588458061218,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Benzin",
+        "address": "Juelstrupparken 30, 9530 Støvring, Denmark",
+        "latitude": 56.87914536576201,
+        "longitude": 9.807588458061218,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Benzin",
+        "address": "Juelstrupparken 30, 9530 Støvring, Denmark",
+        "latitude": 56.87914536576201,
+        "longitude": 9.807588458061218,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "Årøsund Havn",
+        "address": "Aarøsund Havn 28, 6100 Haderslev, Danmark",
+        "latitude": 55.262575,
+        "longitude": 9.70717,
+        "plug_type": "SAE J1772 (J-plug)"
+    },
+    {
+        "name": "OK Bevtoft Idrætsanlæg",
+        "address": "Hyrupvej 1, 6541 Bevtoft",
+        "latitude": 55.19873950833417,
+        "longitude": 9.205170023942557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Bevtoft Idrætsanlæg",
+        "address": "Hyrupvej 1, 6541 Bevtoft",
+        "latitude": 55.19873950833417,
+        "longitude": 9.205170023942557,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Vestas Parkering",
+        "address": "Smed Hansens Vej, 6940 Lem St, Danmark",
+        "latitude": 56.021274,
+        "longitude": 8.381368,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK SuperBrugsen Tølløse",
+        "address": "Vestergade 70, 4340 Tølløse",
+        "latitude": 55.61155918485382,
+        "longitude": 11.763582341372967,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "OK SuperBrugsen Tølløse",
+        "address": "Vestergade 70, 4340 Tølløse",
+        "latitude": 55.61155918485382,
+        "longitude": 11.763582341372967,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Brenderup",
+        "address": "Stationsvej 22, 5464 Brenderup, Denmark",
+        "latitude": 55.49056551858718,
+        "longitude": 9.968189926908776,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Brenderup",
+        "address": "Stationsvej 22, 5464 Brenderup, Denmark",
+        "latitude": 55.49056551858718,
+        "longitude": 9.968189926908776,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Seng og Kaffe B&B",
+        "address": "Thorsøvej 87, 8882 Fårvang, Denmark",
+        "latitude": 56.284123,
+        "longitude": 9.758948,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Ole Winther Auto",
+        "address": "Fejøvej 15, 8600 Silkeborg, Danmark",
+        "latitude": 56.150176,
+        "longitude": 9.495226,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK Fjelstrup Hal og Skole",
+        "address": "Skolebakken 10, 6100 Haderslev, Denmark",
+        "latitude": 55.321942672952865,
+        "longitude": 9.560621250000002,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK Fjelstrup Hal og Skole",
+        "address": "Skolebakken 10, 6100 Haderslev, Denmark",
+        "latitude": 55.321942672952865,
+        "longitude": 9.560621250000002,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Circle K Helsinge",
+        "address": "Rundinsvej 52, 3200 Helsinge ",
+        "latitude": 56.016144,
+        "longitude": 12.198582,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Helsinge",
+        "address": "Rundinsvej 52, 3200 Helsinge ",
+        "latitude": 56.016144,
+        "longitude": 12.198582,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Helsinge",
+        "address": "Rundinsvej 52, 3200 Helsinge ",
+        "latitude": 56.016144,
+        "longitude": 12.198582,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Circle K Helsinge",
+        "address": "Rundinsvej 52, 3200 Helsinge ",
+        "latitude": 56.016144,
+        "longitude": 12.198582,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Helsinge",
+        "address": "Rundinsvej 52, 3200 Helsinge ",
+        "latitude": 56.016144,
+        "longitude": 12.198582,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Circle K Helsinge",
+        "address": "Rundinsvej 52, 3200 Helsinge ",
+        "latitude": 56.016144,
+        "longitude": 12.198582,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Djurs Housing",
+        "address": "Lyngbyvej 105, 8570 Trustrup, Denmark",
+        "latitude": 56.368858,
+        "longitude": 10.745444,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Djurs Housing",
+        "address": "Lyngbyvej 105, 8570 Trustrup, Denmark",
+        "latitude": 56.368858,
+        "longitude": 10.745444,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Montra Hotel Hanstholm",
+        "address": "Chr. Hansens Vej 2, 7730 Hanstholm, Denmark",
+        "latitude": 57.116492,
+        "longitude": 8.607547,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Montra Hotel Hanstholm",
+        "address": "Chr. Hansens Vej 2, 7730 Hanstholm, Denmark",
+        "latitude": 57.116492,
+        "longitude": 8.607547,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Montra Hotel Hanstholm",
+        "address": "Chr. Hansens Vej 2, 7730 Hanstholm, Denmark",
+        "latitude": 57.116492,
+        "longitude": 8.607547,
+        "plug_type": "Tesla"
+    },
+    {
+        "name": "Montra Hotel Hanstholm",
+        "address": "Chr. Hansens Vej 2, 7730 Hanstholm, Denmark",
+        "latitude": 57.116492,
+        "longitude": 8.607547,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "SuperBrugsen",
+        "address": "Skolevej 2, 5690 Tommerup",
+        "latitude": 55.32327825118637,
+        "longitude": 10.202111220220386,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "SuperBrugsen",
+        "address": "Skolevej 2, 5690 Tommerup",
+        "latitude": 55.32327825118637,
+        "longitude": 10.202111220220386,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Vejers Havvej 81C, 6853 Vejers Strand, Danmark",
+        "latitude": 55.62575394052086,
+        "longitude": 8.124516186618793,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Vejers Havvej 81C, 6853 Vejers Strand, Danmark",
+        "latitude": 55.62575394052086,
+        "longitude": 8.124516186618793,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Klovborg Autoværksted",
+        "address": "Storegade 48, 8765 Klovborg, Denmark",
+        "latitude": 55.931138,
+        "longitude": 9.492271,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sunds Ilskov Skole Ilskov",
+        "address": "Ilskov Hovedgade 32, 7451 Sunds, Denmark",
+        "latitude": 56.237002,
+        "longitude": 9.088361,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sunds Ilskov Skole Ilskov",
+        "address": "Ilskov Hovedgade 32, 7451 Sunds, Denmark",
+        "latitude": 56.237002,
+        "longitude": 9.088361,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sunds Ilskov Skole Ilskov",
+        "address": "Ilskov Hovedgade 32, 7451 Sunds, Denmark",
+        "latitude": 56.237002,
+        "longitude": 9.088361,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sunds Ilskov Skole Ilskov",
+        "address": "Ilskov Hovedgade 32, 7451 Sunds, Denmark",
+        "latitude": 56.237002,
+        "longitude": 9.088361,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sunds Ilskov Skole Ilskov",
+        "address": "Ilskov Hovedgade 32, 7451 Sunds, Denmark",
+        "latitude": 56.237002,
+        "longitude": 9.088361,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sunds Ilskov Skole Ilskov",
+        "address": "Ilskov Hovedgade 32, 7451 Sunds, Denmark",
+        "latitude": 56.237002,
+        "longitude": 9.088361,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Tonnisen hjem (Coming Soon)",
+        "address": "Aabenraavej 92",
+        "latitude": 56.168279,
+        "longitude": 9.489245,
+        "plug_type": "CHAdeMO"
+    },
+    {
+        "name": "Severin's Resort & Spa",
+        "address": "Am Tipkenhoog 18, 25980 Sylt, Germany",
+        "latitude": 54.890923,
+        "longitude": 8.378302,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Severin's Resort & Spa",
+        "address": "Am Tipkenhoog 18, 25980 Sylt, Germany",
+        "latitude": 54.890923,
+        "longitude": 8.378302,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Mega Overfladeteknik",
+        "address": "Bjergevej 31B, 7280 Sønder Felding, Denmark",
+        "latitude": 55.93272128613288,
+        "longitude": 8.781297756367227,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "OK DagliBrugsen Kirke Stillinge",
+        "address": "Stillingevej 45, 4200 Slagelse, Denmark",
+        "latitude": 55.43700833000541,
+        "longitude": 11.247894868499188,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK DagliBrugsen Kirke Stillinge",
+        "address": "Stillingevej 45, 4200 Slagelse, Denmark",
+        "latitude": 55.43700833000541,
+        "longitude": 11.247894868499188,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Spirii - AutoMester",
+        "address": "Høng Landevej 10, 4270 Høng, Denmark",
+        "latitude": 55.48796,
+        "longitude": 11.29599,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Spirii - AutoMester",
+        "address": "Høng Landevej 10, 4270 Høng, Denmark",
+        "latitude": 55.48796,
+        "longitude": 11.29599,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Kirkehøjvej 34, 6893 Hemmet, Danmark",
+        "latitude": 55.84908810509046,
+        "longitude": 8.28095242911762,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Kirkehøjvej 34, 6893 Hemmet, Danmark",
+        "latitude": 55.84908810509046,
+        "longitude": 8.28095242911762,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Kirkehøjvej 34, 6893 Hemmet, Danmark",
+        "latitude": 55.84908810509046,
+        "longitude": 8.28095242911762,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "EWII Lynlader (Coming Soon)",
+        "address": "Kirkehøjvej 34, 6893 Hemmet, Danmark",
+        "latitude": 55.84908810509046,
+        "longitude": 8.28095242911762,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Sørvad Kultur & Idrætscenter",
+        "address": "Vognstrupvej 11, 7550 Sørvad, Denmark",
+        "latitude": 56.25882237781385,
+        "longitude": 8.660661479659618,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "8 Kausagervej, Aabenraa, 6200, DNK",
+        "latitude": 55.015349,
+        "longitude": 9.562891,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Hestkjær family rooms",
+        "address": "Nørremarksvej, 7200 Grindsted, Danmark",
+        "latitude": 55.708675,
+        "longitude": 8.835913,
+        "plug_type": "Unknown connector"
+    },
+    {
+        "name": "Østerby El Butik",
+        "address": "Smedievejen 5, 9940 Østerby Havn, Danmark",
+        "latitude": 57.31974,
+        "longitude": 11.124921,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Østerby El Butik",
+        "address": "Smedievejen 5, 9940 Østerby Havn, Danmark",
+        "latitude": 57.31974,
+        "longitude": 11.124921,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Søby Havn 6 Bygning",
+        "address": "Søby Havn 6, 5985 Søby Ærø, Denmark",
+        "latitude": 54.941409,
+        "longitude": 10.258891,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Søby Havn 6 Bygning",
+        "address": "Søby Havn 6, 5985 Søby Ærø, Denmark",
+        "latitude": 54.941409,
+        "longitude": 10.258891,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Søby Havn 6 Bygning",
+        "address": "Søby Havn 6, 5985 Søby Ærø, Denmark",
+        "latitude": 54.941409,
+        "longitude": 10.258891,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Søby Havn 6 Bygning",
+        "address": "Søby Havn 6, 5985 Søby Ærø, Denmark",
+        "latitude": 54.941409,
+        "longitude": 10.258891,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Meny Rønnede",
+        "address": "Vordingborgvej 517, 4683 Rønnede, Denmark",
+        "latitude": 55.25894348527035,
+        "longitude": 12.022438807370714,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Meny Rønnede",
+        "address": "Vordingborgvej 517, 4683 Rønnede, Denmark",
+        "latitude": 55.25894348527035,
+        "longitude": 12.022438807370714,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Dalby",
+        "address": "Lindhartsvej 1, 4690 Haslev",
+        "latitude": 55.311457466344024,
+        "longitude": 12.066881681228269,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "OK SuperBrugsen Dalby",
+        "address": "Lindhartsvej 1, 4690 Haslev",
+        "latitude": 55.311457466344024,
+        "longitude": 12.066881681228269,
+        "plug_type": "CCS (Combined Charging System)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "7 Løgismose Skov, Haarby, 5683, DNK",
+        "latitude": 55.179174,
+        "longitude": 10.072505,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Monta ApS",
+        "address": "7 Løgismose Skov, Haarby, 5683, DNK",
+        "latitude": 55.179174,
+        "longitude": 10.072505,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Rudbøl Grænsekro",
+        "address": "Rudbølvej 36, 6280 Højer, Denmark",
+        "latitude": 54.900274,
+        "longitude": 8.752724,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Rudbøl Grænsekro",
+        "address": "Rudbølvej 36, 6280 Højer, Denmark",
+        "latitude": 54.900274,
+        "longitude": 8.752724,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Rudbøl Grænsekro",
+        "address": "Rudbølvej 36, 6280 Højer, Denmark",
+        "latitude": 54.900274,
+        "longitude": 8.752724,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Rudbøl Grænsekro",
+        "address": "Rudbølvej 36, 6280 Højer, Denmark",
+        "latitude": 54.900274,
+        "longitude": 8.752724,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Rudbøl Grænsekro",
+        "address": "Rudbølvej 36, 6280 Højer, Denmark",
+        "latitude": 54.900274,
+        "longitude": 8.752724,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Rudbøl Grænsekro",
+        "address": "Rudbølvej 36, 6280 Højer, Denmark",
+        "latitude": 54.900274,
+        "longitude": 8.752724,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Østergade 2A, Hals, 9370, DNK",
+        "latitude": 56.994996,
+        "longitude": 10.30889,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Østergade 2A, Hals, 9370, DNK",
+        "latitude": 56.994996,
+        "longitude": 10.30889,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Østergade 2A, Hals, 9370, DNK",
+        "latitude": 56.994996,
+        "longitude": 10.30889,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Østergade 2A, Hals, 9370, DNK",
+        "latitude": 56.994996,
+        "longitude": 10.30889,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Østergade 2A, Hals, 9370, DNK",
+        "latitude": 56.994996,
+        "longitude": 10.30889,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Liikennevirta Oy (CPO)",
+        "address": "Østergade 2A, Hals, 9370, DNK",
+        "latitude": 56.994996,
+        "longitude": 10.30889,
+        "plug_type": "Type 2 (Mennekes)"
+    },
+    {
+        "name": "Katrine & Mathias",
+        "address": "Sejrupvej 60, 7323 Give, Denmark",
+        "latitude": 55.88293,
+        "longitude": 9.308722,
+        "plug_type": "Type 2 (Mennekes)"
+    }
+]
