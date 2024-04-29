@@ -6,6 +6,7 @@ from flask_jwt_extended import jwt_required, get_jwt_identity
 from .models import Reservation, User
 from .extensions import db
 from .utils import ApiResponse
+import requests
 
 
 def configure_routes(app):
@@ -98,18 +99,22 @@ def configure_routes(app):
         try:
             data = request.get_json()
             if not data:
-                return ApiResponse.bad_request("No data provided")
+                return ApiResponse.bad_request('No data provided')
 
             charging_station = ChargingStation(
-                company_name=data["company_name"],
-                owner_id=data["owner_id"],
-                charging_station_type=data["charging_station_type"],
-                longitude=data["longitude"],
-                latitude=data["latitude"],
-                charging_points=data["charging_points"],
-                charger_type=data["charger_type"],
-                phone_number=data["phone_number"],
-                available=data["available"],
+                owner_id=data['owner_id'],
+                title=data['title'],
+                subtitle=data['subtitle'],
+                description=data['description'],
+                company_name=data['company_name'],
+                charging_station_type=data['charging_station_type'],
+                address=data['address'],
+                latitude=data['latitude'],
+                longitude=data['longitude'],
+                charging_points=data['charging_points'],
+                charger_type=data['charger_type'],
+                available=data['available'],
+                phone_number=data['phone_number'],
             )
             
             db.session.add(charging_station)
@@ -177,7 +182,9 @@ def configure_routes(app):
             reservation = Reservation(
                 user_id=data["user_id"],
                 charging_point_id=charging_point_id,
-                reservation_time=datetime.now(),
+                reservation_time="30",
+                reservation_start_time=datetime.now(),
+                reservation_end_time = datetime.now(),
             )
 
             db.session.add(reservation)
@@ -200,3 +207,56 @@ def configure_routes(app):
             return ApiResponse.success("Successfully deleted reservation with id {reservation_id}")
         except Exception as e:
             return ApiResponse.internal_server_error(str(e))
+
+
+    @app.route('/getAddress', methods=['GET'])
+    def get_address():
+        latitude = request.args.get('lat')
+        longitude = request.args.get('lon')
+
+        if not latitude or not longitude:
+            return ApiResponse.error("Missing latitude or longitude parameters")
+
+        base_url = "https://nominatim.openstreetmap.org/reverse"
+        headers = {
+            'User-Agent': 'CSR'
+        }
+        params = {
+            "lat": latitude,
+            "lon": longitude,
+            "format": "json"
+        }
+
+        response = requests.get(base_url, headers=headers, params=params)
+        if response.status_code == 200:
+            data = response.json()
+            address = data.get('display_name', "Address not found")
+            return ApiResponse.success({"address": address})
+        else:
+            return ApiResponse.error("Failed to fetch address")
+
+    @app.route('/getCoordinates', methods=['GET'])
+    def get_coordinates():
+        address = request.args.get('address')
+        if not address:
+            return ApiResponse.error("Missing address parameter")
+
+        base_url = "https://nominatim.openstreetmap.org/search"
+        headers = {'User-Agent': 'CSR'}
+        params = {
+            'q': address,
+            'format': 'json'
+        }
+
+        response = requests.get(base_url, headers=headers, params=params)
+        if response.status_code == 200:
+            data = response.json()
+            if data:
+                lat = data[0]['lat']
+                lon = data[0]['lon']
+                print({"latitude": lat, "longitude": lon})
+                return ApiResponse.success({"latitude": lat, "longitude": lon})
+            else:
+                return ApiResponse.not_found()
+        else:
+            return ApiResponse.error("Failed to fetch coordinates")

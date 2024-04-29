@@ -3,6 +3,7 @@ class ChargingStation {
   final int? ownerId;
   final String? companyName;
   final String chargingStationType;
+  final String address;
   final String longitude;
   final String latitude;
   final int chargingPoints;
@@ -15,6 +16,7 @@ class ChargingStation {
     required this.ownerId,
     required this.companyName,
     required this.chargingStationType,
+    required this.address,
     required this.longitude,
     required this.latitude,
     required this.chargingPoints,
@@ -29,6 +31,7 @@ class ChargingStation {
       ownerId: json['owner_id'],
       companyName: json['company_name'],
       chargingStationType: json['charging_station_type'],
+      address: json['address'],
       longitude: json['longitude'],
       latitude: json['latitude'],
       chargingPoints: json['charging_points'],

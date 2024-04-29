@@ -4,13 +4,17 @@ class Reservation {
   final int id;
   final int userId;
   final int chargingPointId;
-  final DateTime reservationtime;
+  final int reservationTime;
+  final DateTime reservationStartTime;
+  final DateTime reservationEndTime;
 
   const Reservation({
     required this.id,
     required this.userId,
     required this.chargingPointId,
-    required this.reservationtime,
+    required this.reservationTime,
+    required this.reservationStartTime,
+    required this.reservationEndTime,
   });
 
   factory Reservation.fromJson(Map<String, dynamic> json) {
@@ -18,7 +22,9 @@ class Reservation {
       id: json['id'],
       userId: json['user_id'],
       chargingPointId: json['charging_point_id'],
-      reservationtime: _parseDateTime(json['reservation_time']),
+      reservationTime: json['reservation_time'],
+      reservationStartTime: _parseDateTime(json['reservation_start_time']),
+      reservationEndTime: _parseDateTime(json['reservation_start_time']),
     );
   }
 
