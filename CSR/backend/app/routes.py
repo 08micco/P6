@@ -135,6 +135,9 @@ def configure_routes(app):
             charging_point = ChargingPoint(
                 id=data["id"],
                 charging_station_id=charging_station_id,
+                title="Title",
+                description="Description",    
+                charging_point_number="1",
                 reservation_status="Available",
             )
 

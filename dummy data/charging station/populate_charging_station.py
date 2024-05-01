@@ -51,7 +51,7 @@ def post_data_to_local_server(data):
     return response.text
 
 # Load processed charging stations data
-with open('processed_charging_stations.json', 'r', encoding='utf-8') as file:
+with open('dummy data/charging station/processed_charging_stations.json', 'r', encoding='utf-8') as file:
     charging_stations = json.load(file)
 
 # Create enriched data for each charging station
