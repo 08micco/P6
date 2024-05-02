@@ -1,134 +1,143 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T13:32:53.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="zTU04F_PzF-boQTfgsPz" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T07:39:05.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="igIzYT656DReWeKdGeb-" version="21.0.10" type="github">
   <diagram name="Page-1" id="KzmILKrWGlOIT-kQnuWg">
-    <mxGraphModel dx="2033" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/getchargingstations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/getchargingstations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="120" y="110" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-2" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-2" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="110" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-3" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;DELETE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C94141;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="670" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-4" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;POST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2AC924;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/auth/login&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="460" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-6" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="40" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-7" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="110" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingstation/delete/{chargingstationID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="670" width="460" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-9" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="670" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/getavailablechargingstations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="180" width="460" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-11" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="180" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-12" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="180" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/getreservedcharingstations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="250" width="460" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-14" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="250" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-15" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="250" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-16" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;POST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2AC924;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="530" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-17" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/chargingstation/add&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="530" width="460" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-18" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="530" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-19" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;POST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2AC924;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="600" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-20" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/charingpoint/add/{chargingstationID}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="600" width="460" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-21" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="600" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-22" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;DELETE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C94141;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-3" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;DELETE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C94141;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="740" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-23" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingpoint/delete/{chargingpointID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-4" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;POST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2AC924;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/auth/login&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="40" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-6" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="580" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-7" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="580" y="110" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingstation/delete/{chargingstationID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="120" y="740" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-24" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-9" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="580" y="740" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-25" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;POST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2AC924;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/getavailablechargingstations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="180" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-11" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-12" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="580" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/getreservedcharingstations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="250" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-14" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="250" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-15" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="580" y="250" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-16" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;POST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2AC924;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="600" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-17" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/chargingstation/add&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="600" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-18" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="580" y="600" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-19" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;POST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2AC924;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="670" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-20" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/charingpoint/add/{chargingstationID}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="670" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-21" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="580" y="670" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-22" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;DELETE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C94141;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="810" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-26" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/reservation/newreservation/{chargingpointID}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-23" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingpoint/delete/{chargingpointID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="120" y="810" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-27" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-24" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="580" y="810" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-28" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;PUT&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C7C717;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-25" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;POST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2AC924;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="880" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-29" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/reservation/changereservation/{reservationID}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-26" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/reservation/newreservation/{chargingpointID}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="120" y="880" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-30" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-27" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="580" y="880" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-31" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;DELETE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C94141;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-28" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;PUT&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C7C717;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="950" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-32" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/reservation/deletereservation/{reservationID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-29" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;/reservation/changereservation/{reservationID}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="120" y="950" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-33" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-30" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="580" y="950" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-34" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingstation/get/{chargingstationID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-31" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;DELETE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C94141;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1020" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-32" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/reservation/deletereservation/{reservationID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1020" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-33" value="200,&lt;div&gt;403, 404&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="580" y="1020" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-34" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingstation/get/{chargingstationID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="120" y="320" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-35" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-35" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="320" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-36" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-36" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="580" y="320" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-37" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingpoint/getall/{chargingstationID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-37" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingpoint/getall/{chargingstationID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="120" y="390" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-38" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-38" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="390" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-39" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-39" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="580" y="390" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-40" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingpoint/get/{chargingpointID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-40" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingpoint/get/{chargingpointID}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="120" y="460" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-41" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-41" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="460" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCiFIxHN3XqQG_wEh2lj-42" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="aCiFIxHN3XqQG_wEh2lj-42" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="580" y="460" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fvTsLKb73kJfOTh529Za-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/chargingstation/getfromcoordinates/{coordinates}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fvTsLKb73kJfOTh529Za-2" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57ABFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fvTsLKb73kJfOTh529Za-3" value="200,&lt;div&gt;404&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="530" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
