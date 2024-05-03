@@ -63,7 +63,7 @@ class _TempReservationScreenState extends State<TempReservationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.chargingStation.companyName ?? 'Unknown Station'),
+        title: Text(widget.chargingStation.title ?? 'Unknown Station'),
         foregroundColor: Colors.white,
         flexibleSpace: Container(
           decoration: const BoxDecoration(
@@ -83,7 +83,7 @@ class _TempReservationScreenState extends State<TempReservationScreen> {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Text(
-              'Location: ${widget.chargingStation.latitude}, ${widget.chargingStation.longitude}',
+             widget.chargingStation.address,
               style: Theme.of(context).textTheme.titleMedium,
             ),
           ),

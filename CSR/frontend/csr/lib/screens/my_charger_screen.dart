@@ -6,7 +6,6 @@ import 'dart:convert';
 import 'package:csr/screens/add_my_charger_screen.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
-
 class MyChargerScreenWidget extends StatefulWidget {
   const MyChargerScreenWidget({super.key});
 
@@ -14,15 +13,20 @@ class MyChargerScreenWidget extends StatefulWidget {
   // ignore: library_private_types_in_public_api
   _MyChargerScreenWidgetState createState() => _MyChargerScreenWidgetState();
 }
+
 class _MyChargerScreenWidgetState extends State<MyChargerScreenWidget> {
   final _storage = const FlutterSecureStorage();
   Future<List<ChargingStation>> fetchHouseholdChargingStations() async {
     String? userId = await _storage.read(key: "userId");
-    final response = await http.get(Uri.parse("http://127.0.0.1:5000/getHouseholdChargingStations/$userId"));
+    final response = await http.get(Uri.parse(
+        "http://127.0.0.1:5000/getHouseholdChargingStations/$userId"));
     if (response.statusCode == 200) {
       final Map<String, dynamic> decodedResponse = jsonDecode(response.body);
-      final List<dynamic> stationsJson = decodedResponse['data'] as List<dynamic>;
-      return stationsJson.map((json) => ChargingStation.fromJson(json)).toList();
+      final List<dynamic> stationsJson =
+          decodedResponse['data'] as List<dynamic>;
+      return stationsJson
+          .map((json) => ChargingStation.fromJson(json))
+          .toList();
     } else {
       throw Exception("Failed to load ChargingStations");
     }
@@ -62,7 +66,8 @@ class _MyChargerScreenWidgetState extends State<MyChargerScreenWidget> {
             return ListView.builder(
               itemCount: chargingStations.length,
               itemBuilder: (context, index) {
-                return MyChargerWidget(chargingStation: chargingStations[index]);
+                return MyChargerWidget(
+                    chargingStation: chargingStations[index]);
               },
             );
           }

@@ -23,7 +23,7 @@ def register():
     if User.query.filter_by(email=data['email']).first():
         return jsonify({"message": "Email already in use"}), 400
 
-    user = User(username=data['username'], email=data['email'])
+    user = User(username=data['username'], email=data['email'], avatar='https://www.tesla.com/ownersmanual/images/GUID-A016FC6C-5896-4495-9DD8-2B074869A838-online-en-US.png') # Temp avatar
     user.set_password(data['password'])
     db.session.add(user)
     db.session.commit()

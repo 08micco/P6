@@ -53,7 +53,7 @@ class ProfileScreenWidget extends StatelessWidget {
                         children:  <Widget>[
                           ClipOval(
                             child: Image.network(
-                              'https://www.tesla.com/ownersmanual/images/GUID-A016FC6C-5896-4495-9DD8-2B074869A838-online-en-US.png',
+                              user.avatar,
                               width: 200.0,
                               height: 125.0,
                               fit: BoxFit.cover,

@@ -39,7 +39,7 @@ class CustomReservationWidget extends StatelessWidget {
           const SizedBox(height: 4),
           Text('Charging Point ID: ${reservation.chargingPointId}'),
           const SizedBox(height: 4),
-          Text('Reservation Time: ${reservation.reservationtime}'),
+          Text('Reservation Time: ${reservation.reservationTime}'),
         ],
       ),
     );
