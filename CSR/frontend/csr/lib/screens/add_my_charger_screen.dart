@@ -1,15 +1,15 @@
-// ignore_for_file: use_build_context_synchronously
+// ignore_for_file: use_build_context_synchronously, library_private_types_in_public_api
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'dart:async';
 
 class AddMyChargerPage extends StatefulWidget {
   const AddMyChargerPage({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
   _AddMyChargerPageState createState() => _AddMyChargerPageState();
 }
 
@@ -25,7 +25,10 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
   String? chargerType;
   String? phoneNumber;
   String? address;
+  List<dynamic> addressSuggestions = [];
+  final TextEditingController _addressController = TextEditingController();
   bool isAddressEntered = false;
+  Timer? _debounce;
 
   final List<String> chargerTypes = [
     'Type 2 (Mennekes)',
@@ -34,6 +37,13 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
     'CHAdeMO',
     'Tesla'
   ];
+
+  @override
+  void dispose() {
+    _addressController.dispose();
+    super.dispose();
+    _debounce?.cancel();
+  }
 
   @override
   void initState() {
@@ -65,6 +75,14 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
         if (coords != null) {
           latitude = coords['latitude'];
           longitude = coords['longitude'];
+        } else {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Address could not be found. Please enter a valid address.'),
+              backgroundColor: Colors.red,
+            ),
+          );
+          return;
         }
       }
       if (longitude != "" &&
@@ -85,6 +103,31 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
         print('One or more fields are missing. Please check your input.');
       }
     }
+  }
+
+  Future<void> fetchAddressSuggestions(String input) async {
+    if (_debounce?.isActive ?? false) _debounce!.cancel();
+    _debounce = Timer(const Duration(milliseconds: 500), () async {
+      if (input.isEmpty) {
+        setState(() {
+          addressSuggestions = [];
+        });
+        return;
+      }
+      final uri = Uri.parse(
+          'https://nominatim.openstreetmap.org/search?format=json&q=$input&limit=5');
+      final response = await http.get(uri, headers: {'User-Agent': 'CSR/1.0'});
+      if (response.statusCode == 200) {
+        final suggestions = json.decode(response.body);
+        setState(() {
+          addressSuggestions = suggestions;
+        });
+      } else {
+        setState(() {
+          addressSuggestions = [];
+        });
+      }
+    });
   }
 
   Future<Map<String, dynamic>?> convertAddressToCoordinates(
@@ -159,6 +202,21 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
     }
   }
 
+  Widget _buildRequiredFieldLabel(String labelText) {
+    return RichText(
+      text: TextSpan(
+        text: labelText,
+        style: const TextStyle(color: Colors.black),
+        children: const [
+          TextSpan(
+            text: ' *',
+            style: TextStyle(color: Colors.red),
+          ),
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -178,34 +236,36 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
         key: _formKey,
         child: ListView(
           padding: const EdgeInsets.all(16.0),
-          children: <Widget>[
+          children: [
             TextFormField(
-              decoration: const InputDecoration(labelText: 'Title'),
+              decoration: InputDecoration(
+                label: _buildRequiredFieldLabel('Title'),
+              ),
               validator: (value) {
                 if (value == null || value.isEmpty) {
                   return 'Title is required';
                 }
                 return null;
               },
-              onSaved: (value) => title =
-                  value, // Ensure you define this variable in your state
+              onSaved: (value) => title = value,
             ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'Subtitle'),
-              onSaved: (value) => subtitle =
-                  value, // Ensure you define this variable in your state
+              onSaved: (value) => subtitle = value,
             ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'Description'),
-              onSaved: (value) => description =
-                  value, // Ensure you define this variable in your state
+              onSaved: (value) => description = value,
             ),
             TextFormField(
-              decoration: const InputDecoration(labelText: 'Address'),
+              decoration: InputDecoration(
+                label: _buildRequiredFieldLabel('Address'),
+              ),
+              controller: _addressController,
               onChanged: (value) {
+                fetchAddressSuggestions(value);
                 if (value.isNotEmpty) {
                   setState(() {
-                    address = value;
                     isAddressEntered = true;
                     longitude = null;
                     latitude = null;
@@ -213,8 +273,13 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
                 } else {
                   setState(() {
                     isAddressEntered = false;
+                    addressSuggestions = [];
                   });
                 }
+              },
+              onSaved: (value) {
+                address = value;
+                isAddressEntered = true;
               },
               validator: (value) {
                 if (value!.isEmpty && !isAddressEntered) {
@@ -223,6 +288,27 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
                 return null;
               },
             ),
+            if (addressSuggestions.isNotEmpty)
+              SizedBox(
+                height: 200,
+                child: ListView.builder(
+                  itemCount: addressSuggestions.length,
+                  itemBuilder: (context, index) {
+                    final suggestion = addressSuggestions[index];
+                    return ListTile(
+                      title: Text(suggestion['display_name']),
+                      onTap: () {
+                        setState(() {
+                          address = suggestion['display_name'];
+                          _addressController.text = suggestion['display_name'];
+                          addressSuggestions = [];
+                          isAddressEntered = true;
+                        });
+                      },
+                    );
+                  },
+                ),
+              ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'Latitude'),
               keyboardType: TextInputType.number,
@@ -252,7 +338,9 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
               },
             ),
             DropdownButtonFormField(
-              decoration: const InputDecoration(labelText: 'Charger Type'),
+              decoration: InputDecoration(
+                label: _buildRequiredFieldLabel('Charger Type'),
+              ),
               items: chargerTypes.map((String type) {
                 return DropdownMenuItem(
                   value: type,
@@ -273,7 +361,9 @@ class _AddMyChargerPageState extends State<AddMyChargerPage> {
               },
             ),
             TextFormField(
-              decoration: const InputDecoration(labelText: 'Phone Number'),
+              decoration: InputDecoration(
+                label: _buildRequiredFieldLabel('Phone Number'),
+              ),
               keyboardType: TextInputType.phone,
               onSaved: (value) {
                 phoneNumber = value;
