@@ -130,8 +130,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         onPressed: _register,
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.blue,
-                          foregroundColor:
-                              Colors.white, // Sets the text color to white
+                          foregroundColor: Colors.white,
                           padding: const EdgeInsets.symmetric(
                               horizontal: 50, vertical: 15),
                           textStyle: const TextStyle(fontSize: 18),

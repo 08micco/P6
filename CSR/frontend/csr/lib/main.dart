@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const WelcomeScreen(), // Initially point to WelcomeScreen
+      home: const WelcomeScreen(),
     );
   }
 }
