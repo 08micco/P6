@@ -7,7 +7,6 @@ class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
   _LoginScreenState createState() => _LoginScreenState();
 }
 
@@ -37,8 +36,8 @@ class _LoginScreenState extends State<LoginScreen> {
     if (!mounted) return;
 
     if (loginSuccess) {
-      Navigator.of(context)
-          .pushReplacement(MaterialPageRoute(builder: (_) => const MyHomePage()));
+      Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (_) => const MyHomePage()));
     } else {
       setState(() {
         _errorMessage = 'Login Failed. Please check your credentials.';
@@ -50,7 +49,19 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Login')),
+      appBar: AppBar(
+        title: const Text('Login'),
+        flexibleSpace: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.centerLeft,
+              end: Alignment.centerRight,
+              colors: [Colors.blue, Color.fromARGB(255, 142, 200, 247)],
+            ),
+          ),
+        ),
+        foregroundColor: Colors.white,
+      ),
       body: Center(
         child: _isLoading
             ? const CircularProgressIndicator()
@@ -65,8 +76,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         Padding(
                           padding: const EdgeInsets.only(bottom: 20),
                           child: Text(_errorMessage,
-                              style:
-                                  const TextStyle(color: Colors.red, fontSize: 16)),
+                              style: const TextStyle(
+                                  color: Colors.red, fontSize: 16)),
                         ),
                       TextFormField(
                         controller: _emailController,
@@ -79,7 +90,6 @@ class _LoginScreenState extends State<LoginScreen> {
                           if (value == null || value.isEmpty) {
                             return 'Please enter your email';
                           }
-
                           return null;
                         },
                       ),
@@ -103,7 +113,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       ElevatedButton(
                         onPressed: _login,
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.blue,
+                          backgroundColor: Colors.blue[800],
+                          foregroundColor: Colors.white,
                           padding: const EdgeInsets.symmetric(
                               horizontal: 50, vertical: 15),
                           textStyle: const TextStyle(fontSize: 18),

@@ -4,6 +4,7 @@ import 'screens/my_charger_screen.dart';
 import 'screens/map_screen.dart';
 import 'screens/profile_screen.dart';
 import 'services/auth_service.dart';
+import 'screens/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,20 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: FutureBuilder<bool>(
-        future: AuthService().isUserLoggedIn(),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Scaffold(
-                body: Center(child: CircularProgressIndicator()));
-          }
-          if (snapshot.hasData && snapshot.data == true) {
-            return const MyHomePage();
-          } else {
-            return const LoginScreen();
-          }
-        },
-      ),
+      home: const WelcomeScreen(), // Initially point to WelcomeScreen
     );
   }
 }
