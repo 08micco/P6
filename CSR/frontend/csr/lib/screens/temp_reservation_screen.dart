@@ -6,6 +6,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:csr/models/charging_point.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:csr/screens/reservation_screen.dart';
 
 class TempReservationScreen extends StatefulWidget {
   final ChargingStation chargingStation;
@@ -18,7 +19,6 @@ class TempReservationScreen extends StatefulWidget {
 }
 
 class _TempReservationScreenState extends State<TempReservationScreen> {
-
   final _storage = const FlutterSecureStorage();
 
   Future<List<ChargingPoint>?> fetchChargingPointsFromChargingStation(
@@ -41,25 +41,44 @@ class _TempReservationScreenState extends State<TempReservationScreen> {
     String? userId = await _storage.read(key: "userId");
     final response = await http.post(
         Uri.parse("http://127.0.0.1:5000/reservation/new/$chargingPointId"),
-        body: jsonEncode(
-            {"user_id": userId}
-            ),
+        body: jsonEncode({"user_id": userId}),
         headers: {'Content-Type': 'application/json'});
 
     if (response.statusCode == 201) {
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-        content: Text("Successfully booked for 30 minutes"),
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+        duration: const Duration(milliseconds: 6000),
         backgroundColor: Colors.green,
-      ));
+        content: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            const Expanded(
+              child: Text("Successfully booked for 30 minutes"),
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ReservationsScreen()),
+                );
+              },
+              child: const Text(
+                "View Reservations",
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+          ],
+        ),
+        ));
     } else {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Text("Failed to book the charging point"),
         backgroundColor: Colors.red,
+        duration:  Duration(milliseconds: 6000),
       ));
     }
   }
 
-@override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -83,13 +102,14 @@ class _TempReservationScreenState extends State<TempReservationScreen> {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Text(
-             widget.chargingStation.address,
+              widget.chargingStation.address,
               style: Theme.of(context).textTheme.titleMedium,
             ),
           ),
           Expanded(
             child: FutureBuilder<List<ChargingPoint>?>(
-              future: fetchChargingPointsFromChargingStation(widget.chargingStation.id),
+              future: fetchChargingPointsFromChargingStation(
+                  widget.chargingStation.id),
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return const Center(child: CircularProgressIndicator());
@@ -122,4 +142,3 @@ class _TempReservationScreenState extends State<TempReservationScreen> {
     );
   }
 }
-  
