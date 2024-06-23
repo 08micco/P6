@@ -24,7 +24,7 @@ class Reservation {
       chargingPointId: json['charging_point_id'],
       reservationTime: json['reservation_time'],
       reservationStartTime: _parseDateTime(json['reservation_start_time']),
-      reservationEndTime: _parseDateTime(json['reservation_start_time']),
+      reservationEndTime: _parseDateTime(json['reservation_end_time']),
     );
   }
 

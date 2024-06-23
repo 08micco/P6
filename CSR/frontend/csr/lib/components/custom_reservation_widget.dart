@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:csr/models/reservation.dart'; // Adjust the import path to wherever your Reservation model is located.
+import 'package:csr/models/reservation.dart';
+import 'package:intl/intl.dart';
 
 class CustomReservationWidget extends StatelessWidget {
   final Reservation reservation;
@@ -11,6 +12,10 @@ class CustomReservationWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    String formattedStartTime = DateFormat('yyyy-MM-dd      HH:mm').format(reservation.reservationStartTime);
+    String formattedEndTime = DateFormat('HH:mm').format(reservation.reservationEndTime);
+
     return Container(
       padding: const EdgeInsets.all(16.0),
       margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
@@ -29,17 +34,15 @@ class CustomReservationWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            'Reservation ID: ${reservation.id}',
+            '${formattedStartTime} - ${formattedEndTime}',
             style: const TextStyle(
               fontWeight: FontWeight.bold,
             ),
           ),
           const SizedBox(height: 4),
-          Text('User ID: ${reservation.userId}'),
+          Text('Reservation Time: ${reservation.reservationTime} min.'),
           const SizedBox(height: 4),
           Text('Charging Point ID: ${reservation.chargingPointId}'),
-          const SizedBox(height: 4),
-          Text('Reservation Time: ${reservation.reservationTime}'),
         ],
       ),
     );
