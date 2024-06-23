@@ -12,7 +12,7 @@ class ReservationsScreen extends StatelessWidget {
     String? userId = await _storage.read(key: "userId");
     if (userId != null) {
       final response = await http
-          .get(Uri.parse("http://127.0.0.1:5000/reservation/get/$userId"));
+          .get(Uri.parse("http://127.0.0.1:5000/reservations/get?user_id=$userId"));
       if (response.statusCode == 200) {
         final List<dynamic> responseData = jsonDecode(response.body)['data'];
         return responseData.map((data) => Reservation.fromJson(data)).toList();

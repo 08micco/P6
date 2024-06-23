@@ -3,7 +3,7 @@ import 'package:csr/screens/login_screen.dart';
 import 'package:csr/screens/register_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
-  const WelcomeScreen({Key? key}) : super(key: key);
+  const WelcomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class WelcomeScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Spacer(),
+              const Spacer(),
               Image.asset(
                 'images/CSRlogo.jpeg', // Your updated transparent logo
                 width: 200,
@@ -29,7 +29,7 @@ class WelcomeScreen extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(20.0),
+                padding: const EdgeInsets.all(20.0),
                 child: Text(
                   'Tap below to get started!',
                   textAlign: TextAlign.center,
@@ -40,33 +40,33 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              Spacer(),
+              const Spacer(),
               ElevatedButton(
                 onPressed: () => Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (context) => const LoginScreen())),
-                child: Text('Login'),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue[800], // Button color
                   foregroundColor: Colors.white, // Text color
-                  padding: EdgeInsets.symmetric(horizontal: 32, vertical: 12),
+                  padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 12),
                 ),
+                child: const Text('Login'),
               ),
-              SizedBox(height: 20), // Adds space between the buttons
+              const SizedBox(height: 20), // Adds space between the buttons
               ElevatedButton(
                 onPressed: () => Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (context) => const RegisterScreen())),
-                child: Text('Register'),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue[300], // Button color
                   foregroundColor: Colors.white, // Text color
-                  padding: EdgeInsets.symmetric(horizontal: 32, vertical: 12),
+                  padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 12),
                 ),
+                child: const Text('Register'),
               ),
-              Spacer(),
+              const Spacer(),
             ],
           ),
         ),

@@ -37,5 +37,4 @@ class Reservation {
       return DateFormat("EEE, dd MMM yyyy HH:mm:ss 'GMT'").parse(rawDate, true);
     }
   }
-
 }
