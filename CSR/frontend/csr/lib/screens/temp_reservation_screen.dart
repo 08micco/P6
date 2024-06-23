@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:csr/models/charging_station.dart';
+import 'package:csr/screens/calender_reservation_screen.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:csr/models/charging_point.dart';
@@ -58,7 +59,8 @@ class _TempReservationScreenState extends State<TempReservationScreen> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const ReservationsScreen()),
+                  MaterialPageRoute(
+                      builder: (context) => const ReservationsScreen()),
                 );
               },
               child: const Text(
@@ -68,12 +70,12 @@ class _TempReservationScreenState extends State<TempReservationScreen> {
             ),
           ],
         ),
-        ));
+      ));
     } else {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Text("Failed to book the charging point"),
         backgroundColor: Colors.red,
-        duration:  Duration(milliseconds: 6000),
+        duration: Duration(milliseconds: 6000),
       ));
     }
   }
@@ -125,7 +127,15 @@ class _TempReservationScreenState extends State<TempReservationScreen> {
                         title: Text('Point ID: ${point.id}'),
                         subtitle: Text('Status: ${point.reservationStatus}'),
                         trailing: ElevatedButton(
-                          onPressed: () => bookChargingPoint(point.id),
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => ReservationCalendarScreen(
+                                    chargingPointId: point.id),
+                              ),
+                            );
+                          },
                           child: const Text('Reserve'),
                         ),
                       );

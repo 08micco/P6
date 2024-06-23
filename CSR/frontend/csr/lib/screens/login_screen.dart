@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import 'package:csr/main.dart';
@@ -36,8 +38,10 @@ class _LoginScreenState extends State<LoginScreen> {
     if (!mounted) return;
 
     if (loginSuccess) {
-      Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (_) => const MyHomePage()));
+      Navigator.of(context).pushAndRemoveUntil(
+        MaterialPageRoute(builder: (_) => const MyHomePage()),
+        (Route<dynamic> route) => false,
+      );
     } else {
       setState(() {
         _errorMessage = 'Login Failed. Please check your credentials.';

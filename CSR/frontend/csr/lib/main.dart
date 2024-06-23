@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'screens/login_screen.dart';
 import 'screens/my_charger_screen.dart';
 import 'screens/map_screen.dart';
 import 'screens/profile_screen.dart';
-import 'services/auth_service.dart';
 import 'screens/welcome_screen.dart';
 
 void main() {
@@ -47,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     _pages = [
       const MyChargerScreenWidget(),
-      MapScreenWidget(),
+      const MapScreenWidget(),
       //ProfileScreenWidget(username: username, email: email),
       const ProfileScreenWidget(),
     ];

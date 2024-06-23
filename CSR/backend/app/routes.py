@@ -167,10 +167,19 @@ def configure_routes(app):
         except Exception as e:
             return ApiResponse.internal_server_error(str(e))
 
-    @app.route('/reservation/get/<string:user_id>', methods=['GET'])
-    def get_reservations_from_user_id(user_id):
+    @app.route('/reservations/get', methods=['GET'])
+    def get_reservations():
         try:
-            reservations = Reservation.query.filter_by(user_id=user_id).all()
+            user_id = request.args.get('user_id')
+            charging_point_id = request.args.get('charging_point_id')
+            
+            query = Reservation.query
+            if user_id:
+                query = query.filter_by(user_id=user_id)
+            if charging_point_id:
+                query = query.filter_by(charging_point_id=charging_point_id)
+
+            reservations = query.all()
             return ApiResponse.success([reservation.to_json() for reservation in reservations])
         except Exception as e:
             return ApiResponse.internal_server_error(str(e))
@@ -183,11 +192,11 @@ def configure_routes(app):
                 return ApiResponse.bad_request("No data provided")
             
             reservation = Reservation(
-                user_id=data["user_id"],
-                charging_point_id=charging_point_id,
-                reservation_time="30",
-                reservation_start_time=datetime.now(),
-                reservation_end_time = datetime.now(),
+                user_id = data["user_id"],
+                charging_point_id = charging_point_id,
+                reservation_time = data["reservation_time"],
+                reservation_start_time = datetime.fromisoformat(data["reservation_start_time"]),
+                reservation_end_time = datetime.fromisoformat(data["reservation_end_time"]),
             )
 
             db.session.add(reservation)

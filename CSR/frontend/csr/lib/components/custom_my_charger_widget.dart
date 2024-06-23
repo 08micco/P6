@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:csr/models/charging_station.dart';
 import 'package:http/http.dart' as http;
