@@ -65,9 +65,12 @@ def configure_routes(app):
     def get_charging_station_from_charging_station_id(charging_station_id):
         try:
             charging_stations = ChargingStation.query.filter_by(id=charging_station_id).all()
+            if not charging_stations:
+                return ApiResponse.not_found("Charging station not found")
             return ApiResponse.success([charging_station.to_json() for charging_station in charging_stations])
         except Exception as e:
             return ApiResponse.internal_server_error(str(e))
+
         
     @app.route('/chargingStation/getFromCoordinates/<string:coordinates>')
     def get_charging_station_from_coordinates(coordinates):
@@ -190,6 +193,12 @@ def configure_routes(app):
             data = request.get_json()
             if not data:
                 return ApiResponse.bad_request("No data provided")
+            
+            try:
+                reservation_start_time = datetime.fromisoformat(data["reservation_start_time"])
+                reservation_end_time = datetime.fromisoformat(data["reservation_end_time"])
+            except ValueError:
+                return ApiResponse.bad_request("Invalid date format")
             
             reservation = Reservation(
                 user_id = data["user_id"],
